@@ -5,6 +5,6 @@
 layout: home
 ---
 
-This is a homepage for the members of Coder's High group. Check the [FAQ](/codershigh/faq/)  if you are here for the first time. Check the [Oceanverse](/codershigh/oceanverse/) and get started with your learning. 
+This is a homepage for AI Vicharana Shala. Check the [FAQ](/codershigh/faq/)  if you are here for the first time. Check the [Oceanverse](/codershigh/oceanverse/) and get started with your learning. 
 
 We are currently discussing [Matrices](/codershigh/matrixmystics/)
