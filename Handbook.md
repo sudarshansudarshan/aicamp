@@ -28,9 +28,29 @@ We believe that your active involvement is key to leveraging the full potential 
 # Expectations from the Participants
 
 We encourage active participation in lectures, workshops, and group discussions, fostering curiosity and enthusiasm for AI technologies. While prior AI knowledge isn't mandatory, a basic understanding of programming and math concepts is beneficial. Collaboration and teamwork are key as students work on projects together and share ideas. Creativity is encouraged to approach AI problems innovatively, alongside critical thinking to analyze algorithms critically. We promote a respectful, inclusive environment where everyone's contributions are valued. Students are expected to take responsibility for their learning and be open to feedback for growth. Expect hands-on learning through coding exercises and real-world AI applications. Join us for a rewarding AI journey at IIT Ropar!
+
+# Code of Conduct 
+The participants are expected to adhere to the following code of conduct:
+
+**Respect and Inclusivity:** Everyone is expected to treat one another with respect, regardless of age, background, or skill level. 
+
+**Learning Environment:** The primary goal of the program is learning about artificial intelligence (AI). Participants are expected to focus on educational activities rather than distractions or non-educational discussions.
+
+**Professionalism:** Display professional behavior throughout the camp by being punctual, dressing appropriately (as per college guidelines), and using language that is constructive and educational.
+
+**Conflict Resolution:** If disagreements or conflicts arise, participants should address issues calmly and respectfully with each other. The Volunteers are here to help mediate if necessary.
+
+**Follow Instructions:** Carefully follow all instructions given by instructors for assignments, projects etc. Read the Handbook and FAQ carefully before you contact the TAs/Instructor for any of your concerns.
+
+# Teaching Assistance Team 
+
+# Class Timing  
+
 # Grading
 Evaluation of students will be a holistic evaluation without any strict marking scheme and graded assignments. Students will be judged on the basis of contributive and collaborative skills expressed by them during the course.
 
 
-## Project
-The student will be asked to pick a project from a list of topics. The projects will mostly be explorative in nature. Every project will be executed by a team of at most 2 people. Evaluation of the project will be based on the report and presentation.
+# Project
+The student will be asked to pick a project from a list of topics. The projects will mostly be explorative in nature. Every project will be executed by a team of at most 2 people. Evaluation of the project will be based on the report and presentation.  
+
+
