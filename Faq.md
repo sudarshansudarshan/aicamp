@@ -10,8 +10,8 @@ order: 2
 Q. What are the prerequisites of the of the course?
 Absolutely nothing! All you require for this course is the intention to learn.
 
-Q. Are there any recommended software or tools that participants should install beforehand?
-1.Install Python latest version
+Q. Are there any recommended software or tools that participants should install beforehand?  
+1.Install Python latest version  
 2.Get access to Github-Copilot (if possible)
 3.A programming interface
 4.Geogebra
