@@ -6,8 +6,7 @@ order: 2
 ---
 
 
-**Where do I start from? **
-Q. What are the prerequisites of the of the course?
+Q. What are the prerequisites of the of the course?  
 Absolutely nothing! All you require for this course is the intention to learn.
 
 Q. Are there any recommended software or tools that participants should install beforehand?  
