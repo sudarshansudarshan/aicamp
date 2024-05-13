@@ -8,15 +8,26 @@ toc: true
 * TOC
 {:toc}
 
-# Introduction
+# Introduction  
+In the initial stages of this course we will be broadly covering four topics namely Linear Algebra, Multivariable Calculus, Data Analysis and Statistics.  
 
-This is a first course in mathematics with emphasis on helping a learner with a bunch of tools and techniques required for studying several aspects of data sciences. We will illustrate the ideas through questions and puzzles. We would like to replace theorems with intuition and give pointers to inspired students to look up material for further study. By the end of the course, the student will be confident on the basics of linear algebra and probability. The course will end with a couple of exemplary ideas in data sciences and the importance of the math thus studied. 
+# Learning Outcomes:
+We focus on a skill-based learning approach that fosters a deep and intuitive understanding of AI, moving away from rote memorization to emphasize real comprehension and application.
+
+Here are the key learning outcomes you can expect from our program:
+
+1. Deep Understanding of some core AI Concepts including basic concepts like machine learning algorithms, neural networks, and data preprocessing, and advanced ones such as deep learning architectures, reinforcement learning, etc.
+2. Learning core mathematical concepts like Linear Algebra, Probability, Statistics, and Calculus in the visualization and intuitive mode.
+3. Getting Hands-on experience in developing Practical Problem-Solving Skills.
+4. Benefit from a structured environment that emphasizes continuous practice and active application of learned skills to solidify your knowledge and expertise in AI.
+5. Building Confidence and Proficiency in AI.
+
+We believe that your active involvement is key to leveraging the full potential of this program.
 
 
-# Expectations from the course
-An important aspect of any course that is heavy on math, is to develop confidence to read up abstract material. The symbolc manipulation and logical reasoning are toolkits to infer unambiguously. It helps to stay confident and continuously interact with peers/TAs/Professor. Expect the material to be hard on your minds to begin with, but one will surely feel comfortable with time. An important tip is to take a relook at a mathematical concept multiple times, asking what is the question for which the concept is an answer. It helps to solve questions that challenge your conceptual understanding than solve multiple problems of similar type.  
+# Expectations from the Participants
 
-
+We encourage active participation in lectures, workshops, and group discussions, fostering curiosity and enthusiasm for AI technologies. While prior AI knowledge isn't mandatory, a basic understanding of programming and math concepts is beneficial. Collaboration and teamwork are key as students work on projects together and share ideas. Creativity is encouraged to approach AI problems innovatively, alongside critical thinking to analyze algorithms critically. We promote a respectful, inclusive environment where everyone's contributions are valued. Students are expected to take responsibility for their learning and be open to feedback for growth. Expect hands-on learning through coding exercises and real-world AI applications. Join us for a rewarding AI journey at IIT Ropar!
 # Grading
 Evaluation of students will be a holistic evaluation without any strict marking scheme and graded assignments. Students will be judged on the basis of contributive and collaborative skills expressed by them during the course.
 
