@@ -15,9 +15,10 @@ layout: default
       color: #000000; /* Default text color */
       margin: 0;
       padding: 0;
-       background-image: url('');
+      background-image: url('');
       background-size: cover; /* Cover the entire viewport */
       background-position: center; /* Center the background image */
+      <!-- background-color: #ffdbac;-->
     }
     }
 
@@ -128,34 +129,37 @@ layout: default
     <img src="images/hero-image.jpeg" alt="AI Vicharana Shala" class="hero-image" width="300" height="500">
     <div class="hero-text">
       <h2 style="color: black;">Welcome to AI Vicharana Shala</h2>
-    <p style="font-style: italic; font-family: cursive; color: black;">Empowering the next generation of AI enthusiasts</p>
-      <a href="assets/AI Vicharana Shala Brochure.pdf" class="btn">Brochure</a>
+    <p style=" color: black;">Empowering the next generation of AI enthusiasts</p>
+      <a href="assets/AI Vicharana Shala Brochure.pdf" class="btn">Brochure</a>    
+      <a href="http://bit.ly/AIVS_Bootcamp" class="btn">Click to Register</a>
     </div>
   </div>
   
  
   {{ content }}
 
- {%- if site.posts.size > 0 -%}
-    <div class="recent-posts">
-      <h2 class="post-list-heading">Recent Posts</h2>
+ <!-- {%- if site.posts.size > 0 -%}
+    <div class="recent-posts">	
+      <h1 class="post-list-heading">Recent Posts</h1>
       <ul class="post-list">
         {%- for post in site.posts limit: 1 -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <li>-->
+        <!--  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="https://sudarshansudarshan.github.io/ge103/handbook/">
+        
+            <a class="post-link" href="/aicamp/dashboard/">
+              <h6>
               Matrix Mystics
-            </a>
-          </h3>
+              </h6>
+            </a> -->
+          
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
         </li>
         {%- endfor -%}
       </ul>
-      <a href="/blog" class="btn">View All Posts</a>
+      <!-- <a href="" class="btn">View All Posts</a> -->
     </div>
   {%- endif -%}
 </div>
