@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
-  <body>
+   <!-- <style>
+        body {
+            background-color: #ffdbac;
+        }
+    </style> -->
+  <body >
 
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
@@ -11,7 +16,7 @@
     </main>
 
 	<!-- The following code is commented out to remove the footer information in the default page.-->	
-	<!-- {%- include footer.html -%}-->
+	{%- include footer.html -%}
 
   </body>
 
