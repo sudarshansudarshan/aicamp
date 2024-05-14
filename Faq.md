@@ -64,8 +64,7 @@ Dual Degree Students of IITM BS Degree have the option to submit either a No Obj
 
 **9. How many slots are available for AI VICHARAṆĀ SHĀLĀ?**
 
-The program has a maximum capacity of 100 students. Additionally, we are restricting admissions to a maximum of 2 students per college. However, there are no such restrictions for BS Degree students of IIT Madras.
-
+The program has a maximum capacity of 100 students. 
 
 **10. What are the fees for attending AI VICHARAṆĀ SHĀLĀ?**
 
