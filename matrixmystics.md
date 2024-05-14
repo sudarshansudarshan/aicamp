@@ -194,7 +194,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
 (ii) $$\mathscr{C}=\{\alpha(1,2) + \beta(3,6) | \alpha, \beta\in \mathbb{R}\} $$<br>
 (iii) $$\mathscr{N}=\{(x,y)| x(1,3) + y(2,6) = 0, \forall x,y\in \mathbb{R} \}$$<br>
 
-2. Note that $$\mathscr{R}$$ and $$\mathscr{N}$$ are orthogonal.<br>
+2. Note that $$\mathscr{C}$$ and $$\mathscr{N}$$ are orthogonal.<br>
 
 3. What is  the null-space of $$M=\begin{bmatrix} 1 & 3 \\ 2 & 6\\ \end{bmatrix}$$ & the null-space of $$M^T$$?<br>
 
