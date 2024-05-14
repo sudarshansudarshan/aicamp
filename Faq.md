@@ -113,10 +113,7 @@ AI VICHARAṆĀ SHĀLĀ offers students a unique opportunity to reside on the II
 As the whether is very hot and humid, it is preferred not to use any mattress. Still, if you want, then we can procure you at a very reasonable cost.
 
 **22. What is the reference material for this course ?**
-1. Algorithms to Live By – Brian Christian, Tom Griffiths
-2. Drunkard Walk – Leonard Mlodinow
-3. Algorithm Design – Jon Kleinberg
-4. Linear Algebra – Gilbert Strang
+We will provide notes and question sets.
 
 **23. Are there any recommended software or tools that participants should install beforehand?**
 
