@@ -52,72 +52,83 @@ Kindly enter the following details in the registration form:
 * *CV Upload:* Attach your CV covering all pertinent fields.
 * *Statement of Purpose (SOP):* Upload your SOP explaining your interest in joining the summer camp, reasons why you should be selected, and highlights of your academic or professional journey.
 
-**7. From where should I obtain the NOC?**
+
+**7. I have got the confirmation mail. Do I have to give any further interviews?**
+No further interviews will be conducted if you have already got the Confirmation mail.
+
+
+**8. From where should I obtain the NOC?**
 
 Students can obtain the NOC from the College administration office. Standalone BS Degree students, however, have the option to submit a Self Declaration instead of an NOC. The format for the Self Declaration is specified in the provided link.
 
 
-**8. As a Dual Degree BS Student, should I upload a NOC or a Self Declaration?**
+**9. As a Dual Degree BS Student, should I upload a NOC or a Self Declaration?**
 
 Dual Degree Students of IITM BS Degree have the option to submit either a No Objection Certificate (NOC) or a Self Declaration, depending on the semester fees at their Offline College. If half of the semester fees for the offline college exceed Rs. 30,000, students will be charged Rs. 30,000, in addition to hostel and mess fees, and they can submit a self-declaration. However, if half the semester fees of the offline college are less than Rs. 30,000, students are required to submit an NOC from the offline college.
 
 
-**9. How many slots are available for AI VICHARAṆĀ SHĀLĀ?**
+**10. How many slots are available for AI VICHARAṆĀ SHĀLĀ?**
 
-The program has a maximum capacity of 100 students. 
+The program has a maximum capacity of 100 students. Additionally, we are restricting admissions to a maximum of 2 students per college. However, there are no such restrictions for BS Degree students of IIT Madras.
 
-**10. What are the fees for attending AI VICHARAṆĀ SHĀLĀ?**
+
+**11. What are the fees for attending AI VICHARAṆĀ SHĀLĀ?**
 
 The fees for AI VICHARAṆĀ SHĀLĀ are structured as follows: Students are obliged to pay either Rs 30,000 or half of the semester fees (excluding hostel and mess charges) from their respective offline colleges, whichever is lesser. Additionally, hotel and mess fees will be charged separately. For Standalone BS Degree Students, the program fee will be Rs 30,000, exclusive of hostel and mess fees.
 
-**11. Is there any fee concession available for the program?**
+**12. Is there any fee concession available for the program?**
 
 AI VICHARAṆĀ SHĀLĀ is a non-profit initiative at IIT Ropar, designed with careful consideration of students' financial circumstances. Accordingly, the program fee has been structured to be either Rs 30,000 or half of the semester fees paid by students at their respective offline colleges, whichever amount is lower. Regrettably, beyond this arrangement, we are unable to offer any additional fee concessions to students.
 
-**12. When am I expected to arrive?**
+**13. Sir, can I pay after coming to campus since it's a big amount?**
+Yes, you can pay the fee after coming at the campus
+
+**14. I have received a mail telling to pay the fees from the provided link, but my half of my semester fee is less than 30,000 so should I pay it after coming to IIT Ropar right?**
+Yes, you can pay after coming to the campus and document verification.
+
+**15. When am I expected to arrive?**
 
 The main lecture sessions start on 20th of this month (Monday) but we expect that you arrive on or before 15th and settle down. A couple of days here and there shouldn’t matter, but you should be there on the 19th evening at a high tea party without fail. Details of the schedule are available on the website (soon to come).
 
-**13. How to reach at IIT Ropar?**
+**16. How to reach at IIT Ropar?**
 * *Air:* The nearest airport is Chandigarh International Airport (at a distance of 56km). Cabs are easily available from the airport to the college campus.
 * *Rail:* Rail routes depend on your location. The two nearby Railway stations- Ropar Railway Station (7.5km) and Chandigarh Railway station (59KM)
 
-**14. What kind of support will be available to participants during the camp?**
+**17. What kind of support will be available to participants during the camp?**
 
 Student will be having an easy access to the teaching assistants involved in the teaching team. And may also feel free to contact the teaching staff during their visiting hours.
 
-**15. Where should I report to when I arrive at the Campus?**
+**18. Where should I report to when I arrive at the Campus?**
 If you are arriving between 9AM and 5PM, then report directly to the Student Affairs section in the Admin Department (M. Visvesvaraya Block). Else, report to the Security Guard of your respective allotted hostels. 
 
-**16. Who will be the First-Point Contact?**
+**19. Who will be the First-Point Contact?**
 For academic concerns: Ashutosh Rajput (2023mcb1289@iitrpr.ac.in)
 For other affairs: Nishit Soni (6266421172) and Vaishnavi Pal (7898262635)
 
-**17. Is it mandatory for students to avail on-campus hostel accommodation and mess facilities?**
+**20. Is it mandatory for students to avail on-campus hostel accommodation and mess facilities?**
 
 AI VICHARAṆĀ SHĀLĀ offers students a unique opportunity to reside on the IIT Ropar Campus and fully utilize its facilities while engaging in immersive, hands-on learning experiences. While it is highly advantageous for students to avail themselves of on-campus accommodation and mess facilities, allowing them to immerse themselves in the IIT lifestyle, it is not mandatory. Students have the option to make their own arrangements for accommodation and meals if they prefer.
 
-**18. Will we be provided with mattresses in  the hostels?**
+**21. Will we be provided with mattresses in  the hostels?**
 As the whether is very hot and humid, it is preferred not to use any mattress. Still, if you want, then we can procure you at a very reasonable cost.
 
-**19. What is the reference material for this course ?**
-Notes and question set will be provided to you.
+**22. What is the reference material for this course ?**
+1. Algorithms to Live By – Brian Christian, Tom Griffiths
+2. Drunkard Walk – Leonard Mlodinow
+3. Algorithm Design – Jon Kleinberg
+4. Linear Algebra – Gilbert Strang
 
-**20. Are there any recommended software or tools that participants should install beforehand?**
+**23. Are there any recommended software or tools that participants should install beforehand?**
 
 1. Install Python latest version
 2. Get access to Github-Copilot (if possible)
 3. A programming interface
 4. Geogebra
 
-
-**21. I have exams scheduled during this period. Can I discontinue after joining the Program?**
+**24. I have exams scheduled during this period. Can I discontinue after joining the Program?**
 
 Students with academic commitments between May 15th, 2024, and July 15th, 2024, are not eligible to participate in the program. The NOC provided with the registration form explicitly states that students must not have any concurrent academic obligations during this timeframe. Furthermore, the NOC must be endorsed by the College Administration, affirming the student's commitment.
 
-
-**22. Is there any placement support provided?**
+**25. Is there any placement support provided?**
 
 In the latter phase of the program, iHub-AWaDH, the Technology and Innovation Foundation at IIT Ropar, will facilitate connections between students and startups. However, it's important to note that neither IIT Ropar nor iHub-AWaDH guarantees placements for students enrolled in the program.
-
-
