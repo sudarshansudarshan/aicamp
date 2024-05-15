@@ -27,11 +27,26 @@ permalink: /matrixmystics/
   
 </details>
 2. Atul's house is centered at origin $$(0,0)$$ he walks straight (along the x-axis) for 2 units and then takes a left and walks 1 unit to reach Bala's house, after that he takes a right turn and walks for one unit and then a left turn and walks for one unit and reaches Chetan's house. He continues in a similar style, takes a right turn 1 unit and then left turn one unit and reaches Divya's house. Are the houses of Bala, Chetan and Divya on a straight line? What is the equation of this line? Plot this on Geogebra
-
+<details close>
+  <summary>Sol.</summary>
+  
+  Write your solution here
+  
+</details>
 3. Plot the lines $$y=x$$, $$y=2x$$, $$y=10x$$.
-
+<details close>
+  <summary>Sol.</summary>
+  
+  Write your solution here
+  
+</details>
 4. Observe that they all pass through the origin. Why?
-
+<details close>
+  <summary>Sol.</summary>
+  
+  Write your solution here
+  
+</details>
 5. Plot $$y=2x+1$$. Observe, Why doesn't it pass through the origin?
 
 6. Plot $$y=ax+b$$, with $$a$$ and $$b$$ as parameters which you should be able to vary. What do you observe?
