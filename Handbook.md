@@ -8,10 +8,12 @@ toc: true
 * TOC
 {:toc}
 
-# Introduction  
+## Introduction  
+---
 In the initial stages of this course we will be broadly covering four topics namely Linear Algebra, Multivariable Calculus, Data Analysis and Statistics.  
 
-# Learning Outcomes:
+## Learning Outcomes:
+---
 We focus on a skill-based learning approach that fosters a deep and intuitive understanding of AI, moving away from rote memorization to emphasize real comprehension and application.
 
 Here are the key learning outcomes you can expect from our program:
@@ -25,12 +27,12 @@ Here are the key learning outcomes you can expect from our program:
 We believe that your active involvement is key to leveraging the full potential of this program.
 
 
-# Expectations from the Participants
-
+## Expectations from the Participants
+---
 We encourage active participation in lectures, workshops, and group discussions, fostering curiosity and enthusiasm for AI technologies. While prior AI knowledge isn't mandatory, a basic understanding of programming and math concepts is beneficial. Collaboration and teamwork are key as students work on projects together and share ideas. Creativity is encouraged to approach AI problems innovatively, alongside critical thinking to analyze algorithms critically. We promote a respectful, inclusive environment where everyone's contributions are valued. Students are expected to take responsibility for their learning and be open to feedback for growth. Expect hands-on learning through coding exercises and real-world AI applications. Join us for a rewarding AI journey at IIT Ropar!
 
-# Code of Conduct 
-
+## Code of Conduct 
+---
 Participants are expected to adhere to the following code of conduct:
 
 **Respect and Inclusivity**: Everyone is expected to treat one another with respect, regardless of age, background, or skill level.
@@ -55,28 +57,32 @@ Unauthorized Individuals: Bringing individuals who are not authorized onto campu
 Electrical Equipment: Please refrain from bringing high-power electrical equipment onto campus.
 
 Your cooperation in adhering to these guidelines is greatly appreciated. Together, we can foster a positive and productive learning environment for all participants.
+
 **Follow Instructions:** Carefully follow all instructions given by instructors for assignments, projects, etc. Read the Handbook and FAQ carefully before contacting the TAs/Instructor for any concerns.
 
-# Schedule  
+## Schedule  
+---
+**Monday to Friday:**
 
-**Mon to Fri**  
+| 8:00 am - 9:00 am  | Class                                               |
+| 9:00 am - 9:30 am  | Breakfast with Discussions (At the CSE Department)  |
+| 9:30 am - 10:30 am | Class                                               |
+| 10:40 am – 12:40 pm| Roundtable Discussion with peers                    |
+| 1:00 pm – 2:00 pm  | Lunch (At the CSE Department)                       |
+| 4:30 pm – 6:40 pm  | Class (with 10min break)                            |
+| 8:00pm – 9:00 pm   | Dinner (At Mess)                                    |
 
-| |  
-| ------------------ | ----------------------------------------------- |
-| 8:00 am - 9:00 am  | Class                                           |
-| 9:00 am - 9:30 am  | Breakfast(with discussion at the CSE Department)  |
-| 9:30 am - 10:30 am | Class                                           |
-| 10:40 am – 12:40 pm| Discussion(roundtable with peers)             |
-| 1:00 pm – 2:00 pm  | Lunch(at the CSE Department)                       |
-| 4:30 pm – 6:40 pm  | Class(with 10min break)                                           |
-| 8:00pm – 9:00 pm   | Dinner (at Mess)                              |
+**Saturday and Sunday:**
 
+On the weekends, we will be having some fun activities like sports activities, Music and Dance, Movie Sessions, small trips, etc.
 
-# Grading
+## Grading
+---
 Evaluation of students will be a holistic evaluation without any strict marking scheme and graded assignments. Students will be judged on the basis of contributive and collaborative skills expressed by them during the course.
 
 
-# Project
+## Project
+---
 The student will be asked to pick a project from a list of topics. The projects will mostly be explorative in nature. Every project will be executed by a team of at most 2 people. Evaluation of the project will be based on the report and presentation.  
 
 
