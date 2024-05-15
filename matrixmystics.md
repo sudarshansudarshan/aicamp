@@ -10,7 +10,7 @@ permalink: /matrixmystics/
 # Module 1
 
 
-___
+---
 <details close>
   <summary>Sol.</summary>
   
