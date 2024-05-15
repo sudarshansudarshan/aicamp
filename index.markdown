@@ -5,10 +5,24 @@
 layout: home
 ---
 
+<table>
+    <tr>
+        <th>Announcements</th>
+        <th>Updates</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>Check out the "Arriving at IIT Ropar" section in the menu</li>
+                <li>Be ready for a <i>High Tea</i> on 19th evening!</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>New Material Added... Check the Course Content Page</li>
+            </ul>
+        </td>
+    </tr>
 
-| Announcements| Updates |
-| -------------| ------- |
-|       AI camp starting from 20th May 2024 | Course Content will be updated soon.|
-|Be ready for a High Tea on 19th evening! ||
 
-
+</table>
