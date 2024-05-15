@@ -415,7 +415,7 @@ iii)$$2y+x=1800$$
 
    </details><br>
 
-36.Consider a matrix $$A=\begin{bmatrix} 1 & 4 \\ 2 & 3\\ \end{bmatrix} and a vector $v$ =  $$\begin{bmatrix} 1 \\ 1\\ \end{bmatrix}$$ to what is it transformed? 
+36.Consider a matrix $$A=\begin{bmatrix} 1 & 4 \\ 2 & 3\\ \end{bmatrix}$$ and a vector $v$ =  $$\begin{bmatrix} 1 \\ 1\\ \end{bmatrix}$$ to what is it transformed? 
 36(a).Is it rotated? 
 36(b).Is the magnitude preserved?  
 36(c).What is the ratio of magnitude of $$Av$$ to $$v$$?
