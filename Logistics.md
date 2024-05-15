@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Upon Arrival
+title: Arriving at IIT Ropar
 ---
 
 
