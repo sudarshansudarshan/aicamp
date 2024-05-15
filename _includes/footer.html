@@ -5,29 +5,42 @@
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+    <div class="footer-col-wrapper" >
+      <div class="footer-col footer-col-1" style="width: 60%;">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
+            <!--{%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            </li>-->
+            <li>Contact Us:</li>
+            {%- if site.email1 -%}
+            <li><a class="u-email" href="mailto:{{ site.email1 }}">{{ site.email1 }}</a></li>
+            {%- endif -%}
+            {%- if site.email2 -%}
+            <li><a class="u-email" href="mailto:{{ site.email2 }}">{{ site.email2 }}</a></li>
+            {%- endif -%}
+            {%- if site.phone1 -%}
+            <li><li><a href="tel:{{ site.phone1 }}">{{ site.phone1 }}</a></li></li>
+            {%- endif -%}
+            {%- if site.phone2 -%}
+            <li><li><a href="tel:{{ site.phone2 }}">{{ site.phone2 }}</a></li></li>
             {%- endif -%}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-2" style="width: 30%;">
+        Social Media Handles:
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+      <!--<div class="footer-col footer-col-3" style="width: 30%;">
+      <p>{{- site.description | escape -}}</p>
+      </div>-->
+
+      
     </div>
 
   </div>
