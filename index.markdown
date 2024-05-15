@@ -5,22 +5,10 @@
 layout: home
 ---
 
-<div align="center">
 
-<h1></h1>
-
-</div>
-
-## **Recent Posts**
- - [Matrix Mystics](/aicamp/matrixmystics/)
+| Announcements| Updates |
+| -------------| ------- |
+|       AI camp starting from 20th May 2024 | Course Content will be updated soon.|
+|Be ready for a High Tea on 19th evening! ||
 
 
-<!-- <div align="right">
-<h3><b><u>
-    Contact Information</u>
-</b></h3>
-<p>
-<b> e-mail: </b> [](), []()</p>
-<p>
-<b> Phone: </b></p> 
-</div> -->

@@ -33,8 +33,10 @@ header_pages:
   - Faq.md
 #  - Questions.md
   - Handbook.md
-#  - dashboard.md
+  - dashboard.md
   - Logistics.md
+  - content.md
+  - feedback.md
 
 # header:
 #   dropdown_menu:
