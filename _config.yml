@@ -36,25 +36,38 @@ header_pages:
 #  - dashboard.md
   - Logistics.md
 
+# header:
+#   dropdown_menu:
+#     - title: "Menu 1"
+#       link: "Introduction.md"
+#     - title: "Menu 2"
+#       link: "Faq.md"
+#     - title: "Menu 3"
+#       link: "Handbook.md"
+#     - title: "Menu 4"
+#       link: "dashboard.md"
+
 
 
 
 markdown: kramdown
 title: AI Vicharana Shala
-email: ai.school@ihub-awadh.in 
+email1: aivs@iitrpr.ac.in
+email2: ai.school@ihub-awadh.in
+phone1: "+919205250447"
+phone2: "+919419410786"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a Description for the website
+
 baseurl: /aicamp # the subpath of your site, e.g. /blog
 url: https://sudarshansudarshan.github.io # the base hostname & protocol for your site, e.g. http://example.com
 #instagram_username: soni_nishit_
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 #github_username:  jekyll
-youtube_username: Veritasium
-linkedin_username: Awadh
-phone_number: "+1234567890"
-email_address: "contact@example.com"
+youtube_username: "@Vicharana_Shala"
+linkedin_username: "Vicharana Shala"
+instagram_username: Vicharana_Shala
+
 
 # Build settings
 theme: minima
