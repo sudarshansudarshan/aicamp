@@ -60,7 +60,7 @@ Your cooperation in adhering to these guidelines is greatly appreciated. Togethe
 # Schedule  
 
 **Mon to Fri**
-|||
+| |
 | ------------------ | ----------------------------------------------- |
 | 8:00 am - 9:00 am  | Class                                           |
 | 9:00 am - 9:30 am  | Breakfast(with discussion at the CSE Department)  |
