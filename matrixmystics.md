@@ -7,7 +7,7 @@ permalink: /matrixmystics/
 
 * TOC
 {:toc}
-
+**Strictly use geogebra to solve all the questions**
 # Module A
 ___
 
@@ -61,6 +61,13 @@ ___
    
    </details><br>
 
+6(a).Let a line be $y=5x+6$. For what values of $\alpha$ and $\beta$  will the line $y=\alpha x + \beta$ be parallel to the given line? When will it intersect the given line in the 3rd quadrant?
+   <details closed>
+   <summary>Sol.</summary>
+   
+   Put your solution here.
+   
+   </details><br>
 7.Consider the following simultaneous equation:
 
    $$2x+3y=7$$ <br>
@@ -127,7 +134,7 @@ ___
    </details><br>
 
 
-13.Consider the function $$\phi : \mathbb{R}^2\rightarrow \mathbb{R}^2$$ defined by $$\phi (x,y)=(2x+3y,3x+4y)$$. What has this to do with the previous question?
+13.Consider the function $$\phi : \mathbb{R}^2\rightarrow \mathbb{R}^2$$ defined by $$\phi (x,y)=(2x+3y,3x+4y)$$. What has this to do with the simultaneous equations?
 
    <details closed>
    <summary>Sol.</summary>
@@ -137,6 +144,15 @@ ___
    </details><br>
 
 14.Is the function $$\phi$$ invertible? In the question above on matrices, we see that it is of the form $$A\vec{x}=b$$. Note that we can invert the matrix, using the method that was taught to us in our high school to find out the value for the variables $$x$$ and $$y$$. This is one of the many applications of matrices.
+
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+
+14(a).Take a random looking 2*2 matrix. Is it invertible? How often is it invertible?  
 
    <details closed>
    <summary>Sol.</summary>
@@ -244,7 +260,7 @@ $$
 
 22.In the figure below:
 ![fig1](/codershigh/assets/markov2.png)
-If 1000 people were to start in one state, what will be the distribution of people eventually?
+If 1000 people were to start in one state, what will be the distribution of people eventually? Write down a python script to find the convergence.
    <details closed>
    <summary>Sol.</summary>
 
@@ -254,7 +270,7 @@ If 1000 people were to start in one state, what will be the distribution of peop
 
 23.In the figure below:
 ![fig2](/codershigh/assets/markov3.png)
-If 1000 people were to start in one state, what will be the distribution of people eventually?
+If 1000 people were to start in one state, what will be the distribution of people eventually? Write down a python script to find the convergence.
    <details closed>
    <summary>Sol.</summary>
 
@@ -391,7 +407,18 @@ iii)$$2y+x=1800$$
 
    </details><br>
 
-36.In general $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R^2}$$, where does this function take $$2y+x=k$$?(where $$k$$ is a constant)
+35(a).In general $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R^2}$$, where does this function take $$2y+x=k$$?(where $$k$$ is a constant)
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+
+36.Consider a matrix $$A=\begin{bmatrix} 1 & 4 \\ 2 & 3\\ \end{bmatrix} and a vector $v$ =  $$\begin{bmatrix} 1 \\ 1\\ \end{bmatrix}$$ to what is it transformed? 
+36(a).Is it rotated? 
+36(b).Is the magnitude preserved?  
+36(c).What is the ratio of magnitude of $$Av$$ to $$v$$?
    <details closed>
    <summary>Sol.</summary>
 
