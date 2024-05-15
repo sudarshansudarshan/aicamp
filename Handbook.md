@@ -57,7 +57,19 @@ Electrical Equipment: Please refrain from bringing high-power electrical equipme
 Your cooperation in adhering to these guidelines is greatly appreciated. Together, we can foster a positive and productive learning environment for all participants.
 **Follow Instructions:** Carefully follow all instructions given by instructors for assignments, projects, etc. Read the Handbook and FAQ carefully before contacting the TAs/Instructor for any concerns.
 
-# Class Timing  
+# Schedule  
+
+**Mon to Fri**
+|||
+| ------------------ | ----------------------------------------------- |
+| 8:00 am - 9:00 am  | Class                                           |
+| 9:00 am - 9:30 am  | Breakfast(with discussion at the CSE Department)  |
+| 9:30 am - 10:30 am | Class                                           |
+| 10:40 am – 12:40 pm| Discussion(roundtable with peers)             |
+| 1:00 pm – 2:00 pm  | Lunch(at the CSE Department)                       |
+| 4:30 pm – 6:40 pm  | Class(with 10min break)                                           |
+| 8:00pm – 9:00 pm   | Dinner (at Mess)                              |
+
 
 # Grading
 Evaluation of students will be a holistic evaluation without any strict marking scheme and graded assignments. Students will be judged on the basis of contributive and collaborative skills expressed by them during the course.
