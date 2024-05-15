@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Logistic Information
+title: Upon Arrival
 ---
 
 
@@ -20,14 +20,18 @@ title: Logistic Information
 
 4. After arriving at the campus main gate, provide your information to the security guards and tell them that you have come for AI Vicharana Shala Summer Camp under the CSE Department.
 
-5. Report directly to the security guards of your respective allotted hostels.
+5. Boys should report directly to the security guard at Chenab Hostel and Girls to security guard at T6 Hostel. You will be alloted hostel rooms there only. For further Formalities contact at the numbers given below.
 
 6. *Accommodation Facilities:*
 * You will be provided Rooms (on sharing basis) in the hostels. 
-* As the weather is very hot and humid, it is preferred not to use any mattress. Still, if you want, then we can procure you at a very reasonable cost. [Link]() for the Google Form to apply for a mattress.
+* As the weather is very hot and humid, it is preferred not to use any mattress. Still, if you want, then we can procure you at a very reasonable cost. [Link](https://docs.google.com/forms/d/e/1FAIpQLScDRnPN9NMS9YDPGj-XTCvA1LVgg9BobsE2vraBYACNSL16EA/viewform?usp=sf_link) for the Google Form to apply for a mattress.
 
 <div> <br> </div>
 
 *For further information, visit the [official website](https://sudarshansudarshan.github.io/aicamp/)*
 
-*For any queries or concerns at any point, you can contact: 6266421172, 9814854962*
+*For any queries or concerns at any point, you can contact:*
+
+*For boys:6266421172, 9814854962*
+
+*For girls:7898262635,9398584852*
