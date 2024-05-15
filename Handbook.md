@@ -12,7 +12,7 @@ toc: true
 ---
 In the initial stages of this course we will be broadly covering four topics namely Linear Algebra, Multivariable Calculus, Data Analysis and Statistics.  
 
-## Learning Outcomes:
+## Learning Outcomes
 ---
 We focus on a skill-based learning approach that fosters a deep and intuitive understanding of AI, moving away from rote memorization to emphasize real comprehension and application.
 
