@@ -4,4 +4,4 @@ title : Course Content
 permalink: /content/
 ---
 
-- [Oceanverse](/aicamp/matrixmystics/)
+- [Oceanverse](/aicamp/oceanverse/)
