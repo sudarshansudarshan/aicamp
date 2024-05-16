@@ -33,32 +33,23 @@ We encourage active participation in lectures, workshops, and group discussions,
 
 ## Code of Conduct 
 ---
-Participants are expected to adhere to the following code of conduct:
-
-**Respect and Inclusivity**: Everyone is expected to treat one another with respect, regardless of age, background, or skill level.
-
-**Learning Environment:** The primary goal of the program is learning about artificial intelligence (AI). Participants are expected to focus on educational activities rather than distractions or non-educational discussions.
-
-**Professionalism:** Display professional behavior throughout the camp by being punctual, dressing appropriately (as per college guidelines), and using language that is constructive and educational.
-
-**Conflict Resolution:** If disagreements or conflicts arise, participants should address issues calmly and respectfully with each other. Volunteers are available to help mediate if necessary.
-
-**Intellectual Property Rights:** Stress the importance of respecting copyright laws and intellectual property. This includes not distributing copyrighted materials without permission and acknowledging others' work and contributions in any shared projects.
-
-
-**Prohibited Actions:**  
-Personal Vehicles: Kindly refrain from bringing personal vehicles onto the premises.  
-Unauthorized Individuals: Bringing individuals who are not authorized onto campus is strictly prohibited. 
- 
- Punctuality: Entry to class is not permitted after 5 minutes past the scheduled start time.  
- Substance Use and Misconduct: Engaging in smoking, alcohol consumption, drug use, or any form of sexual misconduct may result in expulsion from the program. The college reserves the right to take legal action if necessary.
-
-**Departure Notification:** If you need to leave campus for any reason, please inform us in advance. Include details such as departure and return times, purpose, companions, hostel and room number, mode of travel,contact info and emergency contact Through email @aivs.iitrpr.ac.in .
-Electrical Equipment: Please refrain from bringing high-power electrical equipment onto campus.
-
-Your cooperation in adhering to these guidelines is greatly appreciated. Together, we can foster a positive and productive learning environment for all participants.
-
-**Follow Instructions:** Carefully follow all instructions given by instructors for assignments, projects, etc. Read the Handbook and FAQ carefully before contacting the TAs/Instructor for any concerns.
+- Maintain cleanliness throughout the campus.
+- No personal vehicles allowed on the campus.
+- Please refrain from doing any kind of substance misuse in the college, including consuming alcohol, smoking, drugs, etc.
+- No sexual misconduct should happen in the college. Legal action will taken in that case.
+- No damage should be done to the college property. 
+- Do not involve in any activity that disrupts the overall integrtiy of the institute, any individual or the the Department.
+- Refrain from bringing any unauthorised individuals inside the campus.
+- Do not bring any high power electrical equipments in the hostel, i.e., kettle, iron, cooler, Table Fan etc.
+- If disagreements or conflicts arise, participants should address issues calmly and respectfully with each other. Volunteers are available to help mediate if necessary.
+- If you are leaving the campus for any reason, please inform us in advance through email at aivs@iitrpr.ac.in. Include:
+    - Departure and Return times
+    - Purpose
+    - Companions (if any)
+    - hostel and Room number
+    - Mode of Travel
+    - Contact Info and Emergency Contact Number
+- Do not damage any property of the hostel, use the washrooms responsibly. 
 
 ## Schedule  
 ---
