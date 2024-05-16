@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Matrix Mystics
+title: Oceanverse
 order: 5
-permalink: /matrixmystics/
+permalink: /oceanverrse/
 ---
 
 * TOC
 {:toc}
-**Strictly use geogebra to solve all the questions**
+**Strictly use Geogebra to solve all the questions**
 # Module A
 ___
 
