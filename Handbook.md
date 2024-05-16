@@ -65,12 +65,12 @@ Your cooperation in adhering to these guidelines is greatly appreciated. Togethe
 **Monday to Friday:**
 
 | 8:00 am - 9:00 am  | Class                                               |
-| 9:00 am - 9:30 am  | Breakfast with Discussions (At the CSE Department)  |
+| 9:00 am - 9:30 am  | Breakfast with Discussions  |
 | 9:30 am - 10:30 am | Class                                               |
 | 10:40 am – 12:40 pm| Roundtable Discussion with peers                    |
-| 1:00 pm – 2:00 pm  | Lunch (At the CSE Department)                       |
+| 1:00 pm – 2:00 pm  | Lunch                        |
 | 4:30 pm – 6:40 pm  | Class (with 10min break)                            |
-| 8:00pm – 9:00 pm   | Dinner (At Mess)                                    |
+| 8:00pm – 9:00 pm   | Dinner                                    |
 
 **Saturday and Sunday:**
 
