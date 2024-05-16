@@ -61,7 +61,7 @@ ___
    
    </details><br>
 
-6(a).Let a line be $y=5x+6$. For what values of $\alpha$ and $\beta$  will the line $y=\alpha x + \beta$ be parallel to the given line? When will it intersect the given line in the 3rd quadrant?
+6(a).Let a line be $$y=5x+6$$. For what values of $$\alpha$$ and $$\beta$$ will the line $$y= \alpha x + \beta$$ be parallel to the given line? When will it intersect the given line in the 3rd quadrant?
    <details closed>
    <summary>Sol.</summary>
    
