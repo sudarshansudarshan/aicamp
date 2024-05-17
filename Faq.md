@@ -119,7 +119,7 @@ We will provide notes and question sets.
 
 1. Install Python latest version
 2. Get access to Github-Copilot (if possible)
-3. A programming interface
+3. Visual Studio Code
 4. Geogebra
 
 **24. I have exams scheduled during this period. Can I discontinue after joining the Program?**
