@@ -134,7 +134,7 @@ ___
    </details><br>
 
 
-13.Consider the function $$\phi : \mathbb{R}^2\rightarrow \mathbb{R}^2$$ defined by $$\phi (x,y)=(2x+3y,3x+4y)$$. What has this to do with the simultaneous equations?
+13.Consider the function $$\phi : \mathbb{R}^2\rightarrow \mathbb{R}^2$$ defined by $$\phi (x,y)=(2x+3y,3x+4y)$$. Find x and y such that $$\phi (x,y)=(5,6)$$. Obseve that (5,6) as well as (x,y) lies in $$\mathbb{R}^2$$.
 
    <details closed>
    <summary>Sol.</summary>
