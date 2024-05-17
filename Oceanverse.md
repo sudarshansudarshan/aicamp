@@ -564,3 +564,99 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    Put your solution here.
 
    </details><br>
+
+# Module F
+---
+
+51.Imagine a situation of war in 1800's.Country A wants to send a letter to Country B such that their enemy country can't understand the message.How can you help the country A in this situation?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+52.How about shifting the alphabets by 1 letter each?What is the problem here?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+53.Try encoding the word "VICHARANASHALA" using the above method (But shift 4 letters this time) 
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+54.What if you have only the encoded message?How will you get to the original message?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+55.What if we substitute each letter by some other letter using a pre- defined mapping (eg.a->t,b->f,c->y,...)?How many trails do we have to do so that we can reach the secret message if we only have the encoded text and not the mapping ?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+56.Is there any efficient approach for the second part of the 5th question?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+57.What do you think is the frequency of occurence of various letters in a sample English text? Which letter do you expect to be the most frequent ?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+58.Assuming that an English text follows a particular order of frequency,can you solve the 6th question?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+59.Suppose we take a subset from a huge text i.e $$k^{th}$$, $$2k^{th}$$, $$3k^{th}$$... elements.Will they also follow the same pattern observed in the previous question?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+60.Assume you arrange two meaningful english text strings in front of each other.what is the expected number of collisions in the letters? Call it "collision frequency".
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+61.Assume that in the previous question ,we apply the ceaser cypher(the one discussed inthe first few questions), on both the strings, and alphabet by 5 letters then will the collision frequency remain the same?What if we shift first string by 3 letters and second by 5? 
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+62.Suggest any such method using which we can be confident that the encoded text can't be decoded by the enemy. (We may discuss it in further classes)
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+
+**Project-** [Read and Solve this](https://docs.google.com/document/d/1JFNRu3x5loBsF-PBPcdpfEhRz9-8Oex5uQ1iy1njp8E/edit)
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
