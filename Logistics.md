@@ -2,7 +2,7 @@
 layout: page
 title: Arriving at IIT Ropar
 ---
-
+1. Thouroughly go through the FAQs and the Code of Conduct (on the Handbook page) while starting with the course.
 
 2. You can reach IIT Ropar using the following methods:
 
