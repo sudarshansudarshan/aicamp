@@ -13,7 +13,7 @@ layout: home
     <tr>
         <td>
             <ul>
-                <li>Thoroughly go through the FAQ page and the Code of Conduct (Given in the Handbook page) 
+                <li>Thoroughly go through the FAQ page and the Code of Conduct (Given in the Handbook page)</li>
                 <li>To avail a matress: <a href="https://docs.google.com/forms/d/e/1FAIpQLScDRnPN9NMS9YDPGj-XTCvA1LVgg9BobsE2vraBYACNSL16EA/viewform?usp=sf_link">Link</a></li>
                 <li>Check out the "Arriving at IIT Ropar" section in the menu</li>
                 <li>Be ready for a <i>High Tea</i> on 19th evening!</li>
