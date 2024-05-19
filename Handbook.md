@@ -50,7 +50,7 @@ We encourage active participation in lectures, workshops, and group discussions,
     - Mode of Travel
     - Contact Info and Emergency Contact Number
 - Do not damage any property of the hostel, use the washrooms responsibly.
-- Violation of any of the above will lead to penalties according to the rules of the institute and the department. If there is severe misconduct, then legal action may be taken, accompanying exoulsion from the program and blacklisting from the college.
+- Violation of any of the above will lead to penalties according to the rules of the institute and the department. If there is severe misconduct, then legal action may be taken, accompanying expulsion from the program and blacklisting from the college.
 
 ## Schedule  
 ---
