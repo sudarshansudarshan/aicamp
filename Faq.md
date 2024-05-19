@@ -54,6 +54,7 @@ Kindly enter the following details in the registration form:
 
 
 **7. I have got the confirmation mail. Do I have to give any further interviews?**
+
 No further interviews will be conducted if you have already got the Confirmation mail.
 
 
@@ -81,9 +82,11 @@ The fees for AI VICHARAṆĀ SHĀLĀ are structured as follows: Students are obl
 AI VICHARAṆĀ SHĀLĀ is a non-profit initiative at IIT Ropar, designed with careful consideration of students' financial circumstances. Accordingly, the program fee has been structured to be either Rs 30,000 or half of the semester fees paid by students at their respective offline colleges, whichever amount is lower. Regrettably, beyond this arrangement, we are unable to offer any additional fee concessions to students.
 
 **13. Sir, can I pay after coming to campus since it's a big amount?**
+
 Yes, you can pay the fee after coming at the campus
 
 **14. I have received a mail telling to pay the fees from the provided link, but my half of my semester fee is less than 30,000 so should I pay it after coming to IIT Ropar right?**
+
 Yes, you can pay after coming to the campus and document verification.
 
 **15. When am I expected to arrive?**
@@ -99,9 +102,11 @@ The main lecture sessions start on 20th of this month (Monday) but we expect tha
 Student will be having an easy access to the teaching assistants involved in the teaching team. And may also feel free to contact the teaching staff during their visiting hours.
 
 **18. Where should I report to when I arrive at the Campus?**
+
 If you are arriving between 9AM and 5PM, then report directly to the Student Affairs section in the Admin Department (M. Visvesvaraya Block). Else, report to the Security Guard of your respective allotted hostels. 
 
 **19. Who will be the First-Point Contact?**
+
 For academic concerns: Ashutosh Rajput (2023mcb1289@iitrpr.ac.in)
 For other affairs: Nishit Soni (6266421172) and Vaishnavi Pal (7898262635)
 
@@ -110,9 +115,11 @@ For other affairs: Nishit Soni (6266421172) and Vaishnavi Pal (7898262635)
 AI VICHARAṆĀ SHĀLĀ offers students a unique opportunity to reside on the IIT Ropar Campus and fully utilize its facilities while engaging in immersive, hands-on learning experiences. While it is highly advantageous for students to avail themselves of on-campus accommodation and mess facilities, allowing them to immerse themselves in the IIT lifestyle, it is not mandatory. Students have the option to make their own arrangements for accommodation and meals if they prefer.
 
 **21. Will we be provided with mattresses in  the hostels?**
+
 As the whether is very hot and humid, it is preferred not to use any mattress. Still, if you want, then we can procure you at a very reasonable cost.
 
 **22. What is the reference material for this course ?**
+
 We will provide notes and question sets.
 
 **23. Are there any recommended software or tools that participants should install beforehand?**
@@ -129,3 +136,7 @@ Students with academic commitments between May 15th, 2024, and July 15th, 2024, 
 **25. Is there any placement support provided?**
 
 In the latter phase of the program, iHub-AWaDH, the Technology and Innovation Foundation at IIT Ropar, will facilitate connections between students and startups. However, it's important to note that neither IIT Ropar nor iHub-AWaDH guarantees placements for students enrolled in the program.
+
+**26. Is there any possibility of receiving concessions in the program?**
+
+Yes, entry to the program is subject to interviews. If we find a candidate with exceptional overall performance, a strong statement of purpose, and who is clearly deserving and if you do well while running that program, we may put their case forward to the committee for consideration of concessions. It's important to know that there's no sure thing, and dealing with any changes to manage costs might be tough for us.
