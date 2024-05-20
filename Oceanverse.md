@@ -11,6 +11,9 @@ permalink: /oceanverse/
 # Module A
 ___
 
+[Edit this page](https://github.com/sudarshan/my-project/edit/main/docs/guide.md)
+
+[Edit this page](https://github.com/sudarshansudarshan/aicamp/edit/main/Oceanverse.md)
 
 1.Ram and Lakshman were two brothers, Ram's pocket money was twice as much as Lakshman. The good boy that Ram and Lakshman were, they did not spend their pocket money on anything. They instead saved the same in their piggy bank. Every week, they would check their savings so far. Assume the first week's savings was $$(R_1,L_1)$$ and second week's $$(R_2,L_2)$$ and so on. They try plotting their weekly savings on a graph sheet. How will the points look like?
    <details closed>
