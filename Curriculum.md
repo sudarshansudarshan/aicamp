@@ -18,6 +18,7 @@ order: 2
   - PageRank
   - Online Hiring
   - Min-Cut
+  - Vigenere Chipher
 - Machine learning classics
   - Machine learning essentials
   - Bayesian learning through market magic
