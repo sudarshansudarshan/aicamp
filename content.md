@@ -5,4 +5,4 @@ permalink: /content/
 ---
 
 - [Oceanverse](/aicamp/oceanverse/)
-- [Curriculum](aicamp/Curriculum/)
+- [Curriculum](/aicamp/Curriculum/)
