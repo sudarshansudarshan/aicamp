@@ -21,6 +21,7 @@ layout: home
         </td>
         <td>
             <ul>
+                <li>Module F added to the Oceanverse
                 <li>New Material Added... Check the Course Content Page</li>
             </ul>
         </td>
