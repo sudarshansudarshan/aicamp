@@ -4,8 +4,8 @@ title: Curriculum
 permalink: /Curriculum/
 order: 2
 ---
-- GeoGebra flight(mod 0)  
-- Back to high school(mod A to E)  
+- GeoGebra flight  
+- Back to high school(module A to E)  
 - Math pre-requisite through visualization(Linear Algebra and probability without jargons)  
 	- Matrix visualizations  
  	- Probability basics through programming
