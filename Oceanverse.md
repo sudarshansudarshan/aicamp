@@ -714,7 +714,7 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    Put your solution here.
 
    </details><br>
-68.Imagine you have a number line that ranges from 0 to k. You randomly pick  points on this line. What is the expected distance of the closest point to the midpoint of the line?  
+68.Imagine you have a number line that ranges from 0 to 1. You randomly pick  k points on this line. What is the expected distance of the closest point to the midpoint of the line?  
 <details closed>
    <summary>Sol.</summary>
 
