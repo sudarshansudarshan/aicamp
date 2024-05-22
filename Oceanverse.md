@@ -477,7 +477,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
 
    </details><br>
 
-40.Note that $$\mathscr{R}$$ and $$\mathscr{N}$$ are orthogonal.<br>
+40.Note that $$\mathscr{C}$$ and $$\mathscr{N}$$ are orthogonal.<br>
    <details closed>
    <summary>Sol.</summary>
 
@@ -678,3 +678,44 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    Put your solution here.
 
    </details><br>
+
+   # Module G
+   ---
+63.A dart is thrown at random onto a board that has the shape of a circle as shown below. Calculate the probability that the dart will hit the shaded region.  
+64.Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.  
+<details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+65.A factory produces items, and each item is independently defective with probability
+0.02. If 100 items are produced in a day, what is the expected number of defective items?  
+<details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+66.A point is chosen at random inside a sphere of radius R. What is the probability that this point is closer to the center of the sphere than to its surface?  
+<details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+67.,A point is randomly chosen inside a cube with side length 𝑎. What is the probability that the point is closer to one of the vertices than to the center of the cube?  
+<details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+68.Imagine you have a number line that ranges from 0 to k. You randomly pick  points on this line. What is the expected distance of the closest point to the midpoint of the line?  
+<details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
+
