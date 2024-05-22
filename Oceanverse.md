@@ -683,7 +683,7 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
 ---  
    
 63.A dart is thrown at random onto a board that has the shape of a circle as shown below. Calculate the probability that the dart will hit the shaded region.  
-![fig3](/codershigh/assets/markov4.jpg)  
+![fig3](/aicamp/assets/markov4.jpg)  
 
 64.Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.  
 <details closed>
