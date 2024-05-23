@@ -954,4 +954,45 @@ c)What parameters in the perceptron directly affects how many border-line messag
 
    </details><br>
 
+# Module J
+---
 
+Q. Write the number 25 in its binary form.
+
+Q. Given a text data, how will you convert it into binary form?
+
+Q. What if we use the binary code for each character according to the ASCII convention? How much space would each character take up?
+
+Q. Suppose I take the following notation for the letters s, o, n, h and a: 
+
+s: 00
+
+o: 001
+
+a: 010
+
+h: 011
+
+n: 1
+
+Decode the following string: '00011010110011'
+
+Q. Do you observe that the above string can have 2 different interpretations?
+
+Q. Can this issue occur if we take each code of the same length? Can you define one such coding for the above example, i.e., s, o, n, h and a? At least how many digits would you have to take for each character?
+
+Q. Observe that for 5 unique letters, I cannot have unique binary representations if I take length of each notation *exactly 2*. Why? 
+
+Q. Suppose you go to buy apples. There are three varieties of apples available. Your mom has given you a task that you have to buy 2 apples of any one type, 3 of the any other type, and 5 of the third. How will you minimise the total money spent?
+
+Q. Given the text 'this is a new experience'. Write the frequency distribution of these characters for this sentence.
+
+Q. To which characters should I give a shorter notation as compared to the others?
+
+Q. Do you observe that the issue occurred in fifth question was because the code of 's' is a prefix of the code for 'o'?
+
+Q. What all do you think should be the properties of a proper encoding rule?
+
+Q. Get some quite basic knowledge about trees as data structures.
+
+Q. Observe that the lower is a node in a tree, the more is the time you would take to reach till it from the top node.
