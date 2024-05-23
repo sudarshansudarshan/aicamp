@@ -11,9 +11,10 @@ permalink: /oceanverse/
   
   [Edit this page](https://github.com/sudarshansudarshan/aicamp/edit/main/Oceanverse.md)
 # Module 0
-1.Plot the points $$(2,3)$$ and $$(6,9)$$ and find the distance between them without using the formula for distance.  
 
-2.Plot two vectors $$u=⟨3,−2⟩$$ and $$v=⟨−1,5⟩$$.  
+* Plot the points $$(2,3)$$ and $$(6,9)$$ and find the distance between them without using the formula for distance.  
+
+* Plot two vectors $$u=⟨3,−2⟩$$ and $$v=⟨−1,5⟩$$.  
 
 3.Find the angle between them.  
 
