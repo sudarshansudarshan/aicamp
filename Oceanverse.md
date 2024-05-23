@@ -34,7 +34,7 @@ ___
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Put your solution here. @Akshat, you can type here. 
 
    </details><br>
 
