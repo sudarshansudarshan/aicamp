@@ -87,7 +87,7 @@ ___
    
    </details><br>
 
-6.Plot $$y=ax+b$$, with $$a$$ and $$b$$ as parameters which you should be able to vary. What do you observe?
+6. Plot $$y=ax+b$$, with $$a$$ and $$b$$ as parameters which you should be able to vary. What do you observe?
    <details closed>
    <summary>Sol.</summary>
    
@@ -95,7 +95,7 @@ ___
    
    </details><br>
 
-6(a). Let a line be $$y=5x+6$$. For what values of $$\alpha$$ and $$\beta$$ will the line $$y= \alpha x + \beta$$ be parallel to the given line? When will it intersect the given line in the 3rd quadrant?
+7. Let a line be $$y=5x+6$$. For what values of $$\alpha$$ and $$\beta$$ will the line $$y= \alpha x + \beta$$ be parallel to the given line? When will it intersect the given line in the 3rd quadrant?
    <details closed>
    <summary>Sol.</summary>
    
