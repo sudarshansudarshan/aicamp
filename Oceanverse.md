@@ -745,17 +745,31 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
 
 78.If \(F(0) = 0\), \(F(1) = 1\), \(F(n) = F(n-1) + F(n-2)\) for \(n \geq 2\), find the value of \(F(5)\).
 
-79.Dry run and find the output of the following code:
-    python
-    def f(n):
-        if n == 0:
-            return 1
-        return n * f(n-1)
+79.Dry run and find the output of the following python code:  
+def f(n):  
+	if n == 0:  
+ 		return 1  
+   	return n * f(n-1)  
     print(f(5))
     
 
 80.Does the closest pair algorithm assume that the \(x\) coordinates (and \(y\) coordinates) of the points are distinct? Is there a problem with the \(O(n \log n)\) performance if they are not distinct?
 
-81.Given a set of points where most points are far apart, but a few points are very close to each other, develop an algorithm to efficiently find the closest pair. For example, use the set: \((100,200)\), \((300,400)\), \((5000,6000)\), \((1,2)\), \((1.001,2.001)\).
+81.Given a set of points where most points are far apart, but a few points are very close to each other, develop an algorithm to efficiently find the closest pair. For example, use the set: \((100,200)\), \((300,400)\), \((5000,6000)\), \((1,2)\), \((1.001,2.001)\).  
+
+# Module I
+---  
+
+82.Suppose that we use a perceptron to detect spam messages. Let's say that each email message is represented by the frequency of occurrence of keywords, and the output is +1 if the message is considered spam.  
+a) Can you think of some keywords that will end up with a large number of positive weight in the perceptron?  
+b)How about keywords that will get a negative weight?  
+c)What parameters in the perceptron directly affects how many border-line messages end up being classified as spam? 
+  
+83.Lets have some parameters 3.1, 4.2 and 4 and the corresponding weights 5,1,and 3 respt. Calculate the weighted sum.  
+84.Suppose you have set of numbers ranging from -infinity to infinity. Will it be easy to plot them in a limited screen size and compare them?  
+85.Will simply dividing them by some large number work?  
+86.Can you think of a way to fit these numbers in some finite range? Think about some kind of functions?
+
+
 
 
