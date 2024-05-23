@@ -149,7 +149,7 @@ ___
 
    Put your Solution here.
    
-   </details>  <br>
+   </details><br>
 
 11. Consider the function $$g(x)=x^3-x^2-10x+2$$, if $$g(x)=-22$$ what is $$x$$?
    <details closed>
@@ -161,6 +161,7 @@ ___
 
 
 12. Do you know what is $$\mathbb{R}, \mathbb{R}^2 and\ \mathbb{R}^3$$ ? 
+
    <details closed>
    <summary>Sol.</summary>
 
@@ -170,6 +171,7 @@ ___
 
 
 13. Consider the function $$\phi : \mathbb{R}^2\rightarrow \mathbb{R}^2$$ defined by $$\phi (x,y)=(2x+3y,3x+4y)$$. Find x and y such that $$\phi (x,y)=(5,6)$$. Obseve that (5,6) as well as (x,y) lies in $$\mathbb{R}^2$$.
+
    <details closed>
    <summary>Sol.</summary>
 
@@ -178,6 +180,7 @@ ___
    </details><br>
 
 14. Is the function $$\phi$$ invertible? In the question above on matrices, we see that it is of the form $$A\vec{x}=b$$. Note that we can invert the matrix, using the method that was taught to us in our high school to find out the value for the variables $$x$$ and $$y$$. This is one of the many applications of matrices.
+
    <details closed>
    <summary>Sol.</summary>
 
@@ -186,6 +189,7 @@ ___
    </details><br>
 
 14(a). Take a random looking 2*2 matrix. Is it invertible? How often is it invertible?  
+
    <details closed>
    <summary>Sol.</summary>
 
