@@ -849,40 +849,105 @@ def f(n):
 ---  
 
 82.Do you know the idea of equally likely events? What are these? Can you think of any event which is not equally likely?  
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 83.You are given two coins .What is the probability that one head and one tail shows up on tossing?  
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 84.In a class in which all students practise at least one sport, 60% of students play soccer or basketball and 10% practice both sports. If there is also 60% that do not play soccer, calculate the probability that a student chosen at random from the class:
  1. Plays soccer only.
  2. Play basketball only.
  3. Plays only one of the sports.
  4. Plays neither soccer nor basketball.
- 
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
 85.Imagine you are writing your semester exams . To write an exam , there are 70% chances that an alarm clock will wake you up successfully. If you hear the alarm clock then there are 95% chances you will write the exam and if you don't hear the alarm the chances are 50%.
 a)If you have written the exam what are the chances that you heard the alarm clock?
 b) What are the chances that you didn’t hear the alarm if you have not written the exam?
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 86.Lets say an investment company “Future Wealth“ analyses stocks and predicts whether their price will go up or down. So far, half of the stocks analysed by the company have gone up, 3/4 of the stocks that went up were correctly predicted to go up, and 2/5 of the stocks that went down were incorrectly predicted to go up. Suppose that the company tells you that it will go up. Compute the probability that the stock will indeed go up.
- 
-87.Imagine you are a bettor. You are watching a race between two horses A and B. Let’s say five races are conducted. Construct any three hypotheses defining winning probabilities of A and B. What confidence do you have in each of your hypotheses to be true? Lets say , out of 5 races A wins 3 and B wins the remaining 2. Then after 5 races , in which of your hypotheses will you have maximum confidence. As per your new hypothesis which horse has more chances to win the 6th round .
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br> 
+87.Imagine you are a bettor. You are watching a race between two horses A and B. Let’s say five races are conducted. Construct any three hypotheses defining winning probabilities of A and B. What confidence do you have in each of your hypotheses to be true? Lets say , out of 5 races A wins 3 and B wins the remaining 2. Then after 5 races , in which of your hypotheses will you have maximum confidence. As per your new hypothesis which horse has more chances to win the 6th round .
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>
 88.You're training a spam filter . You have data on the frequency of certain words in both spam and non-spam emails. How would you update your beliefs about an email being spam or not spam based on the presence of specific words?Let’s say initially chances of an email being spam is 40%.
 Data: Word "free" appears in 80% of spam emails and 5% of non-spam emails
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 89.Suppose that we use a perceptron to detect spam messages. Let's say that each email message is represented by the frequency of occurrence of keywords, and the output is +1 if the message is considered spam.  
 a) Can you think of some keywords that will end up with a large number of positive weight in the perceptron?  
 b)How about keywords that will get a negative weight?  
 c)What parameters in the perceptron directly affects how many border-line messages end up being classified as spam? 
-  
+   <details closed>
+   <summary>Sol.</summary>
+
+   Put your solution here.
+
+   </details><br>  
 90.Lets have some parameters 3.1, 4.2 and 4 and the corresponding weights 5,1,and 3 respt. Calculate the weighted sum. 
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 91.Suppose you have set of numbers ranging from -infinity to infinity. Will it be easy to plot them in a limited screen size and compare them?  
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 92.Will simply dividing them by some large number work?  
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 93.Can you think of a way to fit these numbers in some finite range? Think about some kind of functions? 
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 94.Question $$a+b=5$$, $$a-b=3$$. What is the value of a and b?
+   <details closed>
+   <summary>Sol.</summary>
 
+   Put your solution here.
+
+   </details><br>
 
 
