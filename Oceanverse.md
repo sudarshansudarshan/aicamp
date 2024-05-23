@@ -243,7 +243,7 @@ Given these numbers, how will you decrypt the message and get back $$SUDARSHANA$
 
    </details><br>
 
-19.While we were taught the so called two variables and two unknowns, what if there were more equations than unknowns?<br>
+19\. While we were taught the so called two variables and two unknowns, what if there were more equations than unknowns?<br>
    $$ 3A + 1C = 1200 $$   
    $$ 1A + 2C = 1000 $$    
    $$ 1A + 1C =  900 $$
@@ -254,7 +254,7 @@ Given these numbers, how will you decrypt the message and get back $$SUDARSHANA$
 
    </details><br>
 
-20.Note that the previous question can be modelled as a matrix:
+20\. Note that the previous question can be modelled as a matrix:
 
    $$ 3A + 1C = 1200 $$   
    $$ 1A + 2C = 1000 $$    
