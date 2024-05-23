@@ -146,7 +146,9 @@ ___
 10. Consider the function $$f(x)=x^2-10$$, if $$f(\alpha)=54$$, what is $$\alpha$$?
    <details closed>
    <summary>Sol.</summary>
+
    Put your Solution here.
+   
    </details>  <br>
 
 11. Consider the function $$g(x)=x^3-x^2-10x+2$$, if $$g(x)=-22$$ what is $$x$$?
