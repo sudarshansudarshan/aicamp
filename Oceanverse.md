@@ -746,12 +746,13 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
 78.If \(F(0) = 0\), \(F(1) = 1\), \(F(n) = F(n-1) + F(n-2)\) for \(n \geq 2\), find the value of \(F(5)\).
 
 79.Dry run and find the output of the following python code:  
+```
 def f(n):  
 	if n == 0:  
  		return 1  
    	return n * f(n-1)  
     print(f(5))
-    
+```  
 
 80.Does the closest pair algorithm assume that the \(x\) coordinates (and \(y\) coordinates) of the points are distinct? Is there a problem with the \(O(n \log n)\) performance if they are not distinct?
 
