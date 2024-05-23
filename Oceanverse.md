@@ -782,8 +782,8 @@ def f(n):
 84.In a class in which all students practise at least one sport, 60% of students play soccer or basketball and 10% practice both sports. If there is also 60% that do not play soccer, calculate the probability that a student chosen at random from the class:
  1. Plays soccer only.
  2. Play basketball only.
- 3 Plays only one of the sports.
- 4 Plays neither soccer nor basketball.
+ 3. Plays only one of the sports.
+ 4. Plays neither soccer nor basketball.
  
 85.Imagine you are writing your semester exams . To write an exam , there are 70% chances that an alarm clock will wake you up successfully. If you hear the alarm clock then there are 95% chances you will write the exam and if you don't hear the alarm the chances are 50%.
 a)If you have written the exam what are the chances that you heard the alarm clock?
