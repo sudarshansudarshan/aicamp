@@ -188,7 +188,7 @@ ___
 
    </details><br>
 
-14\. Take a random looking 2*2 matrix. Is it invertible? How often is it invertible?  
+14(a)\. Take a random looking 2*2 matrix. Is it invertible? How often is it invertible?  
 
    <details closed>
    <summary>Sol.</summary>
