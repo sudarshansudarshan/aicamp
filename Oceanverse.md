@@ -11,8 +11,8 @@ permalink: /oceanverse/
   
   [Edit this page](https://github.com/sudarshansudarshan/aicamp/edit/main/Oceanverse.md)
 # Module 0
-1.Plot the points (2,3) and (6,9) and find the distance between them without using the formula for distance.  
-2.Plot two vectors u=⟨3,−2⟩ and v=⟨−1,5⟩.  
+1.Plot the points $$(2,3)$$ and $$(6,9)$$ and find the distance between them without using the formula for distance.  
+2.Plot two vectors $$u=⟨3,−2⟩$$ and v=⟨−1,5⟩.  
 3.Find the angle between them.  
 4.Construct a perpendicular bisector of a given segment whose end points are (0,6) and (6,0).  
 5.Plot line y=3x.  
@@ -748,8 +748,8 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
 79.Dry run and find the output of the following python code:  
 ```
 def f(n):  
-	if n == 0:  
- 		return 1  
+    if n == 0:  
+        return 1  
    	return n * f(n-1)  
     print(f(5))
 ```  
@@ -793,8 +793,9 @@ c)What parameters in the perceptron directly affects how many border-line messag
 
 92.Will simply dividing them by some large number work?  
 
-93.Can you think of a way to fit these numbers in some finite range? Think about some kind of functions?
+93.Can you think of a way to fit these numbers in some finite range? Think about some kind of functions? 
 
+94.Question $$a+b=5$$, $$a-b=3$$. What is the value of a and b?
 
 
 
