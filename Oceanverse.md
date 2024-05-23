@@ -46,7 +46,7 @@ ___
 
 
 
-1.Ram and Lakshman were two brothers, Ram's pocket money was twice as Lakshman. The good boys that Ram and Lakshman were, they did not spend their pocket money on anything. They instead saved the same in their piggy bank. Every week, they would check their savings so far. Assume the first week's savings was $$(R_1,L_1)$$ and second week's $$(R_2,L_2)$$ and so on. They try plotting their weekly savings on a graph sheet. How will the points look like?
+1\. Ram and Lakshman were two brothers, Ram's pocket money was twice as Lakshman. The good boys that Ram and Lakshman were, they did not spend their pocket money on anything. They instead saved the same in their piggy bank. Every week, they would check their savings so far. Assume the first week's savings was $$(R_1,L_1)$$ and second week's $$(R_2,L_2)$$ and so on. They try plotting their weekly savings on a graph sheet. How will the points look like?
    <details closed>
    <summary>Sol.</summary>
 
@@ -54,7 +54,7 @@ ___
 
    </details><br>
 
-2.Atul's house is centered at origin $$(0,0)$$ he walks straight (along the x-axis) for 2 units and then takes a left and walks 1 unit to reach Bala's house, after that he takes a right turn and walks for one unit and then a left turn and walks for one unit and reaches Chetan's house. He continues in a similar style, takes a right turn 1 unit and then left turn one unit and reaches Divya's house. Are the houses of Bala, Chetan and Divya on a straight line? What is the equation of this line? Plot this on Geogebra
+2\. Atul's house is centered at origin $$(0,0)$$ he walks straight (along the x-axis) for 2 units and then takes a left and walks 1 unit to reach Bala's house, after that he takes a right turn and walks for one unit and then a left turn and walks for one unit and reaches Chetan's house. He continues in a similar style, takes a right turn 1 unit and then left turn one unit and reaches Divya's house. Are the houses of Bala, Chetan and Divya on a straight line? What is the equation of this line? Plot this on Geogebra
    <details closed>
    <summary>Sol.</summary>
 
@@ -63,7 +63,7 @@ ___
    </details><br>
 
 
-3.Plot the lines $$y=x$$, $$y=2x$$, $$y=10x$$.
+3\. Plot the lines $$y=x$$, $$y=2x$$, $$y=10x$$.
    <details closed>
    <summary>Sol.</summary>
    
@@ -71,7 +71,7 @@ ___
    
    </details><br>
 
-4.Observe that they all pass through the origin. Why?
+4\. Observe that they all pass through the origin. Why?
    <details closed>
    <summary>Sol.</summary>
    
@@ -79,7 +79,7 @@ ___
    
    </details><br>
 
-5.Plot $$y=2x+1$$. Observe, Why doesn't it pass through the origin?
+5\. Plot $$y=2x+1$$. Observe, Why doesn't it pass through the origin?
    <details closed>
    <summary>Sol.</summary>
    
@@ -87,7 +87,7 @@ ___
    
    </details><br>
 
-6.Plot $$y=ax+b$$, with $$a$$ and $$b$$ as parameters which you should be able to vary. What do you observe?
+6\. Plot $$y=ax+b$$, with $$a$$ and $$b$$ as parameters which you should be able to vary. What do you observe?
    <details closed>
    <summary>Sol.</summary>
    
@@ -95,14 +95,14 @@ ___
    
    </details><br>
 
-6(a).Let a line be $$y=5x+6$$. For what values of $$\alpha$$ and $$\beta$$ will the line $$y= \alpha x + \beta$$ be parallel to the given line? When will it intersect the given line in the 3rd quadrant?
+6\. Let a line be $$y=5x+6$$. For what values of $$\alpha$$ and $$\beta$$ will the line $$y= \alpha x + \beta$$ be parallel to the given line? When will it intersect the given line in the 3rd quadrant?
    <details closed>
    <summary>Sol.</summary>
    
    Put your solution here.
    
    </details><br>
-7.Consider the following simultaneous equation:
+7\. Consider the following simultaneous equation:
 
    $$2x+3y=7$$ <br>
    $$3x+4y=10$$ <br>
@@ -127,7 +127,7 @@ ___
 
    </details><br>
 
-8.Consider a simple function $$f(x) = 3x+2$$. This function is invertible right? Can you tell us what is $$\alpha$$ such that $$f(\alpha)=17$$? Is such an $$\alpha$$ unique? How did you find such an $$\alpha?$$. Is this always possible?
+8\. Consider a simple function $$f(x) = 3x+2$$. This function is invertible right? Can you tell us what is $$\alpha$$ such that $$f(\alpha)=17$$? Is such an $$\alpha$$ unique? How did you find such an $$\alpha?$$. Is this always possible?
    <details closed>
    <summary>Sol.</summary>
 
@@ -135,7 +135,7 @@ ___
 
    </details><br>
 
-9.Consider the function $$f(x)=x^2-10$$, what is $$f(5)$$?
+9\. Consider the function $$f(x)=x^2-10$$, what is $$f(5)$$?
    <details closed>
    <summary>Sol.</summary>
 
@@ -143,7 +143,7 @@ ___
 
    </details><br>
 
-10.Consider the function $$f(x)=x^2-10$$, if $$f(\alpha)=54$$, what is $$\alpha$$?
+10\. Consider the function $$f(x)=x^2-10$$, if $$f(\alpha)=54$$, what is $$\alpha$$?
    <details closed>
    <summary>Sol.</summary>
 
@@ -151,7 +151,7 @@ ___
    
    </details><br>
 
-11.Consider the function $$g(x)=x^3-x^2-10x+2$$, if $$g(x)=-22$$ what is $$x$$?
+11\. Consider the function $$g(x)=x^3-x^2-10x+2$$, if $$g(x)=-22$$ what is $$x$$?
    <details closed>
    <summary>Sol.</summary>
 
@@ -160,7 +160,7 @@ ___
    </details><br>
 
 
-12.Do you know what is $$\mathbb{R}, \mathbb{R}^2 and\ \mathbb{R}^3$$ ? 
+12\. Do you know what is $$\mathbb{R}, \mathbb{R}^2 and\ \mathbb{R}^3$$ ? 
 
    <details closed>
    <summary>Sol.</summary>
@@ -170,7 +170,7 @@ ___
    </details><br>
 
 
-13.Consider the function $$\phi : \mathbb{R}^2\rightarrow \mathbb{R}^2$$ defined by $$\phi (x,y)=(2x+3y,3x+4y)$$. Find x and y such that $$\phi (x,y)=(5,6)$$. Obseve that (5,6) as well as (x,y) lies in $$\mathbb{R}^2$$.
+13\. Consider the function $$\phi : \mathbb{R}^2\rightarrow \mathbb{R}^2$$ defined by $$\phi (x,y)=(2x+3y,3x+4y)$$. Find x and y such that $$\phi (x,y)=(5,6)$$. Obseve that (5,6) as well as (x,y) lies in $$\mathbb{R}^2$$.
 
    <details closed>
    <summary>Sol.</summary>
@@ -179,7 +179,7 @@ ___
 
    </details><br>
 
-14.Is the function $$\phi$$ invertible? In the question above on matrices, we see that it is of the form $$A\vec{x}=b$$. Note that we can invert the matrix, using the method that was taught to us in our high school to find out the value for the variables $$x$$ and $$y$$. This is one of the many applications of matrices.
+14\. Is the function $$\phi$$ invertible? In the question above on matrices, we see that it is of the form $$A\vec{x}=b$$. Note that we can invert the matrix, using the method that was taught to us in our high school to find out the value for the variables $$x$$ and $$y$$. This is one of the many applications of matrices.
 
    <details closed>
    <summary>Sol.</summary>
@@ -188,7 +188,7 @@ ___
 
    </details><br>
 
-14(a).Take a random looking 2*2 matrix. Is it invertible? How often is it invertible?  
+14\. Take a random looking 2*2 matrix. Is it invertible? How often is it invertible?  
 
    <details closed>
    <summary>Sol.</summary>
@@ -197,7 +197,7 @@ ___
 
    </details><br>
 
-15.We will now see matrices as functions. Instead of $$\phi$$ we will write the matrix itself: <br>$$\left( \begin{matrix} 2 & 3 \\3 & 4 \\\end{matrix}\right) : \mathbb{R}^2 \rightarrow \mathbb{R}^2$$. 
+15\. We will now see matrices as functions. Instead of $$\phi$$ we will write the matrix itself: <br>$$\left( \begin{matrix} 2 & 3 \\3 & 4 \\\end{matrix}\right) : \mathbb{R}^2 \rightarrow \mathbb{R}^2$$. 
 
    <details closed>
    <summary>Sol.</summary>
@@ -206,7 +206,7 @@ ___
 
    </details><br>
 
-16.Consider the function $$\left( \begin{matrix} 1 & 2 \\2 & 4 \\\end{matrix}\right) : \mathbb{R}^2 \rightarrow \mathbb{R}^2$$. This matrix takes a few elements to the origin. What are those elements? Plot this using Geogebra.
+16\. Consider the function $$\left( \begin{matrix} 1 & 2 \\2 & 4 \\\end{matrix}\right) : \mathbb{R}^2 \rightarrow \mathbb{R}^2$$. This matrix takes a few elements to the origin. What are those elements? Plot this using Geogebra.
 
    <details closed>
    <summary>Sol.</summary>
@@ -221,7 +221,7 @@ ___
 
 ---
 
-17.$$A$$ is assigned $$0$$, $$B:1$$, $$C:2$$, and so on up to $$Z:25$$<br>
+17\. $$A$$ is assigned $$0$$, $$B:1$$, $$C:2$$, and so on up to $$Z:25$$<br>
 Assume you denoted every letter with a number, as given in the table above.<br> You need to encrypt the word $$SUDARSHANA$$ which stands for the numbers: $$18, 20, 3, 0, 17, 18, 7, 0, 13,0$$. <br>
 You encrypt this using a matrix given by : $$ \left( \begin{matrix} 2 & 3 \\3 & 4 \\\end{matrix}\right) $$. <br>
 So $$SUDARSHANA$$ will end up becoming: $$96, 134, 6, 9, 88, 123, 14, 21, 26, 39$$. <br>
@@ -696,6 +696,8 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    Put your solution here.
 
    </details><br>
+
+
 
 # Module G  
 ---  
