@@ -38,7 +38,7 @@ permalink: /linalg75/
      function? 
    - Why should one study such functions?   
    <br>
-5. Define the function 
+5. Define a function 
    $$ \phi : \mathbb{R}^2 \rightarrow \mathbb{R}^2 $$, which satisfies the following property: The point $$ \phi(2,3)=(7,4) $$. Note that this function should be defined at all points on $$\mathbb{R}^2$$. 
    - What are the properties of your function? Observe it
    microscopically.   
