@@ -780,7 +780,7 @@ def f(n):
 83.You are given two coins .What is the probability that one head and one tail shows up on tossing?  
 
 84.In a class in which all students practise at least one sport, 60% of students play soccer or basketball and 10% practice both sports. If there is also 60% that do not play soccer, calculate the probability that a student chosen at random from the class:
- 1 Plays soccer only.
+ 1. Plays soccer only.
  2. Play basketball only.
  3 Plays only one of the sports.
  4 Plays neither soccer nor basketball.
