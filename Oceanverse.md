@@ -12,18 +12,31 @@ permalink: /oceanverse/
   [Edit this page](https://github.com/sudarshansudarshan/aicamp/edit/main/Oceanverse.md)
 # Module 0
 1.Plot the points $$(2,3)$$ and $$(6,9)$$ and find the distance between them without using the formula for distance.  
+
 2.Plot two vectors $$u=⟨3,−2⟩$$ and $$v=⟨−1,5⟩$$.  
+
 3.Find the angle between them.  
+
 4.Construct a perpendicular bisector of a given segment whose end points are $$(0,6)$$ and $$(6,0)$$.  
+
 5.Plot line $$y=3x$$.  
+
 6.Graph the equation y=2x+3 over the interval [−5,5] and find the points where the graph intersects the x-axis and y-axis.  
+
 7.Explore the behavior of the quadratic function f(x)=x ^2−4x+3. Determine its vertex, axis of symmetry, and roots.  
+
 8.Find the angle between the lines with equations y=2x+3 and y=−3x+2.  
+
 9.Determine the angle of depression from the top of a building to a point on the ground 50 meters away from the base of the building, given that the height of the building is 30 meters.  
+
 10.Construct a right triangle with legs of lengths 3 units and 4 units. Find the length of the hypotenuse.  
+
 11.find the centriod of the above triangle.  
+
 12.Enter a set of parametric equations, such as x(t)=cos(t) and y(t)=sin(t) to plot a circle.  
+
 13.create two planes: Plane 1: 2x−3y+z=6 Plane 2: x+4y−2z=8. Plot the two planes in a 3D coordinate system.  
+
 14.Determine the angle between the two planes.Are the planes intersecting? is there any unique point in common? what do you infer from this?  
 # Module A
 ___
