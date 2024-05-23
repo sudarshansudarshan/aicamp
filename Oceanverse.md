@@ -720,5 +720,42 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
 
    Put your solution here.
 
-   </details><br>
+   </details><br>  
+
+# Module H
+---  
+
+69.Plot and find the distance between points using Geogebra: \(A(1,2)\), \(B(2,3)\), and \(C(5,9)\).
+
+70.Using Geogebra, which two points are the closest ones? What's the distance between them?
+
+71.Add four more points: \(D(0,-1)\), \(E(4,11)\), \(F(8,12)\), \(G(-3,6)\) to your graph. What’s the closest pair now? How many computations do you have to do?
+
+72.Suppose we have 10 points. How many pairs of points do you have to consider for finding the closest pair?
+
+73.What is the Y sorted order (by default assume ascending) of points \(A\), \(B\), \(C\), \(D\), \(E\)?
+
+74.Plot a line \(L\) parallel to the Y-axis passing through the middle point in the X sorted order of the above points. Divide the set of points into left and right regions around the line.
+
+75.Find the closest pair of points in the left region and right region. What’s the minimum distance (say \(d\)) between them?
+
+76.Consider a band of width \(2d\) around the Line \(L\). Find the closest pair in this band. Compare this distance with \(d\), the minimum value of the corresponding closest pair of our graph. Is the answer the same as the brute-force method you applied in question 71? (This divide and conquer method is known as the closest pair algorithm).  
+
+77.Astronomers have recorded the positions of stars in a 3D coordinate system where each star is represented as a point. Given the coordinates of stars \((1,2,3)\), \((4,5,6)\), \((6,7,8)\), \((10,11,12)\), find the closest pair of stars. (Use Geogebra)
+
+78.If \(F(0) = 0\), \(F(1) = 1\), \(F(n) = F(n-1) + F(n-2)\) for \(n \geq 2\), find the value of \(F(5)\).
+
+79.Dry run and find the output of the following code:
+    python
+    def f(n):
+        if n == 0:
+            return 1
+        return n * f(n-1)
+    print(f(5))
+    
+
+80.Does the closest pair algorithm assume that the \(x\) coordinates (and \(y\) coordinates) of the points are distinct? Is there a problem with the \(O(n \log n)\) performance if they are not distinct?
+
+81.Given a set of points where most points are far apart, but a few points are very close to each other, develop an algorithm to efficiently find the closest pair. For example, use the set: \((100,200)\), \((300,400)\), \((5000,6000)\), \((1,2)\), \((1.001,2.001)\).
+
 
