@@ -1082,3 +1082,34 @@ Decode the following string: '00011010110011'
    Put your solution here.
 
    </details><br>
+
+# Module K
+---
+
+109.In a huge network of webpages, how does the browser decides which webpage should be appeared on top?  
+
+110.Read about the Algorithms Random Walk and Equal points Distribution and try to figure out how they are able to find the importance of the webpages?  
+
+111.Are you able to visualize that the Equal points distribution method is nothing but a repetitive matrix operation on a vector?  
+
+112.Will the points of the webpages calculated the Equal points distribution method converge? If yes how can you be sure about it?  
+
+113.Is this convergence dependent on the initial vector?  
+
+114.If you have three websites, A, B, and C, and all are linked to each other, what happens to the importance of each website if:  
+	Website A is linked to by both B and C.  
+ 	B is linked to by A.  
+  	C is linked to by A.  
+How does the number of links pointing to a website affect its perceived importance?  
+
+115.Given 4 buckets (A, B, C, and D):  
+	A passes its coins to B and C  
+ 	B passes its coins to D  
+  	C passes its coins to A  
+   	D passes its coins to B and C  
+    If each bucket starts with 1 coin, calculate the number of coins in each bucket after first round and second round.  
+    
+116.In both the algorithms (Random Walk and Equal Distributions) what problem would you face if we have some highly connected nodes? Would it affect the evaluation of other nodes?  
+
+117.What modifications in the algorithm can you think to solve this problem?
+
