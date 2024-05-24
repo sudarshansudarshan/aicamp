@@ -1083,6 +1083,8 @@ Decode the following string: '00011010110011'
 
    </details><br>
 
+**Project 4-** [Read and Solve this](https://docs.google.com/document/d/11uH6E21NdTJmHFBJk5N_OM6HjgZbHNg4VUbXX9i9wDM/edit)
+
 # Module K
 ---
 
@@ -1113,3 +1115,6 @@ How does the number of links pointing to a website affect its perceived importan
 
 117.What modifications in the algorithm can you think to solve this problem?
 
+**Project 2-** [Read and Solve this](https://docs.google.com/document/d/1OoQoTu-PMqWEjOp7qpF6Le62zyoN-aO_kGOYDw5yRow/edit?usp=sharing)
+
+**Project 3-** [Read and Solve this](https://docs.google.com/document/d/1mRlW9wG99tRpn5GUr7iNxNB8J--hNRg0Wr1pkpzh_YU/edit?usp=sharing)
