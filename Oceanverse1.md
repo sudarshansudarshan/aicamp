@@ -13,7 +13,6 @@ permalink: /oceanverse1/
 
 <details closed>
 <summary># Module 0</summary>
-
 * Plot the points $$(2,3)$$ and $$(6,9)$$ and find the distance between them without using the formula for distance.  
 
 * Plot two vectors $$u=⟨3,−2⟩$$ and $$v=⟨−1,5⟩$$.  
