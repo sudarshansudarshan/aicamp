@@ -9,10 +9,10 @@ permalink: /oceanverse1/
 
 <details>
   <summary>Heading 1: Introduction</summary>
-
+<br>
   1. Point one under introduction
 
-  2. Point two under introduction
+  2. Point two under introduction<br>
 
   3. Point three under introduction
 
