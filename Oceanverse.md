@@ -491,7 +491,13 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   $$(A)$$ Upon plotting these graphs on Geogebra, we observe that the set R, which shows the possible combinations of the rows of matrix M, leads to set of points which lie on a straight line, which can be plotted with the help of in built functions provided.
+
+$$(B)$$ Similarly, the set C, that signifies the possible combinations of the columns of the matrix M, plots the points, lying on another straight line, on an angle to the previous one.
+
+$$(C)$$ The set N represents the solutions to a specific equation involving the rows and columns of M. It also forms a straight line on the graph, starting from the origin and having a different orientation compared to R and C.
+
+This observation clarifies the visual representation of the relations between rows, columns and their combinations.
 
    </details><br>
 
@@ -499,7 +505,9 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   We observed in the previous question that the points on both C and N follow a straight line path.
+
+When we plot the straight line on the graph with the function using origin as the point and our vector as defined in the question, we get the lines as $$y = 2x$$ and $$x = -2y.$$ Here, we can observe from both the equations and also by looking at the graph itself that the two lines come out to be perpendicular to each other.
 
    </details><br>
 
@@ -507,7 +515,27 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Null Space of a Matrix is defined as the set of points such that their column matrix X when post multiplied by the matrix M itself produces the Null Matrix O of relevant order, i.e., $$MX = O.$$
+
+When we multiply these matrices, we get two equations in two variables.
+
+$$x + 3y = 0$$
+$$2x + 6y = 0$$
+
+We can observe that the two equations are same and the solution for the null space of the matrix comes out to be the straight line from the equation, i.e., $$x = -3y.$$
+
+Similarly, we can do it for the transpose matrix of M.
+
+Let the transpose matrix of M be N.
+Now, as we learnt earlier, Null space of N will be found by the following equation:
+$$NX = O$$
+
+This leads us to the equations:
+
+$$x + 2y = 0$$
+$$3x + 6y = 0$$
+
+Similar to the previous example, the solution for the null space for N, the transpose of the matrix M, comes out to be a straight line, $$x = -2y.$$
 
    </details><br>
 
@@ -515,7 +543,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   This observation can easily be made by plotting the two graphs on Geogebra.
 
    </details><br>
 
@@ -523,7 +551,41 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Let us first check the Null Space.
+As the square matrix used is of the order of 3 now, not of the order of 2, we will have three equations in 3 variables. But the basic approach for Null Space will be the same, i.e., $$AX = O.$$
+
+We will get the following equations:
+
+$$x + 2y + 3z = 0$$
+$$4x + 5y + 6z = 0$$
+$$7x + 8y + 9z = 0$$
+
+We can use Geogebra to solve these equations.
+
+We get the solution as: 
+
+$$x = - y/2 = z,$$ which is the null space of the provided matrix.
+
+Similarly, for the transpose of the provided matrix, we will get the following equations:
+
+$$x + 4y + 7z = 0$$
+$$2x + 5y + 8z = 0$$
+$$3x + 6y + 9z = 0$$
+
+We get the solution as:
+
+$$x = -y/2 = z,$$ which, we can observe, is exactly similar to the Null Space of A itself.
+
+Now, we will check the Column Space of the given matrix.
+We have seen how $$C(M)$$ is defined previously in this module.
+
+Going with the similar approach, we get the set C(A) as:
+
+$$C(A) = \{a(1,4,7) + b(2,5,8) + c(3,6,9) : a, b, c \text{ belong to \} R}$$
+
+Similarly,
+
+$$R(A) = \{a(1,2,3) + b(4,5,6) + c(7,8,9) : a, b, c \text{ belong to \} R}$$
 
    </details><br>
 
@@ -537,7 +599,18 @@ Give an example each for all the above 5 cases.<br>
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   (a) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix} \)
+
+(b) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix} \)
+
+(c) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
+
+(d) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
+
+(e) \( A=\begin{bmatrix} 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
+
+
+Note that any other example which satisfies the given condition is also a correct answer for the question.
 
    </details><br>
 
@@ -550,7 +623,12 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   $$(a)$$ Given that the range contains a point $$(a,b,c),$$ it means that there exists a vector x such that $$A(x) = (a,b,c).$$
+But, since A is a linear transformation; for any scalar a, $$A(ax) = a(a,b,c),$$ which implies that the entire set S is also in the range.
+
+$$(b)$$ Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars $$a$$ and $$b$$ and existing vectors $$x = (a,b,c)$$ and $$y = (d,e,f).$$ This indicates that the entire set T is in the range.
+
+$$(c)$$ Yes, the dimension of T needn't be 2 as it depends upon the linear dependency of the two vectors with each other.
 
    </details><br>
 
@@ -562,7 +640,11 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To provide an example of two 2 - dimensional subspaces in 3 - dimensional Real space, we need to define two different planes through the origin in the whole space.
+For example, they can be the xy and the zx - planes. Therefore,
+
+$$S_1 = \{(x,y,0) : x,y \text{ belong to } R\}$$
+$$S_2 = \{(x,0,z) : x,z \text{ belong to } R\}$$
 
    </details><br>
 
@@ -571,7 +653,13 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Let us define $$S_3$$ and $$S_4$$ on the basis of their orthogonality towards $$S_1$$ and $$S_2$$ respectively.
+
+As $$S_3$$ contains all the vectors perpendicular to $$S_1$$, i.e., the xy - plane, they will lie along the z-axis. Therefore,
+$$S_3 = \{x : x \text{ lies along the z - axis}\}$$
+
+Similarly,
+$$S_4 = \{x : x \text{ lies along the z - axis}\}$$
 
    </details><br>
 
@@ -580,7 +668,9 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   $$ A=\begin{bmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 1 & 0 \\ \end{bmatrix}$$
+
+As we know that row space and null space of a matrix are orthogonal to each other. It can clearly be observed from this matrix that its row space is xy plane and hence, as z - axis is orthogonal to it, it is its null space.
 
    </details><br>
 
@@ -589,7 +679,11 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   $$S_1$$ represents a 2 - dimensional subspace within $$R^3.$$
+Specifically, it signifies any plane passing through the origin in 3 - dimensional space.
+
+  $$S_4$$ represents the orthogonal complement of a 2 - dimensional subspace ($$S_2$$).
+In other words, it consists of all vectors that are perpendicular to every vector in $$S_2$$. Geometrically, it could signify a line, a plane, or even all of $$R^3$$ itself, depending upon the orientation ad the dimensionality of $$S_2.$$
 
    </details><br>
 
@@ -597,7 +691,9 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   There is indeed a bijection from $$S_1$$ to $$S_2$$ given by the map:
+$$f(x,y,0) = (x,0,y)$$
+This map pairs each vector in $$S_1$$ with a unique vector in $$S_2$$ and covers all vectors in $$S_2$$ maintaining the conditions of both injectivity and surjectivity.
 
    </details><br>
 
