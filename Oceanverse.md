@@ -491,11 +491,11 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    <details closed>
    <summary>Sol.</summary>
 
-   $(A)$ Upon plotting these graphs on Geogebra, we observe that the set R, which shows the possible combinations of the rows of matrix M, leads to set of points which lie on a straight line, which can be plotted with the help of in built functions provided.
+   $$(A)$$ Upon plotting these graphs on Geogebra, we observe that the set R, which shows the possible combinations of the rows of matrix M, leads to set of points which lie on a straight line, which can be plotted with the help of in built functions provided.
 
-$(B)$ Similarly, the set C, that signifies the possible combinations of the columns of the matrix M, plots the points, lying on another straight line, on an angle to the previous one.
+$$(B)$$ Similarly, the set C, that signifies the possible combinations of the columns of the matrix M, plots the points, lying on another straight line, on an angle to the previous one.
 
-$(C)$ The set N represents the solutions to a specific equation involving the rows and columns of M. It also forms a straight line on the graph, starting from the origin and having a different orientation compared to R and C.
+$$(C)$$ The set N represents the solutions to a specific equation involving the rows and columns of M. It also forms a straight line on the graph, starting from the origin and having a different orientation compared to R and C.
 
 This observation clarifies the visual representation of the relations between rows, columns and their combinations.
 
@@ -623,12 +623,12 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   $(a)$ Given that the range contains a point $(a,b,c),$ it means that there exists a vector x such that $A(x) = (a,b,c).$
-But, since A is a linear transformation; for any scalar a, $A(ax) = a(a,b,c),$ which implies that the entire set S is also in the range.
+   $$(a)$$ Given that the range contains a point $$(a,b,c),$$ it means that there exists a vector x such that $$A(x) = (a,b,c).$$
+But, since A is a linear transformation; for any scalar a, $$A(ax) = a(a,b,c),$$ which implies that the entire set S is also in the range.
 
-$(b)$ Similarly, as long as the linearity of the transformation is sustained, $A(ax + by) = a.x + b.y$ for 2 scalars $a$ and $b$ and existing vectors $x = (a,b,c)$ and $y = (d,e,f).$ This indicates that the entire set T is in the range.
+$$(b)$$ Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars $$a$$ and $$b$$ and existing vectors $$x = (a,b,c)$$ and $$y = (d,e,f).$$ This indicates that the entire set T is in the range.
 
-$(c)$ Yes, the dimension of T needn't be 2 as it depends upon the linear dependency of the two vectors with each other.
+$$(c)$$ Yes, the dimension of T needn't be 2 as it depends upon the linear dependency of the two vectors with each other.
 
    </details><br>
 
@@ -653,9 +653,9 @@ $$S_2 = \{(x,0,z) : x,z \text{ belong to } R\}$$
    <details closed>
    <summary>Sol.</summary>
 
-   Let us define $S_3$ and $S_4$ on the basis of their orthogonality towards $S_1$ and $S_2$ respectively.
+   Let us define $$S_3$$ and $$S_4$$ on the basis of their orthogonality towards $$S_1$$ and $$S_2$$ respectively.
 
-As $S_3$ contains all the vectors perpendicular to $S_1$, i.e., the xy - plane, they will lie along the z-axis. Therefore,
+As $$S_3$$ contains all the vectors perpendicular to $$S_1$$, i.e., the xy - plane, they will lie along the z-axis. Therefore,
 $$S_3 = \{x : x \text{ lies along the z - axis}\}$$
 
 Similarly,
@@ -679,11 +679,11 @@ As we know that row space and null space of a matrix are orthogonal to each othe
    <details closed>
    <summary>Sol.</summary>
 
-   $S_1$ represents a 2 - dimensional subspace within $R^3.$
+   $$S_1$$ represents a 2 - dimensional subspace within $$R^3.$$
 Specifically, it signifies any plane passing through the origin in 3 - dimensional space.
 
-  $S_4$ represents the orthogonal complement of a 2 - dimensional subspace ($S_2$).
-In other words, it consists of all vectors that are perpendicular to every vector in $S_2$. Geometrically, it could signify a line, a plane, or even all of $R^3$ itself, depending upon the orientation ad the dimensionality of $S_2.$
+  $$S_4$$ represents the orthogonal complement of a 2 - dimensional subspace ($$S_2$$).
+In other words, it consists of all vectors that are perpendicular to every vector in $$S_2$$. Geometrically, it could signify a line, a plane, or even all of $$R^3$$ itself, depending upon the orientation ad the dimensionality of $$S_2.$$
 
    </details><br>
 
@@ -691,9 +691,9 @@ In other words, it consists of all vectors that are perpendicular to every vecto
    <details closed>
    <summary>Sol.</summary>
 
-   There is indeed a bijection from $S_1$ to $S_2$ given by the map:
+   There is indeed a bijection from $$S_1$$ to $$S_2$$ given by the map:
 $$f(x,y,0) = (x,0,y)$$
-This map pairs each vector in $S_1$ with a unique vector in $S_2$ and covers all vectors in $S_2$ maintaining the conditions of both injectivity and surjectivity.
+This map pairs each vector in $$S_1$$ with a unique vector in $$S_2$$ and covers all vectors in $$S_2$$ maintaining the conditions of both injectivity and surjectivity.
 
    </details><br>
 
