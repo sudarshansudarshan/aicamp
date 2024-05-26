@@ -10,7 +10,9 @@ permalink: /oceanverse1/
 **Strictly use Geogebra to solve all the questions**
 
   [Edit this page](https://github.com/sudarshansudarshan/aicamp/edit/main/Oceanverse.md)
-# Module 0
+
+<details closed>
+<summary># Module 0</summary>
 
 * Plot the points $$(2,3)$$ and $$(6,9)$$ and find the distance between them without using the formula for distance.  
 
@@ -40,6 +42,7 @@ permalink: /oceanverse1/
 
 * Determine the angle between the two planes. Are the planes intersecting? Is there any unique point in common? What do you infer from this?
 
+</details>
 
 # Module A
 ___
