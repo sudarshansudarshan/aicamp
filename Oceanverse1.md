@@ -9,21 +9,25 @@ permalink: /oceanverse1/
 
 <details>
   <summary>Heading 1: Introduction</summary>
-<br>
-  1. Point one under introduction
-
-  2. Point two under introduction
-
-  3. Point three under introduction
-
+  <ol>
+    <li>Point one under introduction</li>
+    <li>Point two under introduction</li>
+    <li>Point three under introduction</li>
+  </ol>
 </details>
 
 <details>
   <summary>Heading 2: Methodology</summary>
-
-  1. Point one under methodology
-  2. Point two under methodology
-  3. Point three under methodology
-
+  <ol>
+    <li>Point one under methodology</li>
+    <li>Point two under methodology</li>
+    <li>Point three under methodology</li>
+  </ol>
 </details>
 
+<details>
+  <summary>Heading 3: Results</summary>
+  <ol>
+    <li>Point one under results</li>
+    <li>Point two under results</li>
+    <li>Point three 
