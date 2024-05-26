@@ -8,7 +8,7 @@ permalink: /oceanverse1/
 # Main Document Title
 
 <details>
-  <summary>Heading 1: Introduction</summary>
+  <summary>Module 1</summary>
   <ol>
     <li>Point one under introduction</li>
     <li>Point two under introduction</li>
@@ -17,7 +17,7 @@ permalink: /oceanverse1/
 </details>
 
 <details>
-  <summary>Heading 2: Methodology</summary>
+  <summary>Module 2</summary>
   <ol>
     <li>Point one under methodology</li>
     <li>Point two under methodology</li>
@@ -26,7 +26,7 @@ permalink: /oceanverse1/
 </details>
 
 <details>
-  <summary>Heading 3: Results</summary>
+  <summary>Module 3 </summary>
   <ol>
     <li>Point one under results</li>
     <li>Point two under results</li>
