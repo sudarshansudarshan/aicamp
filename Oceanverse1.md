@@ -12,7 +12,7 @@ permalink: /oceanverse1/
 <br>
   1. Point one under introduction
 
-  2. Point two under introduction<br>
+  2. Point two under introduction
 
   3. Point three under introduction
 
