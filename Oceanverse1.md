@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Oceanverse
+title: Oceanverse1
 order: 5
-permalink: /oceanverse/
+permalink: /oceanverse1/
 ---
 
 * TOC
