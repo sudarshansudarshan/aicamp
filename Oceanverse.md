@@ -623,12 +623,12 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   $$(a)$$ Given that the range contains a point $$(a,b,c),$$ it means that there exists a vector x such that $$A(x) = (a,b,c).$$
+   $$(A)$$ Given that the range contains a point $$(a,b,c),$$ it means that there exists a vector x such that $$A(x) = (a,b,c).$$
 But, since A is a linear transformation; for any scalar a, $$A(ax) = a(a,b,c),$$ which implies that the entire set S is also in the range.
 
-$$(b)$$ Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars $$a$$ and $$b$$ and existing vectors $$x = (a,b,c)$$ and $$y = (d,e,f).$$ This indicates that the entire set T is in the range.
+$$(B)$$ Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars $$a$$ and $$b$$ and existing vectors $$x = (a,b,c)$$ and $$y = (d,e,f).$$ This indicates that the entire set T is in the range.
 
-$$(c)$$ Yes, the dimension of T needn't be 2 as it depends upon the linear dependency of the two vectors with each other.
+$$(C)$$ Yes, the dimension of T needn't be 2 as it depends upon the linear dependency of the two vectors with each other.
 
    </details><br>
 
