@@ -7,8 +7,8 @@ permalink: /oceanverse/
 
 <details>
 	<summary>Table of Contents</summary>
-	* TOC
-	{:toc}
+* TOC
+{:toc}
 </details>
 
 **Strictly use Geogebra to solve all the questions**
