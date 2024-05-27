@@ -49,7 +49,11 @@ ___
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here. @Akshat, you can type here. 
+   In GeoGebra, if you plot the weekly savings of Ram and Lakshman on a graph with the x-axis representing Lakshman's savings and the y-axis representing Ram's savings the points will form a straight line. This is because Ram's savings are always proportional to Lakshman's savings.
+
+The points will follow a straight line passing through the origin as:
+
+$$y = 2x$$ 
 
    </details><br>
 
@@ -57,7 +61,10 @@ ___
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Atul starts his journey from the origin O = (0, 0). He first walks 2 units along the x-axis to reach (2, 0), then takes a left turn and walks 1 unit to reach Bala's house at (2, 1). Next, he continues by taking a right turn from Bala's house and walking 1 unit to (3, 1), followed by another left turn and walking 1 unit to reach Chetan's house at (3, 2). Continuing in the same pattern, Atul takes a right turn from Chetan's house and walks 1 unit to (4, 2), then takes a left turn and walks 1 unit to reach Divya's house at (4, 3).
+
+Now, we will plot these points on GeoGebra and make a line out of them taking two at a time.
+We can clearly observe that whether the points make a straight line.
 
    </details><br>
 
@@ -66,7 +73,9 @@ ___
    <details closed>
    <summary>Sol.</summary>
    
-   Put your solution here.
+   To plot these lines using GeoGebra, in the input bar at the bottom, type the equations and they will be plotted on the graph.
+Using GeoGebra to plot these lines provides a clear visual representation of how different linear equations with varying slopes behave.
+We can observe that the line $$y = 10x$$ is the steepest of them all. and the line $$y = x$$ is the shallowest.
    
    </details><br>
 
@@ -74,7 +83,9 @@ ___
    <details closed>
    <summary>Sol.</summary>
    
-   Put your solution here.
+   All of the lines provided in the previous question are of the form: $$y = kx,$$ where k is 1, 2 and 10.
+Here, y is defined as k times x, i.e., when we put k = 0, y will definitely be 0 as 0 * t = 0 for all t belonging to R.
+As Origin is (0,0) point, All the lines pass through it.
    
    </details><br>
 
@@ -82,7 +93,8 @@ ___
    <details closed>
    <summary>Sol.</summary>
    
-   Put your solution here.
+   The plotting is done similarly to the previous questions in thew Module.
+The line does not pass through the Origin because when x is considered to be 0, y comes out to be 2 * 0 + 1, which gives 1. Hence, it does not pass through the Origin, i.e., (0,0).
    
    </details><br>
 
