@@ -330,6 +330,8 @@ If 1000 people were to start in one state, what will be the distribution of peop
 
 ___
 
+<details closed>
+   <summary>Module C</summary>
 24.Use Geogebra:
 Draw the vector $$\begin{bmatrix}1 \\
 1 \\
@@ -491,7 +493,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    Put your solution here.
 
    </details><br>
-
+</details><br>
 # Module D
 
 ---
