@@ -490,6 +490,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
 (iii) $$\mathscr{N}=\{(x,y)| x(1,3) + y(2,6) = 0, \forall x,y\in \mathbb{R} \}$$<br>
    <details closed>
    <summary>Sol.</summary>
+<p style="text-align: left;">\(A\) Upon plotting these graphs on Geogebra, we observe that the set R, which shows the possible combinations of the rows of matrix M, leads to set of points which lie on a straight line, which can be plotted with the help of in built functions provided..</p>
 
    $$(A)$$ Upon plotting these graphs on Geogebra, we observe that the set R, which shows the possible combinations of the rows of matrix M, leads to set of points which lie on a straight line, which can be plotted with the help of in built functions provided.
 
