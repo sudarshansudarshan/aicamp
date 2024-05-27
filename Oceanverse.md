@@ -628,10 +628,10 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <details closed>
    <summary>Sol.</summary>
 
-   <p style="text-align: left;">\((A)\) Given that the range contains a point $$(a,b,c),$$ it means that there exists a vector x such that $$A(x) = (a,b,c).$$</p>
+   <p style="text-align: left;">\((A)\) Given that the range contains a point \((a,b,c)\), it means that there exists a vector x such that \(A(x) = (a,b,c).\)</p>
 But, since A is a linear transformation; for any scalar a, $$A(ax) = a(a,b,c),$$ which implies that the entire set S is also in the range.
 
-<p style="text-align: left;">\((B)\) Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars a and b and existing vectors $$x = (a,b,c)$$ and $$y = (d,e,f).$$ This indicates that the entire set T is in the range.</p>
+<p style="text-align: left;">\((B)\) Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars a and b and existing vectors \(x = (a,b,c)\) and \*(y = (d,e,f).\) This indicates that the entire set T is in the range.</p>
 
 <p style="text-align: left;">\((C)\) Yes, the dimension of T needn't be 2 as it depends upon the linear dependency of the two vectors with each other.</p>
 
@@ -658,9 +658,9 @@ $$S_2 = \{(x,0,z) : x,z \text{ belong to } R\}$$
    <details closed>
    <summary>Sol.</summary>
 
-   <p style="text-align: left;">Let us define $$S_3$$ and $$S_4$$ on the basis of their orthogonality towards $$S_1$$ and $$S_2$$ respectively.</p>
+   <p style="text-align: left;">Let us define \(S_3\) and \(S_4\) on the basis of their orthogonality towards \(S_1\) and \(S_2\) respectively.</p>
 
-<p style="text-align: left;">As $$S_3$$ contains all the vectors perpendicular to $$S_1$$, i.e., the xy - plane, they will lie along the z-axis. Therefore,</p>
+<p style="text-align: left;">As \(S_3\) contains all the vectors perpendicular to \(S_1\), i.e., the xy - plane, they will lie along the z-axis. Therefore,</p>
 $$S_3 = \{x : x \text{ lies along the z - axis}\}$$
 
 Similarly,
@@ -684,11 +684,11 @@ As we know that row space and null space of a matrix are orthogonal to each othe
    <details closed>
    <summary>Sol.</summary>
 
-   <p style="text-align: left;">$$S_1$$ represents a 2 - dimensional subspace within $$R^3.$$</p>
+   <p style="text-align: left;">\(S_1\) represents a 2 - dimensional subspace within \(R^3.\)</p>
 Specifically, it signifies any plane passing through the origin in 3 - dimensional space.
 
-  <p style="text-align: left;">$$S_4$$ represents the orthogonal complement of a 2 - dimensional subspace ($$S_2$$).</p>
-<p style="text-align: left;">In other words, it consists of all vectors that are perpendicular to every vector in $$S_2$$. Geometrically, it could signify a line, a plane, or even all of $$R^3$$ itself, depending upon the orientation ad the dimensionality of $$S_2.$$</p>
+  <p style="text-align: left;">\(S_4\) represents the orthogonal complement of a 2 - dimensional subspace \((S_2)\).</p>
+<p style="text-align: left;">In other words, it consists of all vectors that are perpendicular to every vector in \(S_2\). Geometrically, it could signify a line, a plane, or even all of \(R^3\) itself, depending upon the orientation ad the dimensionality of \(S_2.\)</p>
 
    </details><br>
 
@@ -696,9 +696,9 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
    <details closed>
    <summary>Sol.</summary>
 
-   <p style="text-align: left;">There is indeed a bijection from $$S_1$$ to $$S_2$$ given by the map:</p>
-$$f(x,y,0) = (x,0,y)$$
-<p style="text-align: left;">This map pairs each vector in $$S_1$$ with a unique vector in $$S_2$$ and covers all vectors in $$S_2$$ maintaining the conditions of both injectivity and surjectivity.</p>
+   <p style="text-align: left;">There is indeed a bijection from \(S_1\) to \(S_2\) given by the map:</p>
+\(f(x,y,0) = (x,0,y)\)
+<p style="text-align: left;">This map pairs each vector in \(S_1\) with a unique vector in \(S_2\) and covers all vectors in \(S_2\) maintaining the conditions of both injectivity and surjectivity.</p>
 
    </details><br>
 
