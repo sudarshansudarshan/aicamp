@@ -3,11 +3,6 @@ layout: page
 title: Oceanverse
 order: 5
 permalink: /oceanverse/
-<style>
-body {
-text-align: left !important;
-}
-</style>
 ---
 
 * TOC
