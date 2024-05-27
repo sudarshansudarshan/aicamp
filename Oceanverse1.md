@@ -13,6 +13,11 @@ permalink: /oceanverse1/
     <li>Point one under introduction</li>
     <li>Point two under introduction</li>
     <li>Point three under introduction</li>
+    this is the first line.... $x^2-y_2$ ..... ${x^2-y_2}$
+    start ....$$x^2-y_2$$... end
+    <li>Inside listing...this is the first line.... $x^2-y_2$ ..... ${x^2-y_2}$</li>
+    <li>$$x^2-y_2$$</li>
+    <li>nsdmk..$$x^2-y_2$$..dfnilka</li>
   </ol>
 </details>
 
