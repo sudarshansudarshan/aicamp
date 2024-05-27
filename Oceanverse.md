@@ -5,8 +5,12 @@ order: 5
 permalink: /oceanverse/
 ---
 
-* TOC
-{:toc}
+<details>
+	<summary>Table of Contents</summary>
+	* TOC
+	{:toc}
+</details>
+
 **Strictly use Geogebra to solve all the questions**
 
   [Edit this page](https://github.com/sudarshansudarshan/aicamp/edit/main/Oceanverse.md)
