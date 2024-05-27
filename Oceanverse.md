@@ -102,7 +102,10 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
    
-   Put your solution here.
+   To explore the behavior of the linear equation y=ax+b with varying parameters a (slope) and b (y-intercept) using GeoGebra, you can use sliders to dynamically adjust these values and observe the resulting changes on the graph.
+As you adjust the slider for a, you will notice that increasing a makes the line steeper, while decreasing it makes the line gentler.
+Adjusting the slider for b shifts the entire line vertically. Increasing b moves the line upwards, while decreasing b moves it downwards.
+This interactive approach in GeoGebra helps visualize and understand how the parameters a and b influence the equation of a line, providing a clear and dynamic way to grasp the fundamental properties of linear equations.
    
    </details><br>
 
@@ -110,7 +113,11 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
    
-   Put your solution here.
+   Two lines are only parallel if there slopes are equal. So for the line to be parallel to $$y = 5x + 6,$$ Alpha must be equal to 5, whereas the value of Beta does not change the lines being parallel.
+This can be observed by plotting the lines and using sliders on GeoGebra.
+
+For the lines to intersect in 3rd quadrant, (Beta - 6) and (Alpha - 5) must be of the same sign. This can be achieved by solving for x and y from the given 2 equations.
+Once found, it can be easily observed on GeoGebra.
    
    </details><br>
 7.Consider the following simultaneous equation:
@@ -142,7 +149,11 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   An invertible function is one that has a unique inverse function, meaning that for every output value of the function, there is exactly one input value that produced it. This property ensures that each y in the function's range corresponds to exactly one x in the domain. So, yes, this function indeed is invertible.\
+This equation can be solved by putting the value of the function as 17 in the equation and then solving it.
+The value of Alpha comes out to be 5.
+Linear functions with non-zero slopes are one-to-one (bijective) and thus have a unique inverse. For any given output y, there is exactly one input x such that f(x)=y.
+For such functions, it is always possible to find such a value.
 
    </details><br>
 
@@ -150,7 +161,7 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   f(5) signifies the value of the function at x = 5, which is given by x*x - 10, i.e., 25 - 10 = 15.
 
    </details><br>
 
@@ -158,7 +169,7 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your Solution here.
+   Here, we have to find x and we know the value of the function. So, 54 = x*x - 10, i.e., x = 8 or -8.
    
    </details><br>
 
@@ -166,7 +177,7 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   We can find this by plotting the curve of g(x) + 22 = 0 on GeoGebra and then checking the roots of the equation. On plotting the curve, we observe that it has only one real root and two roots are imaginary as the degree of the equation is 3.
 
    </details><br>
 
@@ -176,7 +187,7 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   R represents the set of all real numbers (one-dimensional), R^2 represents the two-dimensional space of ordered pairs of real numbers, and R^3 represents the three-dimensional space of ordered triples of real numbers.
 
    </details><br>
 
@@ -186,7 +197,57 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To find the values of \(x\) and \(y\) such that the function \(\varphi: \mathbb{R}^2 \to \mathbb{R}^2\), defined by \(\varphi(x, y) = (2x + 3y, 3x + 4y)\), maps to the point \((5, 6)\), we need to solve the corresponding system of linear equations. Specifically, we set \(\varphi(x, y) = (5, 6)\), which gives us the system of equations: 
+
+  \[
+  2x + 3y = 5
+  \]
+  \[
+  3x + 4y = 6
+  \]
+  
+  To solve this system, we can use the elimination method. First, we multiply the first equation by 3 and the second equation by 2 to align the coefficients of \(x\). This yields 
+  
+  \[
+  6x + 9y = 15
+  \]
+  \[
+  6x + 8y = 12
+  \]
+  
+  Next, we subtract the second equation from the first to eliminate \(x\), resulting in 
+  
+  \[
+  6x + 9y - 6x - 8y = 15 - 12
+  \]
+  
+  which simplifies to 
+  
+  \[
+  y = 3
+  \]
+  
+  With \(y\) determined, we substitute \(y = 3\) back into one of the original equations to solve for \(x\). Using the first equation, \(2x + 3(3) = 5\), we get 
+  
+  \[
+  2x + 9 = 5
+  \]
+  
+  Subtracting 9 from both sides, we find 
+  
+  \[
+  2x = -4
+  \]
+  
+  and dividing by 2, we obtain 
+  
+  \[
+  x = -2
+  \]
+  
+  Therefore, the values of \(x\) and \(y\) that satisfy \(\varphi(x, y) = (5, 6)\) are \(x = -2\) and \(y = 3\).
+  
+  It is important to observe that both the point \((5, 6)\) and the pair \((x, y)\) lie in \(\mathbb{R}^2\). This means that \((5, 6)\) and \((-2, 3)\) are both elements of the two-dimensional real number space, \(\mathbb{R}^2\), which is consistent with the domain and codomain of the function \(\varphi\).
 
    </details><br>
 
@@ -195,7 +256,89 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To determine if the function \(\varphi\) is invertible, we need to analyze the function \(\varphi: \mathbb{R}^2 \to \mathbb{R}^2\) defined by \(\varphi(x, y) = (2x + 3y, 3x + 4y)\). This problem can be expressed in matrix form as \(A \vec{x} = \vec{b}\), where \(A\) is the matrix of coefficients, \(\vec{x}\) is the column vector of variables \((x, y)\), and \(\vec{b}\) is the result vector \((5, 6)\).
+
+  The matrix \(A\) corresponding to the linear transformation is:
+  
+  \[
+  A = \begin{pmatrix}
+  2 & 3 \\
+  3 & 4
+  \end{pmatrix}
+  \]
+  
+  For \(\varphi\) to be invertible, the matrix \(A\) must be invertible. A matrix is invertible if its determinant is non-zero. We calculate the determinant of \(A\):
+  
+  \[
+  \det(A) = \begin{vmatrix}
+  2 & 3 \\
+  3 & 4
+  \end{vmatrix} = (2 \cdot 4) - (3 \cdot 3) = 8 - 9 = -1
+  \]
+  
+  Since the determinant of \(A\) is \(-1\), which is non-zero, the matrix \(A\) is invertible. Consequently, the function \(\varphi\) is also invertible.
+  
+  To find the inverse function, we use the inverse of the matrix \(A\). The inverse of \(A\) is calculated using the formula for the inverse of a \(2 \times 2\) matrix:
+  
+  \[
+  A^{-1} = \frac{1}{\det(A)} \begin{pmatrix}
+  d & -b \\
+  -c & a
+  \end{pmatrix}
+  = \frac{1}{-1} \begin{pmatrix}
+  4 & -3 \\
+  -3 & 2
+  \end{pmatrix}
+  = \begin{pmatrix}
+  -4 & 3 \\
+  3 & -2
+  \end{pmatrix}
+  \]
+  
+  Therefore, the inverse function \(\varphi^{-1}\) can be written as:
+  
+  \[
+  \varphi^{-1}(x', y') = \begin{pmatrix}
+  -4 & 3 \\
+  3 & -2
+  \end{pmatrix} \begin{pmatrix}
+  x' \\
+  y'
+  \end{pmatrix}
+  = \begin{pmatrix}
+  -4x' + 3y' \\
+  3x' - 2y'
+  \end{pmatrix}
+  \]
+  
+  Applying this to find the values of \(x\) and \(y\) for \(\varphi(x, y) = (5, 6)\):
+  
+  \[
+  \begin{pmatrix}
+  x \\
+  y
+  \end{pmatrix} = \begin{pmatrix}
+  -4 & 3 \\
+  3 & -2
+  \end{pmatrix} \begin{pmatrix}
+  5 \\
+  6
+  \end{pmatrix}
+  = \begin{pmatrix}
+  -4(5) + 3(6) \\
+  3(5) - 2(6)
+  \end{pmatrix}
+  = \begin{pmatrix}
+  -20 + 18 \\
+  15 - 12
+  \end{pmatrix}
+  = \begin{pmatrix}
+  -2 \\
+  3
+  \end{pmatrix}
+  \]
+  
+  Thus, \(x = -2\) and \(y = 3\).
 
    </details><br>
 
@@ -204,7 +347,28 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To determine whether a random \(2 \times 2\) matrix is invertible, we need to consider the properties of the matrix. A \(2 \times 2\) matrix is invertible if and only if its determinant is non-zero. 
+
+  Let's take a random \(2 \times 2\) matrix:
+  
+  \[
+  A = \begin{pmatrix}
+  a & b \\
+  c & d
+  \end{pmatrix}
+  \]
+  
+  The determinant of this matrix \(A\) is calculated as follows:
+  
+  \[
+  \det(A) = ad - bc
+  \]
+  
+  For the matrix \(A\) to be invertible, \(\det(A)\) must not be equal to zero. Therefore, the condition for invertibility is:
+  
+  \[
+  ad - bc \neq 0
+  \]
 
    </details><br>
 
@@ -213,7 +377,29 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   We can view matrices as functions that map vectors from one space to another. For example, consider the matrix:
+
+  \[
+  A = \begin{pmatrix}
+  2 & 3 \\
+  3 & 4
+  \end{pmatrix}
+  \]
+  
+  This matrix \(A\) can be seen as a function \(A: \mathbb{R}^2 \to \mathbb{R}^2\) that takes a vector from \(\mathbb{R}^2\) and maps it to another vector in \(\mathbb{R}^2\). Specifically, for a vector \(\vec{x} = \begin{pmatrix} x \\ y \end{pmatrix}\), the matrix function \(A\) acts on \(\vec{x}\) as follows:
+  
+  \[
+  A \vec{x} = \begin{pmatrix}
+  2 & 3 \\
+  3 & 4
+  \end{pmatrix} \begin{pmatrix}
+  x \\
+  y
+  \end{pmatrix} = \begin{pmatrix}
+  2x + 3y \\
+  3x + 4y
+  \end{pmatrix}
+  \]
 
    </details><br>
 
@@ -222,7 +408,47 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Consider the function represented by the matrix \(A\):
+
+  \[
+  A = \begin{pmatrix}
+  1 & 2 \\
+  2 & 4
+  \end{pmatrix}
+  \]
+  
+  This matrix \(A: \mathbb{R}^2 \to \mathbb{R}^2\) maps vectors from \(\mathbb{R}^2\) to \(\mathbb{R}^2\). We are interested in finding which vectors \(\vec{x} = \begin{pmatrix} x \\ y \end{pmatrix}\) are mapped to the origin by this matrix, i.e., we want to solve the equation:
+  
+  \[
+  A \vec{x} = \begin{pmatrix}
+  1 & 2 \\
+  2 & 4
+  \end{pmatrix} \begin{pmatrix}
+  x \\
+  y
+  \end{pmatrix} = \begin{pmatrix}
+  0 \\
+  0
+  \end{pmatrix}
+  \]
+  
+  This leads to the system of linear equations:
+  
+  \[
+  \begin{cases}
+  1x + 2y = 0 \\
+  2x + 4y = 0
+  \end{cases}
+  \]
+  
+  We can simplify this system by noting that the second equation is just twice the first equation. Therefore, it suffices to solve the first equation:
+  
+  \[
+  x + 2y = 0 \implies x = -2y
+  \]
+  
+This means that any vector of the form \(\vec{x} = \begin{pmatrix} -2y \\ y \end{pmatrix}\) will be mapped to the origin by the matrix \(A\). In other words, the vectors that are mapped to the origin lie along the line \(x = -2y\).
+This line will be called as the Null Space of the Matrix.
 
    </details><br>
 
