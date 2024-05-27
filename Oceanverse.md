@@ -45,8 +45,6 @@ permalink: /oceanverse/
 ___
 
 
-<details closed>
-<summary>Questions</summary>
 1.Ram and Lakshman were two brothers, Ram's pocket money was twice as Lakshman. The good boys that Ram and Lakshman were, they did not spend their pocket money on anything. They instead saved the same in their piggy bank. Every week, they would check their savings so far. Assume the first week's savings was $$(R_1,L_1)$$ and second week's $$(R_2,L_2)$$ and so on. They try plotting their weekly savings on a graph sheet. How will the points look like?
    <details closed>
    <summary>Sol.</summary>
@@ -453,7 +451,6 @@ This means that any vector of the form \(\vec{x} = \begin{pmatrix} -2y \\ y \end
 This line will be called as the Null Space of the Matrix.
 
    </details><br>
-</details>
 
 # Module B
 
