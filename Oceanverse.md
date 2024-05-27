@@ -61,7 +61,7 @@ $$y = 2x$$
    <details closed>
    <summary>Sol.</summary>
 
-   Atul starts his journey from the origin O = (0, 0). He first walks 2 units along the x-axis to reach (2, 0), then takes a left turn and walks 1 unit to reach Bala's house at (2, 1). Next, he continues by taking a right turn from Bala's house and walking 1 unit to (3, 1), followed by another left turn and walking 1 unit to reach Chetan's house at (3, 2). Continuing in the same pattern, Atul takes a right turn from Chetan's house and walks 1 unit to (4, 2), then takes a left turn and walks 1 unit to reach Divya's house at (4, 3).
+  <div style="text-align: left;"> Atul starts his journey from the origin \(O = (0, 0).\) He first walks 2 units along the x-axis to reach \((2, 0)\), then takes a left turn and walks 1 unit to reach Bala's house at \((2, 1).\) Next, he continues by taking a right turn from Bala's house and walking 1 unit to \((3, 1),\) followed by another left turn and walking 1 unit to reach Chetan's house at \((3, 2).\) Continuing in the same pattern, Atul takes a right turn from Chetan's house and walks 1 unit to \((4, 2),\) then takes a left turn and walks 1 unit to reach Divya's house at \((4, 3).\)
 
 Now, we will plot these points on GeoGebra and make a line out of them taking two at a time.
 We can clearly observe that whether the points make a straight line.
