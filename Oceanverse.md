@@ -4,7 +4,11 @@ title: Oceanverse
 order: 5
 permalink: /oceanverse/
 ---
-
+<style>
+body {
+text-align: left !important;
+}
+</style>
 * TOC
 {:toc}
 **Strictly use Geogebra to solve all the questions**
