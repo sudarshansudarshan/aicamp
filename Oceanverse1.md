@@ -21,6 +21,10 @@ permalink: /oceanverse1/
     \( E = mc^2 \)
     <li>nsdmk..$$x^2-y_2$$..dfnilka</li>
   </ol>
+  \[
+      \int_{a}^{b} f(x) \, dx = F(b) - F(a)
+    \]
+  \[\int_{a}^{b} f(x) \, dx = F(b) - F(a)\]
 </details>
 
 <details>
