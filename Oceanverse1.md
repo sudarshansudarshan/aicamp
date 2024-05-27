@@ -17,6 +17,8 @@ permalink: /oceanverse1/
     start ....$$x^2-y_2$$... end
     <li>Inside listing...this is the first line.... $x^2-y_2$ ..... ${x^2-y_2}$</li>
     <li>$$x^2-y_2$$</li>
+    <li>\( E = mc^2 \)</li>
+    \( E = mc^2 \)
     <li>nsdmk..$$x^2-y_2$$..dfnilka</li>
   </ol>
 </details>
