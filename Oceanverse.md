@@ -226,6 +226,9 @@ ___
 
 ---
 
+<details closed>
+   <summary>Module B</summary>
+
 17\. $$A$$ is assigned $$0$$, $$B:1$$, $$C:2$$, and so on up to $$Z:25$$<br>
 Assume you denoted every letter with a number, as given in the table above.<br> You need to encrypt the word $$SUDARSHANA$$ which stands for the numbers: $$18, 20, 3, 0, 17, 18, 7, 0, 13,0$$. <br>
 You encrypt this using a matrix given by : $$ \left( \begin{matrix} 2 & 3 \\3 & 4 \\\end{matrix}\right) $$. <br>
@@ -316,6 +319,10 @@ If 1000 people were to start in one state, what will be the distribution of peop
    <summary>Sol.</summary>
 
    Put your solution here.
+
+   </details><br>
+
+
 
    </details><br>
 
