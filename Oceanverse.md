@@ -1033,7 +1033,7 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
    Put your solution here.
 
    </details><br>
-56.Is there any efficient approach for the second part of the 5th question?
+56.Is there any efficient approach for the second part of the 55th question?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1047,7 +1047,7 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
    Put your solution here.
 
    </details><br>
-58.Assuming that an English text follows a particular order of frequency,can you solve the 6th question?
+58.Assuming that an English text follows a particular order of frequency,can you solve the 56th question?
    <details closed>
    <summary>Sol.</summary>
 
