@@ -464,7 +464,8 @@ Given these numbers, how will you decrypt the message and get back $$SUDARSHANA$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To decrypt the message encrypted using the Hill Cipher, we need to apply the inverse of the encryption matrix. Given the encrypted numbers representing "SUDARSHANA" as 96, 134, 6, 9, 88, 123, 14, 21, 26, and 39, we first identify the corresponding encryption matrix, denoted as \( \mathbf{E} \), which in this case is \( \begin{pmatrix} 2 & 3 \\ 3 & 4 \end{pmatrix} \). Utilizing this matrix, we compute its inverse, considering modulo 26 arithmetic. The decryption matrix, denoted as \( \mathbf{D} \), is then obtained. Proceeding with decryption, each pair of encrypted numbers undergoes matrix multiplication with \( \mathbf{D} \), followed by modulo 26 reduction. This process retrieves the original numbers corresponding to each letter. The decryption process is represented as \( \mathbf{p} = \mathbf{D} \cdot \mathbf{c} \pmod{26} \), where \( \mathbf{p} \) represents the decrypted numbers and \( \mathbf{c} \) represents the encrypted numbers. Finally, mapping these numbers back to their corresponding letters reveals the decrypted message "SUDARSHANA." This cryptographic protocol, known as the Hill Cipher, leverages linear algebra principles for both encryption and decryption, ensuring a secure communication channel.
+
 
    </details><br>
 
