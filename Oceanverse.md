@@ -117,7 +117,7 @@ This interactive approach in GeoGebra helps visualize and understand how the par
    Two lines are only parallel if there slopes are equal. So for the line to be parallel to $$y = 5x + 6,$$ Alpha must be equal to 5, whereas the value of Beta does not change the lines being parallel.
 This can be observed by plotting the lines and using sliders on GeoGebra.
 
-For the lines to intersect in 3rd quadrant, (\(varbeta\) - 6) and (\(varalpha\) - 5) must be of the same sign. This can be achieved by solving for x and y from the given 2 equations.
+For the lines to intersect in 3rd quadrant, (\(\beta\) - 6) and (\(\alpha\) - 5) must be of the same sign. This can be achieved by solving for x and y from the given 2 equations.
 Once found, it can be easily observed on GeoGebra.
    
    </details><br>
@@ -152,7 +152,7 @@ Once found, it can be easily observed on GeoGebra.
 
    An invertible function is one that has a unique inverse function, meaning that for every output value of the function, there is exactly one input value that produced it. This property ensures that each y in the function's range corresponds to exactly one x in the domain. So, yes, this function indeed is invertible.
 This equation can be solved by putting the value of the function as 17 in the equation and then solving it.
-The value of \(varalpha\) comes out to be 5.
+The value of \(\alpha\) comes out to be 5.
 Linear functions with non-zero slopes are one-to-one (bijective) and thus have a unique inverse. For any given output y, there is exactly one input x such that f(x)=y.
 For such functions, it is always possible to find such a value.
 
@@ -188,7 +188,7 @@ For such functions, it is always possible to find such a value.
    <details closed>
    <summary>Sol.</summary>
 
-   <div style="text-align: left;">\(R\) represents the set of all real numbers (one-dimensional), \(R^2\) represents the two-dimensional space of ordered pairs of real numbers, and \(R^3\) represents the three-dimensional space of ordered triples of real numbers.
+   <div style="text-align: left;">\(R\) represents the set of all real numbers (one-dimensional), \(R^2\) represents the two-dimensional space of ordered pairs of real numbers, and \(R^3\) represents the three-dimensional space of ordered triples of real numbers.</div>
 
    </details><br>
 
