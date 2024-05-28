@@ -117,7 +117,8 @@ This interactive approach in GeoGebra helps visualize and understand how the par
    Two lines are only parallel if there slopes are equal. So for the line to be parallel to $$y = 5x + 6,$$ Alpha must be equal to 5, whereas the value of Beta does not change the lines being parallel.
 This can be observed by plotting the lines and using sliders on GeoGebra.
 
-
+For the lines to intersect in third quadrant, solve the two equations and when we will get the values of x and y in the terms of \(\alpha\) and \(\beta\), make both x and y less than 0.
+We will get the values of \(\alpha\) and \(\beta\) upon solving the inequalities.
    
    </details><br>
 7.Consider the following simultaneous equation:
@@ -141,7 +142,25 @@ This can be observed by plotting the lines and using sliders on GeoGebra.
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Yes, I see a 2x2 matrix here. Recognizing the system of equations in matrix form is crucial because it allows us to use matrix operations to solve the system more efficiently, especially when dealing with larger systems. By representing the coefficients of the variables and the constants in matrix form, we can apply many useful techniques to find the solutions. Studying matrices in general is important because they offer a powerful way to represent and manipulate data in various fields. Matrices provide a concise and structured way to represent complex systems and relationships, making it easier to analyze and solve problems.
+
+When we rewrite the system of equations in matrix form, it looks like this:
+
+\begin{pmatrix}
+2 & 3 \\
+3 & 4 \\
+\end{pmatrix}
+\begin{pmatrix}
+x \\
+y \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+7 \\
+10 \\
+\end{pmatrix}
+
+This representation allows us to apply matrix operations to find the solution to the system of equations.
 
    </details><br>
 
@@ -487,14 +506,15 @@ To solve this system of equations, we can employ various methods such as substit
 
    </details><br>
 
-19. While we were taught the so called two variables and two unknowns, what if there were more equations than unknowns?<br>
+19.While we were taught the so called two variables and two unknowns, what if there were more equations than unknowns?<br>
    $$ 3A + 1C = 1200 $$   
    $$ 1A + 2C = 1000 $$    
    $$ 1A + 1C =  900 $$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   When faced with a system of equations where the number of equations exceeds the number of unknowns, we encounter what is known as an overdetermined system. In this scenario, there may not exist a single solution that satisfies all equations simultaneously. For instance, considering the equations provided.
+   We have three equations but only two unknowns, A and C. Consequently, the system is overdetermined. In such cases, it is unlikely that a unique solution exists that satisfies all equations simultaneously. However, we can still attempt to find a solution that best fits the given equations. We aim to minimize the error between the observed values (the left-hand sides of the equations) and the predicted values (the right-hand sides) by adjusting the unknowns. Therefore, while the system may not have a single exact solution, we can seek an approximation that minimizes the discrepancy between the observed and predicted values.
 
    </details><br>
 
@@ -526,7 +546,26 @@ $$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Indeed, the system of equations provided can be represented in matrix form as:
+\[
+\begin{pmatrix}
+3 & 1 \\
+1 & 2 \\
+1 & 1 \\
+\end{pmatrix}
+\begin{pmatrix}
+A \\
+C \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+1200 \\
+1000 \\
+900 \\
+\end{pmatrix}
+\]
+
+Here, the coefficient matrix on the left represents the coefficients of the unknowns A and C in each equation, while the vector on the right represents the constants on the right-hand side of each equation.
 
    </details><br>
 
@@ -534,7 +573,7 @@ $$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   In situations where a system of equations is overdetermined, as in the case provided, where there are more equations than unknowns, there may not exist a solution that satisfies all equations simultaneously. Consequently, attempting to solve the system by guessing values is unlikely to yield an exact solution. However, we can employ guesswork to minimize the error between the observed and predicted values, effectively reducing the discrepancy between the equations. By iteratively adjusting the guessed values and evaluating their impact on the overall error, we can approximate a solution that minimizes the discrepancy as much as possible. This process, though not guaranteed to yield a precise solution, allows us to iteratively refine the estimates and improve the fit between the observed and predicted values.
 
    </details><br>
 
@@ -572,7 +611,10 @@ Draw the vector $$\begin{bmatrix}1 \\
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The given vector can be drawn with the help of the vector tool in GeoGebra.
+All the vectors which have their dot product with the given vector as 0 will be orthogonal to it.
+They will be of the form:
+$$v = (t, -t),$$ where t is an arbitrary variable.
 
    </details><br>
 
@@ -584,7 +626,9 @@ $$\begin{bmatrix}1 & 1 \\
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The givem set of matrices lead to the equation which we get while doing the dot of these vectors as 0, i.e.,
+   $$x + y = 0$$
+   So, This equation represents all the vectors perpendicular to the given one. These vectors lie along the line with slope -1 passing through the origin in the Cartesian coordinate system.
 
    </details><br>
 
