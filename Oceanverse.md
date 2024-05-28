@@ -492,7 +492,7 @@ To solve this system of equations, we can employ various methods such as substit
 
    </details><br>
 
-19.While we were taught the so called two variables and two unknowns, what if there were more equations than unknowns?<br>
+19\.While we were taught the so called two variables and two unknowns, what if there were more equations than unknowns?<br>
    $$ 3A + 1C = 1200 $$   
    $$ 1A + 2C = 1000 $$    
    $$ 1A + 1C =  900 $$
