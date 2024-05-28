@@ -84,9 +84,9 @@ We can observe that the line $$y = 10x$$ is the steepest of them all. and the li
    <details closed>
    <summary>Sol.</summary>
    
-   All of the lines provided in the previous question are of the form: $$y = kx,$$ where k is 1, 2 and 10.
-Here, y is defined as k times x, i.e., when we put k = 0, y will definitely be 0 as 0 * t = 0 for all t belonging to R.
-As Origin is (0,0) point, All the lines pass through it.
+   <div style="text-align: left;">All of the lines provided in the previous question are of the form: $$y = kx,$$ where k is 1, 2 and 10.
+Here, y is defined as k times x, i.e., when we put \(k = 0,\) y will definitely be 0 as \(0 * t = 0\) for all t belonging to R.
+As Origin is \((0,0)\) point, All the lines pass through it.</div>
    
    </details><br>
 
@@ -94,8 +94,8 @@ As Origin is (0,0) point, All the lines pass through it.
    <details closed>
    <summary>Sol.</summary>
    
-   The plotting is done similarly to the previous questions in thew Module.
-The line does not pass through the Origin because when x is considered to be 0, y comes out to be 2 * 0 + 1, which gives 1. Hence, it does not pass through the Origin, i.e., (0,0).
+   <div style="text-align: left;">The plotting is done similarly to the previous questions in thew Module.
+The line does not pass through the Origin because when x is considered to be 0, y comes out to be 2 * 0 + 1, which gives 1. Hence, it does not pass through the Origin, i.e., \((0,0).\)</div>
    
    </details><br>
 
@@ -103,10 +103,10 @@ The line does not pass through the Origin because when x is considered to be 0, 
    <details closed>
    <summary>Sol.</summary>
    
-   To explore the behavior of the linear equation y=ax+b with varying parameters a (slope) and b (y-intercept) using GeoGebra, you can use sliders to dynamically adjust these values and observe the resulting changes on the graph.
-As you adjust the slider for a, you will notice that increasing a makes the line steeper, while decreasing it makes the line gentler.
-Adjusting the slider for b shifts the entire line vertically. Increasing b moves the line upwards, while decreasing b moves it downwards.
-This interactive approach in GeoGebra helps visualize and understand how the parameters a and b influence the equation of a line, providing a clear and dynamic way to grasp the fundamental properties of linear equations.
+   <div style="text-align: left;">To explore the behavior of the linear equation \(y=ax+b\) with varying parameters \(a\) (slope) and \(b\) (y-intercept) using GeoGebra, you can use sliders to dynamically adjust these values and observe the resulting changes on the graph.
+As you adjust the slider for \(a\), you will notice that increasing \(a\) makes the line steeper, while decreasing it makes the line gentler.
+Adjusting the slider for \(b\) shifts the entire line vertically. Increasing \(b\) moves the line upwards, while decreasing \(b\) moves it downwards.
+This interactive approach in GeoGebra helps visualize and understand how the parameters a and b influence the equation of a line, providing a clear and dynamic way to grasp the fundamental properties of linear equations.</div>
    
    </details><br>
 
@@ -117,7 +117,7 @@ This interactive approach in GeoGebra helps visualize and understand how the par
    Two lines are only parallel if there slopes are equal. So for the line to be parallel to $$y = 5x + 6,$$ Alpha must be equal to 5, whereas the value of Beta does not change the lines being parallel.
 This can be observed by plotting the lines and using sliders on GeoGebra.
 
-For the lines to intersect in 3rd quadrant, (Beta - 6) and (Alpha - 5) must be of the same sign. This can be achieved by solving for x and y from the given 2 equations.
+For the lines to intersect in 3rd quadrant, (\(varbeta\) - 6) and (\(varalpha\) - 5) must be of the same sign. This can be achieved by solving for x and y from the given 2 equations.
 Once found, it can be easily observed on GeoGebra.
    
    </details><br>
@@ -150,9 +150,9 @@ Once found, it can be easily observed on GeoGebra.
    <details closed>
    <summary>Sol.</summary>
 
-   An invertible function is one that has a unique inverse function, meaning that for every output value of the function, there is exactly one input value that produced it. This property ensures that each y in the function's range corresponds to exactly one x in the domain. So, yes, this function indeed is invertible.\
+   An invertible function is one that has a unique inverse function, meaning that for every output value of the function, there is exactly one input value that produced it. This property ensures that each y in the function's range corresponds to exactly one x in the domain. So, yes, this function indeed is invertible.
 This equation can be solved by putting the value of the function as 17 in the equation and then solving it.
-The value of Alpha comes out to be 5.
+The value of \(varalpha\) comes out to be 5.
 Linear functions with non-zero slopes are one-to-one (bijective) and thus have a unique inverse. For any given output y, there is exactly one input x such that f(x)=y.
 For such functions, it is always possible to find such a value.
 
@@ -188,7 +188,7 @@ For such functions, it is always possible to find such a value.
    <details closed>
    <summary>Sol.</summary>
 
-   R represents the set of all real numbers (one-dimensional), R^2 represents the two-dimensional space of ordered pairs of real numbers, and R^3 represents the three-dimensional space of ordered triples of real numbers.
+   <div style="text-align: left;">\(R\) represents the set of all real numbers (one-dimensional), \(R^2\) represents the two-dimensional space of ordered pairs of real numbers, and \(R^3\) represents the three-dimensional space of ordered triples of real numbers.
 
    </details><br>
 
