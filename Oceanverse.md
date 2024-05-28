@@ -640,7 +640,7 @@ b \\
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   
 
    </details><br>
 
@@ -650,7 +650,28 @@ $$\begin{bmatrix}1 & 2 & 3\\
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The equation given is \( [123]\begin{bmatrix} x \\ y \\ z \end{bmatrix} = 0 \). To solve this, we can multiply the matrix \( [123] \) by the column vector \( \begin{bmatrix} x \\ y \\ z \end{bmatrix} \) using matrix multiplication. 
+
+\[
+\begin{bmatrix} 
+1 & 2 & 3 \\
+\end{bmatrix}
+\begin{bmatrix} 
+x \\ 
+y \\ 
+z 
+\end{bmatrix} 
+= 
+\begin{bmatrix} 
+1x + 2y + 3z \\ 
+\end{bmatrix} 
+= 
+0 
+\]
+
+For the equation to hold true, the result of this multiplication must be zero. Therefore, the solution to the equation is any vector \( \begin{bmatrix} x \\ y \\ z \end{bmatrix} \) such that \( x + 2y + 3z = 0 \).
+We will now go plot the equation on GeoGebra.
+We observe that this represents an equation of a plane and it contains the collection of position vectors which satisfy the given equation.
 
    </details><br>
 
@@ -659,7 +680,9 @@ $$T= \{ \alpha(1,2,1) | \alpha \in \mathbb{R}\} $$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To plot all the points, we will create the given vector in the graph.
+   Then we will use the sequence command in desired range to show the possible vectors under the given expression as in the question.
+   We observe that the points follow a straight line pattern passing through the Origin.
 
    </details><br>
 
@@ -668,7 +691,7 @@ $$S= \{ \beta(2,7,3) | \beta \in \mathbb{R}\} $$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The question will be solved exactly similar to the previous one.
 
    </details><br>
 
@@ -677,7 +700,7 @@ $$W= \{\alpha(1,2,1) + \beta(2,7,3) | \alpha,\beta \in \mathbb{R}\} $$
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   We can simply add the two previous sets to create the third one as given in the question in GeoGebra.
 
    </details><br>
 
