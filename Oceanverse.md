@@ -483,8 +483,7 @@ The first observation, with 3 adults and 1 child resulting in a bill of Rs. 1200
 Similarly, the second observation, with 2 children and 1 adult totaling Rs. 1000, can be represented as:
 \[1A + 2C = 1000\].
 
-To solve this system of equations, we can employ various methods such as substitution, elimination, or matrix methods. The values of \(A\) and \(C\) are determined as \(280\) and \(360\), the manager can estimate the consumption of a child or an adult at Baker’s Cafe.
-
+To solve this system of equations, we can employ various methods such as substitution, elimination, or matrix methods. The values of \(A\) and \(C\) are determined as \(280\) and \(360\) respectively.
 
    </details><br>
 
