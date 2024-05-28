@@ -117,8 +117,7 @@ This interactive approach in GeoGebra helps visualize and understand how the par
    Two lines are only parallel if there slopes are equal. So for the line to be parallel to $$y = 5x + 6,$$ Alpha must be equal to 5, whereas the value of Beta does not change the lines being parallel.
 This can be observed by plotting the lines and using sliders on GeoGebra.
 
-For the lines to intersect in 3rd quadrant, (\(\beta\) - 6) and (\(\alpha\) - 5) must be of the same sign. This can be achieved by solving for x and y from the given 2 equations.
-Once found, it can be easily observed on GeoGebra.
+
    
    </details><br>
 7.Consider the following simultaneous equation:
