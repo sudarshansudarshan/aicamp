@@ -149,13 +149,10 @@ When we rewrite the system of equations in matrix form, it looks like this:
 \begin{pmatrix}
 2 & 3 \\
 3 & 4 \\
-\end{pmatrix}
-\begin{pmatrix}
+\end{pmatrix} \begin{pmatrix}
 x \\
 y \\
-\end{pmatrix}
-=
-\begin{pmatrix}
+\end{pmatrix} = \begin{pmatrix}
 7 \\
 10 \\
 \end{pmatrix}
