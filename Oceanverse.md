@@ -144,18 +144,7 @@ We will get the values of \(\alpha\) and \(\beta\) upon solving the inequalities
 
    Yes, I see a 2x2 matrix here. Recognizing the system of equations in matrix form is crucial because it allows us to use matrix operations to solve the system more efficiently, especially when dealing with larger systems. By representing the coefficients of the variables and the constants in matrix form, we can apply many useful techniques to find the solutions. Studying matrices in general is important because they offer a powerful way to represent and manipulate data in various fields. Matrices provide a concise and structured way to represent complex systems and relationships, making it easier to analyze and solve problems.
 
-When we rewrite the system of equations in matrix form, it looks like this:
-
-\begin{pmatrix}
-2 & 3 \\
-3 & 4 \\
-\end{pmatrix} \begin{pmatrix}
-x \\
-y \\
-\end{pmatrix} = \begin{pmatrix}
-7 \\
-10 \\
-\end{pmatrix}
+When we rewrite the system of equations in matrix form, it looks like the matrix equation mentioned in the question.
 
 This representation allows us to apply matrix operations to find the solution to the system of equations.
 
