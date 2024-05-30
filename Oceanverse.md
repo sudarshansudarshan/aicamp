@@ -924,7 +924,7 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
    <div style="text-align: left;">\((A)\) Given that the range contains a point \((a,b,c)\), it means that there exists a vector x such that \(A(x) = (a,b,c).\)</div>
 But, since A is a linear transformation; for any scalar a, $$A(ax) = a(a,b,c),$$ which implies that the entire set S is also in the range.
 
-<div style="text-align: left;">\((B)\) Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars a and b and existing vectors \(x = (a,b,c)\) and \*(y = (d,e,f).\) This indicates that the entire set T is in the range.</div>
+<div style="text-align: left;">\((B)\) Similarly, as long as the linearity of the transformation is sustained, $$A(ax + by) = a.x + b.y$$ for 2 scalars a and b and existing vectors \(x = (a,b,c)\) and \(y = (d,e,f).\) This indicates that the entire set T is in the range.</div>
 
 <div style="text-align: left;">\((C)\) Yes, the dimension of T needn't be 2 as it depends upon the linear dependency of the two vectors with each other.</div>
 
