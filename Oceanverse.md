@@ -1073,7 +1073,7 @@ In summary, if we only have the encoded text and not the mapping used in a subst
 
    Yes, there are more efficient approaches for decrypting a message encoded with a substitution cipher when the mapping is unknown. One common technique is frequency analysis.
 
-In most languages, including English, certain letters occur more frequently than others. For example, 'E' is the most common letter in English text, followed by 'T', 'A', 'O', and 'I'. By analyzing the frequency of letters in the encoded message, we can make educated guesses about the mapping.
+In most languages, including English, certain letters occur more frequently than others.
 
 Here's how frequency analysis works:
 
@@ -1083,28 +1083,37 @@ Here's how frequency analysis works:
 4. Use these patterns to make educated guesses about the mapping, such as which encoded letter corresponds to 'E' or 'T'.
 5. Once a few letters are deciphered, use context and word patterns to further decrypt the message.
 
-Frequency analysis can significantly reduce the number of trials needed to decrypt a message compared to a brute-force approach. However, it may still require some manual effort and linguistic knowledge, especially for longer messages or messages with less predictable patterns.
-
    </details><br>
 57.What do you think is the frequency of occurence of various letters in a sample English text? Which letter do you expect to be the most frequent ?
    <details closed>
    <summary>Sol.</summary>
 
    In a typical English text, the frequency of occurrence of various letters follows a well-known distribution. The most frequent letter in English text is 'E', followed by 'T', 'A', 'O', 'I', 'N', 'S', 'H', 'R', 'D', 'L', 'C', 'U', 'M', 'W', 'F', 'G', 'Y', 'P', 'B', 'V', 'K', 'J', 'X', 'Q', and 'Z', in descending order of frequency.
+These frequencies can vary slightly depending on the specific text and context, but they provide a general guideline for the relative occurrence of letters in English text.
 
    </details><br>
 58.Assuming that an English text follows a particular order of frequency,can you solve the 56th question?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Assuming that the English text follows the typical order of letter frequency, we can use this knowledge to help decrypt a message encoded with a substitution cipher.
+
+Given the encoded message, we can analyze the frequency of letters in the text. By identifying the most frequently occurring letter in the encoded message, we can make an educated guess that it corresponds to the most frequent letter in English text, which is 'E'.
+
+Once we determine the mapping for this letter, we can continue deciphering the rest of the message based on context and patterns. This process can be iterated, gradually revealing more letters and improving our understanding of the mapping until the entire message is decrypted.
+
+While frequency analysis provides a powerful tool for decrypting substitution ciphers, it may still require some manual effort and linguistic knowledge, especially for longer messages or messages with less predictable patterns. However, by leveraging the knowledge of letter frequency in English text, we can significantly reduce the number of trials needed to decrypt the message compared to a brute-force approach.
 
    </details><br>
 59.Suppose we take a subset from a huge text i.e $$k^{th}$$, $$2k^{th}$$, $$3k^{th}$$... elements.Will they also follow the same pattern observed in the previous question?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Yes, if we take a subset of characters from a large enough English text, such as every \(k^{th}\) character, \(2k^{th}\) character, \(3k^{th}\) character, and so on, they are likely to follow a similar pattern of letter frequency as observed in the previous question.
+
+This is because the frequency distribution of letters in English text is relatively stable across different texts, assuming the text samples are large enough and representative of typical English language usage. Therefore, even when considering a subset of characters from a large text, we would still expect the most frequent letters to be 'E', 'T', 'A', 'O', 'I', and so on, in roughly the same order of frequency.
+
+Of course, the specific frequencies may vary slightly depending on the particular text and context, but the overall pattern of letter frequency should remain consistent. This consistency is what allows frequency analysis to be an effective technique for decrypting substitution ciphers, even when working with subsets of text.
 
    </details><br>
 60.Assume you arrange two meaningful english text strings in front of each other.what is the expected number of collisions in the letters? Call it "collision frequency".
