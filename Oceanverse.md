@@ -1002,49 +1002,95 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   In the scenario of wartime communication in the 1800s, Country A could employ the Caesar cipher to encode their messages to Country B. The Caesar cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. By agreeing on a specific shift value beforehand, known as the "key," Country A could encode their messages, making them unintelligible to their adversaries without the knowledge of the key.
+In the Caesar cipher, each letter in the plaintext is shifted by a fixed number of positions in the alphabet. Mathematically, this can be represented using modular arithmetic. Let's denote \( n \) as the shift value (the key) and \( P \) as the position of a letter in the alphabet. The Caesar cipher encryption function \( E \) can be expressed as:
+
+\[ E(P) = (P + n) \mod 26 \]
+
+Where \( \mod 26 \) ensures that the result wraps around the alphabet. For example, if \( n = 3 \) and \( P = 1 \) (representing 'A'), the encrypted letter would be \( E(1) = (1 + 3) \mod 26 = 4 \), which corresponds to 'D'.
 
    </details><br>
 52.How about shifting the alphabets by 1 letter each?What is the problem here?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Shifting each letter of the alphabet by one position, known as a Caesar cipher with a fixed key of 1, is a simple form of substitution cipher. While it provides a basic level of encryption, it suffers from a significant vulnerability: its lack of security due to its limited key space.
+
+Since there are only 25 possible keys (each shift value from 1 to 25), an attacker can easily perform a brute-force attack by trying all possible keys to decrypt the message. This means that the encrypted message can be deciphered through only 25 trials, making it highly vulnerable to cryptanalysis.
 
    </details><br>
 53.Try encoding the word "VICHARANASHALA" using the above method (But shift 4 letters this time) 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To encode the word "VICHARANASHALA" using a Caesar cipher with a shift of 4 letters, we shift each letter in the word by four positions in the alphabet:
+
+- V becomes Z
+- I becomes M
+- C becomes G
+- H becomes L
+- A becomes E
+- R becomes V
+- A becomes E
+- N becomes R
+- A becomes E
+- S becomes W
+- H becomes L
+- A becomes E
+- L becomes P
+- A becomes E
+
+So, "VICHARANASHALA" would be encoded as "ZMGLEREVREWEP".
 
    </details><br>
-54.What if you have only the encoded message?How will you get to the original message?
+54.What if you have only the encoded message? How will you get to the original message?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   If we only have the encoded message and no knowledge of the key (the shift value used in the Caesar cipher), we would need to employ cryptanalysis techniques to decrypt the message.
+
+One common approach is frequency analysis, which relies on the fact that certain letters appear more frequently than others in natural language text. For example, in English, the most common letters are 'E', 'T', 'A', 'O', and 'I'. By analyzing the frequency of letters in the encoded message and comparing it to the expected frequency distribution of letters in English text, we can make educated guesses about the shift value.
+
+Another method involves trying all possible shift values (from 1 to 25) and examining the decrypted text for meaningful words or patterns. This brute-force approach would involve decoding the message 25 times with different shift values until the original message is revealed.
 
    </details><br>
 55.What if we substitute each letter by some other letter using a pre- defined mapping (eg.a->t,b->f,c->y,...)?How many trails do we have to do so that we can reach the secret message if we only have the encoded text and not the mapping ?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   If we have an encoded message using a substitution cipher with a predefined mapping, and we don't know the mapping, we essentially face a cryptanalysis problem. 
+
+The number of possible mappings in a substitution cipher depends on the size of the alphabet used in the encoding. For example, if we're using the English alphabet, which consists of 26 letters, there are \( 26! \) possible permutations of the alphabet.
+
+Therefore, without knowing the mapping, we would need to try each possible permutation to decipher the message. This brute-force approach would require checking all \( 26! \) mappings, which is clearly impractical due to the vast number of trials involved.
+
+In summary, if we only have the encoded text and not the mapping used in a substitution cipher, it is practically infeasible to decipher the secret message by trying all possible mappings.
 
    </details><br>
 56.Is there any efficient approach for the second part of the 55th question?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Yes, there are more efficient approaches for decrypting a message encoded with a substitution cipher when the mapping is unknown. One common technique is frequency analysis.
+
+In most languages, including English, certain letters occur more frequently than others. For example, 'E' is the most common letter in English text, followed by 'T', 'A', 'O', and 'I'. By analyzing the frequency of letters in the encoded message, we can make educated guesses about the mapping.
+
+Here's how frequency analysis works:
+
+1. Count the frequency of each letter in the encoded message.
+2. Compare the frequency distribution to the expected frequency distribution of letters in the language being used (e.g., English).
+3. Identify common patterns, such as single-letter words or repeated sequences, which may correspond to common letters or words in the language.
+4. Use these patterns to make educated guesses about the mapping, such as which encoded letter corresponds to 'E' or 'T'.
+5. Once a few letters are deciphered, use context and word patterns to further decrypt the message.
+
+Frequency analysis can significantly reduce the number of trials needed to decrypt a message compared to a brute-force approach. However, it may still require some manual effort and linguistic knowledge, especially for longer messages or messages with less predictable patterns.
 
    </details><br>
 57.What do you think is the frequency of occurence of various letters in a sample English text? Which letter do you expect to be the most frequent ?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   In a typical English text, the frequency of occurrence of various letters follows a well-known distribution. The most frequent letter in English text is 'E', followed by 'T', 'A', 'O', 'I', 'N', 'S', 'H', 'R', 'D', 'L', 'C', 'U', 'M', 'W', 'F', 'G', 'Y', 'P', 'B', 'V', 'K', 'J', 'X', 'Q', and 'Z', in descending order of frequency.
 
    </details><br>
 58.Assuming that an English text follows a particular order of frequency,can you solve the 56th question?
