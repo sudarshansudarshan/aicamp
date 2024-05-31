@@ -1410,10 +1410,10 @@ Given Data:
 - Let \( B \) represent the set of students who play basketball.
 - \( P(S \cup B) = 0.60 \) (60% of students play soccer or basketball)
 - \( P(S \cap B) = 0.10 \) (10% of students play both sports)
-- \( P(S') = 0.60 \) (60% of students do not play soccer)
+- \( P(S') = 0.60 \) (60% of students do not play soccer)<br>
 
-1. **Probability that a student plays soccer only**:
-   This is the probability of playing soccer but not basketball, \( P(S \setminus B) \).
+1. Probability that a student plays soccer only:<br>
+   \( P(S \setminus B) \).
    \[
    P(S \setminus B) = P(S) - P(S \cap B)
    \]
@@ -1426,8 +1426,8 @@ Given Data:
    P(S \setminus B) = P(S) - P(S \cap B) = 0.40 - 0.10 = 0.30
    \]
 
-2. **Probability that a student plays basketball only**:
-   This is the probability of playing basketball but not soccer, \( P(B \setminus S) \).
+2. Probability that a student plays basketball only:<br>
+   \( P(B \setminus S) \).
    \[
    P(B \setminus S) = P(B) - P(S \cap B)
    \]
@@ -1451,7 +1451,7 @@ Given Data:
    P(B \setminus S) = P(B) - P(S \cap B) = 0.30 - 0.10 = 0.20
    \]
 
-3. **Probability that a student plays only one of the sports**:
+3. Probability that a student plays only one of the sports:<br>
    This is the probability of playing either soccer only or basketball only, \( P((S \setminus B) \cup (B \setminus S)) \).
    \[
    P((S \setminus B) \cup (B \setminus S)) = P(S \setminus B) + P(B \setminus S)
@@ -1461,7 +1461,7 @@ Given Data:
    P((S \setminus B) \cup (B \setminus S)) = 0.30 + 0.20 = 0.50
    \]
 
-4. **Probability that a student plays neither soccer nor basketball**:
+4. Probability that a student plays neither soccer nor basketball:<br>
    Given \( P(S \cup B) = 0.60 \), the probability of playing neither sport, \( P((S \cup B)') \), is:
    \[
    P((S \cup B)') = 1 - P(S \cup B) = 1 - 0.60 = 0.40
