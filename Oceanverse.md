@@ -1468,15 +1468,14 @@ Given Data:
    \]
 
 Summary of Probabilities:
-
+<br>
 - Plays soccer only: \( 0.30 \)
-  
+  <br>
 - Plays basketball only: \( 0.20 \)
-
+<br>
 - Plays only one of the sports: \( 0.50 \)
-
+<br>
 - Plays neither soccer nor basketball: \( 0.40 \)
-
 
    </details><br>
 85.Imagine you are writing your semester exams . To write an exam , there are 70% chances that an alarm clock will wake you up successfully. If you hear the alarm clock then there are 95% chances you will write the exam and if you don't hear the alarm the chances are 50%.
