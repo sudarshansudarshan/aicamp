@@ -1264,7 +1264,7 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
 # Module H
 ---  
 
-69.Plot and find the distance between points using Geogebra: \(A(1,2)\), \(B(2,3)\), and \(C(5,9)\).
+69.Plot and find the distance between points using Geogebra: $$A(1,2)$$, $$B(2,3)$$, and $$C(5,9)$$.
    <details closed>
    <summary>Sol.</summary>
 
@@ -1280,7 +1280,7 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
 
    </details><br>
 
-71.Add four more points: \(D(0,-1)\), \(E(4,11)\), \(F(8,12)\), \(G(-3,6)\) to your graph. What’s the closest pair now? How many computations do you have to do?
+71.Add four more points: $$D(0,-1)$$, $$E(4,11)$$, $$F(8,12)$$, $$G(-3,6)$$ to your graph. What’s the closest pair now? How many computations do you have to do?
    <details closed>
    <summary>Sol.</summary>
 
