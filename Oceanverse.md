@@ -1410,7 +1410,7 @@ Given Data:
 - Let \( B \) represent the set of students who play basketball.
 - \( P(S \cup B) = 0.60 \) (60% of students play soccer or basketball)
 - \( P(S \cap B) = 0.10 \) (10% of students play both sports)
-- \( P(S') = 0.60 \) (60% of students do not play soccer)<br>
+- \( P(S') = 0.60 \) (60% of students do not play soccer)<br><br>
 
 1. Probability that a student plays soccer only:<br>
    \( P(S \setminus B) \).
@@ -1468,9 +1468,13 @@ Given Data:
    \]
 
 Summary of Probabilities:
+
 - Plays soccer only: \( 0.30 \)
+  
 - Plays basketball only: \( 0.20 \)
+
 - Plays only one of the sports: \( 0.50 \)
+
 - Plays neither soccer nor basketball: \( 0.40 \)
 
 
