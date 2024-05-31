@@ -1350,7 +1350,7 @@ def f(n):
    Put your solution here.
 
    </details><br>
-80.Does the closest pair algorithm assume that the \(x\) coordinates (and \(y\) coordinates) of the points are distinct? Is there a problem with the \(O(\frac{n} {\log n}\) performance if they are not distinct?
+80.Does the closest pair algorithm assume that the \(x\) coordinates (and \(y\) coordinates) of the points are distinct? Is there a problem with the \(O( nlog(n))\) performance if they are not distinct?
    <details closed>
    <summary>Sol.</summary>
 
