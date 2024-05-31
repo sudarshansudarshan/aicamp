@@ -1156,7 +1156,38 @@ Of course, the specific frequencies may vary slightly depending on the particula
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The shaded region is the difference in area between two concentric circles (a larger circle and a smaller circle).
+
+- The radius of the larger circle \( R \) is 14 units.
+- The radius of the smaller circle \( r \) is 7 units.
+
+The area of the shaded region \( A_{\text{shaded}} \) is given by the difference in the areas of these two circles:
+\[ A_{\text{shaded}} = \pi R^2 - \pi r^2 \]
+
+Substituting the values:
+\[ A_{\text{shaded}} = \pi (14^2 - 7^2) \]
+\[ A_{\text{shaded}} = \pi (196 - 49) \]
+\[ A_{\text{shaded}} = \pi \cdot 147 \]
+
+The total area \( A_{\text{total}} \) is the area of the larger circle:
+\[ A_{\text{total}} = \pi R^2 \]
+
+Substituting the value:
+\[ A_{\text{total}} = \pi \cdot 14^2 \]
+\[ A_{\text{total}} = \pi \cdot 196 \]
+
+The probability \( P \) of a dart hitting the shaded region is the ratio of the area of the shaded region to the total area of the circle:
+\[ P = \frac{A_{\text{shaded}}}{A_{\text{total}}} \]
+
+Substituting the areas calculated:
+\[ P = \frac{\pi \cdot 147}{\pi \cdot 196} \]
+\[ P = \frac{147}{196} \]
+
+Simplifying the fraction:
+\[ P = \frac{147 \div 49}{196 \div 49} \]
+\[ P = \frac{3}{4} \]
+
+Thus, the probability of a dart hitting the shaded region is \( \frac{3}{4} \) or 0.75.
 
    </details><br>
 
@@ -1172,14 +1203,46 @@ Of course, the specific frequencies may vary slightly depending on the particula
 <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To find the expected number of defective items produced in a day by the factory, we use the concept of expectation in probability theory.
+
+Given:
+- Each item is defective with probability \( p = 0.02 \).
+- The number of items produced in a day \( n = 100 \).
+
+The expected number of defective items \( E(X) \) can be calculated using the formula for the expectation of a binomial distribution:
+\[ E(X) = n \cdot p \]
+
+Substituting the given values:
+\[ E(X) = 100 \cdot 0.02 \]
+\[ E(X) = 2 \]
+
+Thus, the expected number of defective items produced in a day is 2.
 
    </details><br>
 66.A point is chosen at random inside a sphere of radius R. What is the probability that this point is closer to the center of the sphere than to its surface?  
 <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To find the probability that a randomly chosen point inside a sphere is closer to the center than to its surface, we analyze the problem geometrically.
+
+Given:
+- The sphere has a radius \( R \).
+- We need to find the probability that a point is closer to the center than to the surface of the sphere.
+- A point inside the sphere is closer to the center than to the surface if its distance from the center is less than half the radius of the sphere, \( \frac{R}{2} \).
+The volume \( V_{\text{inner}} \) of the sphere with radius \( \frac{R}{2} \) is given by:
+     \[
+     V_{\text{inner}} = \frac{4}{3} \pi \left( \frac{R}{2} \right)^3 = \frac{4}{3} \pi \cdot \frac{R^3}{8} = \frac{1}{6} \pi R^3
+     \]
+The volume \( V_{\text{total}} \) of the sphere with radius \( R \) is given by:
+     \[
+     V_{\text{total}} = \frac{4}{3} \pi R^3
+     \]
+The probability \( P \) that a randomly chosen point inside the sphere is closer to the center than to the surface is the ratio of the volume of the inner sphere to the volume of the entire sphere:
+     \[
+     P = \frac{V_{\text{inner}}}{V_{\text{total}}} = \frac{\frac{1}{6} \pi R^3}{\frac{4}{3} \pi R^3} = \frac{\frac{1}{6}}{\frac{4}{3}} = \frac{1}{6} \cdot \frac{3}{4} = \frac{1}{8}
+     \]
+
+Thus, the probability that a randomly chosen point inside the sphere is closer to the center than to its surface is \( \frac{1}{8} \).
 
    </details><br>
 67.,A point is randomly chosen inside a cube with side length 𝑎. What is the probability that the point is closer to one of the vertices than to the center of the cube?  
