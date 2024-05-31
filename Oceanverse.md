@@ -1493,18 +1493,18 @@ b) What are the chances that you didn’t hear the alarm if you have not written
 
    To solve this problem, we can use Bayes' Theorem. Let's define the following events:
 
-- \(U\): The stock price goes up.
-- \(D\): The stock price goes down.
-- \(P\): The company predicts that the stock price will go up.
+- \(U\): The stock price goes up.<br>
+- \(D\): The stock price goes down.<br>
+- \(P\): The company predicts that the stock price will go up.<br>
 
-Given data:
-- \(P(U) = 0.5\) (half of the stocks have gone up)
-- \(P(P \mid U) = \frac{3}{4}\) (3/4 of the stocks that went up were correctly predicted to go up)
-- \(P(P \mid D) = \frac{2}{5}\) (2/5 of the stocks that went down were incorrectly predicted to go up)
+Given data:<br>
+- \(P(U) = 0.5\) (half of the stocks have gone up)<br>
+- \(P(P \mid U) = \frac{3}{4}\) (3/4 of the stocks that went up were correctly predicted to go up)<br>
+- \(P(P \mid D) = \frac{2}{5}\) (2/5 of the stocks that went down were incorrectly predicted to go up)<br>
 
-We need to compute \(P(U \mid P)\), the probability that the stock price will go up given that the company predicts it will go up.
+We need to compute \(P(U \mid P)\), the probability that the stock price will go up given that the company predicts it will go up.<br>
 
-Using Bayes' Theorem:
+Using Bayes' Theorem:<br>
 \[
 P(U \mid P) = \frac{P(P \mid U) \cdot P(U)}{P(P)}
 \]
@@ -1512,26 +1512,25 @@ P(U \mid P) = \frac{P(P \mid U) \cdot P(U)}{P(P)}
 First, we need to find \(P(P)\), the total probability that the company predicts the stock will go up. This can be calculated using the law of total probability:
 \[
 P(P) = P(P \mid U) \cdot P(U) + P(P \mid D) \cdot P(D)
-\]
+\]<br>
 
-Given:
-- \(P(U) = 0.5\)
-- \(P(D) = 1 - P(U) = 0.5\)
-- \(P(P \mid U) = \frac{3}{4} = 0.75\)
-- \(P(P \mid D) = \frac{2}{5} = 0.4\)
+Given:<br>
+- \(P(U) = 0.5\)<br>
+- \(P(D) = 1 - P(U) = 0.5\)<br>
+- \(P(P \mid U) = \frac{3}{4} = 0.75\)<br>
+- \(P(P \mid D) = \frac{2}{5} = 0.4\)<br>
 
 Substitute these values into the equation for \(P(P)\):
 \[
 P(P) = 0.75 \cdot 0.5 + 0.4 \cdot 0.5 = 0.375 + 0.2 = 0.575
-\]
+\]<br>
 
 Now, use Bayes' Theorem to find \(P(U \mid P)\):
 \[
 P(U \mid P) = \frac{0.75 \cdot 0.5}{0.575} = \frac{0.375}{0.575} \approx 0.6522
-\]
+\]<br>
 
 So, the probability that the stock will indeed go up given that the company predicts it will go up is approximately \(0.6522\) or \(65.22\%\).
-
 
    </details><br> 
 87.Imagine you are a bettor. You are watching a race between two horses A and B. Let’s say five races are conducted. Construct any three hypotheses defining winning probabilities of A and B. What confidence do you have in each of your hypotheses to be true? Lets say , out of 5 races A wins 3 and B wins the remaining 2. Then after 5 races , in which of your hypotheses will you have maximum confidence. As per your new hypothesis which horse has more chances to win the 6th round .
