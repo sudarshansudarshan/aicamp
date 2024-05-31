@@ -1245,14 +1245,14 @@ The probability \( P \) that a randomly chosen point inside the sphere is closer
 Thus, the probability that a randomly chosen point inside the sphere is closer to the center than to its surface is \( \frac{1}{8} \).
 
    </details><br>
-67.,A point is randomly chosen inside a cube with side length 𝑎. What is the probability that the point is closer to one of the vertices than to the center of the cube?  
+67.A point is randomly chosen inside a cube with side length 𝑎. What is the probability that the point is closer to one of the vertices than to the center of the cube?  
 <details closed>
    <summary>Sol.</summary>
 
    Put your solution here.
 
    </details><br>
-68.Imagine you have a number line that ranges from 0 to 1. You randomly pick  k points on this line. What is the expected distance of the closest point to the midpoint of the line?  
+68.Imagine you have a number line that ranges from 0 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
 <details closed>
    <summary>Sol.</summary>
 
