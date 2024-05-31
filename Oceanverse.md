@@ -1403,7 +1403,76 @@ The probability \( P \) of an event is given by the ratio of the number of favor
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To solve this problem, we can use the principle of inclusion-exclusion and basic probability rules.
+
+Given Data:
+- Let \( S \) represent the set of students who play soccer.
+- Let \( B \) represent the set of students who play basketball.
+- \( P(S \cup B) = 0.60 \) (60% of students play soccer or basketball)
+- \( P(S \cap B) = 0.10 \) (10% of students play both sports)
+- \( P(S') = 0.60 \) (60% of students do not play soccer)
+
+1. **Probability that a student plays soccer only**:
+   This is the probability of playing soccer but not basketball, \( P(S \setminus B) \).
+   \[
+   P(S \setminus B) = P(S) - P(S \cap B)
+   \]
+   Since \( P(S') = 0.60 \), the probability of playing soccer, \( P(S) \), is:
+   \[
+   P(S) = 1 - P(S') = 1 - 0.60 = 0.40
+   \]
+   Therefore:
+   \[
+   P(S \setminus B) = P(S) - P(S \cap B) = 0.40 - 0.10 = 0.30
+   \]
+
+2. **Probability that a student plays basketball only**:
+   This is the probability of playing basketball but not soccer, \( P(B \setminus S) \).
+   \[
+   P(B \setminus S) = P(B) - P(S \cap B)
+   \]
+   We need to find \( P(B) \). Using the principle of inclusion-exclusion for \( P(S \cup B) \):
+   \[
+   P(S \cup B) = P(S) + P(B) - P(S \cap B)
+   \]
+   Given \( P(S \cup B) = 0.60 \):
+   \[
+   0.60 = 0.40 + P(B) - 0.10
+   \]
+   Solving for \( P(B) \):
+   \[
+   0.60 = 0.30 + P(B)
+   \]
+   \[
+   P(B) = 0.30
+   \]
+   Therefore:
+   \[
+   P(B \setminus S) = P(B) - P(S \cap B) = 0.30 - 0.10 = 0.20
+   \]
+
+3. **Probability that a student plays only one of the sports**:
+   This is the probability of playing either soccer only or basketball only, \( P((S \setminus B) \cup (B \setminus S)) \).
+   \[
+   P((S \setminus B) \cup (B \setminus S)) = P(S \setminus B) + P(B \setminus S)
+   \]
+   Using the results from above:
+   \[
+   P((S \setminus B) \cup (B \setminus S)) = 0.30 + 0.20 = 0.50
+   \]
+
+4. **Probability that a student plays neither soccer nor basketball**:
+   Given \( P(S \cup B) = 0.60 \), the probability of playing neither sport, \( P((S \cup B)') \), is:
+   \[
+   P((S \cup B)') = 1 - P(S \cup B) = 1 - 0.60 = 0.40
+   \]
+
+Summary of Probabilities:
+- Plays soccer only: \( 0.30 \)
+- Plays basketball only: \( 0.20 \)
+- Plays only one of the sports: \( 0.50 \)
+- Plays neither soccer nor basketball: \( 0.40 \)
+
 
    </details><br>
 85.Imagine you are writing your semester exams . To write an exam , there are 70% chances that an alarm clock will wake you up successfully. If you hear the alarm clock then there are 95% chances you will write the exam and if you don't hear the alarm the chances are 50%.
