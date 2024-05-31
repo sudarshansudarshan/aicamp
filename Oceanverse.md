@@ -1371,16 +1371,30 @@ def f(n):
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Equally likely events are events that have the same probability of occurring. When we say that events are equally likely, it means that each event has the same chance or likelihood of happening. For instance, coin toss, rollong a fair die, choosing a card from a deck of well-shuffled cards.
+   An example of events not being equally likely may include result of sport games, which depends on various factors like relative strangths of the teams, the condition  of the field, etc.
 
    </details><br>
 83.You are given two coins .What is the probability that one head and one tail shows up on tossing?  
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To determine the probability of getting one head and one tail when tossing two coins, we need to consider all possible outcomes and then identify the outcomes that match the desired event (one head and one tail).
+When tossing two coins, each coin can land on heads (H) or tails (T). Therefore, the possible outcomes are:
+   - (H, H)
+   - (H, T)
+   - (T, H)
+   - (T, T)
+We are interested in the outcomes where there is one head and one tail. These outcomes are:
+   - (H, T)
+   - (T, H)
+The probability \( P \) of an event is given by the ratio of the number of favorable outcomes to the total number of outcomes.
+   \[
+   P(\text{one head and one tail}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}} = \frac{2}{4} = \frac{1}{2}
+   \]
 
    </details><br>
+   
 84.In a class in which all students practise at least one sport, 60% of students play soccer or basketball and 10% practice both sports. If there is also 60% that do not play soccer, calculate the probability that a student chosen at random from the class:
  1. Plays soccer only.
  2. Play basketball only.
