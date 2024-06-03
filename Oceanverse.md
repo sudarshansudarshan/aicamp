@@ -597,7 +597,7 @@ Let's denote the state vector as \( \mathbf{v} = \begin{pmatrix} H \\ S \end{pma
 
 We will use Python to perform this iteration and observe the convergence. Here's the script:
 
-```
+```python
 import numpy as np
 
 # Transition matrix
