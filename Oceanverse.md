@@ -596,7 +596,7 @@ Let's denote the state vector as \( \mathbf{v} = \begin{pmatrix} H \\ S \end{pma
 \]
 
 We will use Python to perform this iteration and observe the convergence. Here's the script:
-<br>
+<br><br>
 import numpy as np
 <br>
 A = np.array([[0.3, 0.5],[0.7, 0.5]])
@@ -634,7 +634,26 @@ If 1000 people were to start in one state, what will be the distribution of peop
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   This question will be solved similar to the previous one. But, the Matrix equation will be as follow:
+
+\[
+\begin{pmatrix}
+P \\
+A \\
+R \\
+\end{pmatrix}_{n+1}
+=
+\begin{pmatrix}
+0.5 & 0.5 & 0.1 \\
+0.3 & 0.1 & 0.8 \\
+0.2 & 0.4 & 0.1 \\
+\end{pmatrix}
+\begin{pmatrix}
+P \\
+A \\
+R \\
+\end{pmatrix}_{n}
+\]
 
    </details><br>
 
