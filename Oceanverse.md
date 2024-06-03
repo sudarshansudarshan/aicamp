@@ -1308,7 +1308,7 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
    Put your solution here.
 
    </details><br>
-75.Find the closest pair of points in the left region and right region. What’s the minimum distance (say $$d$$) between them?
+75.Find the closest pair of points in the left region and right region. What’s the minimum distance (say $$d$$) out of the two distances?
    <details closed>
    <summary>Sol.</summary>
 
