@@ -700,7 +700,9 @@ b \\
    <details closed>
    <summary>Sol.</summary>
 
-   
+   As a consequence of this change, the straight line will become:
+   $$ ax + by = 0$$
+This will only change the corresponding slope, i.e., the vectors will lie on the line passing through the origin with the slope equal to -a/b.
 
    </details><br>
 
