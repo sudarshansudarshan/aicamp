@@ -596,48 +596,34 @@ Let's denote the state vector as \( \mathbf{v} = \begin{pmatrix} H \\ S \end{pma
 \]
 
 We will use Python to perform this iteration and observe the convergence. Here's the script:
-
-```
+<br>
 import numpy as np
-
-# Transition matrix
-
-A = np.array([[0.3, 0.5],
-
-              [0.7, 0.5]])
-
-# Initial state (assuming all 1000 people are Happy initially)
-
+<br>
+A = np.array([[0.3, 0.5],[0.7, 0.5]])
+<br>
 v = np.array([1000, 0])
-
-# Function to perform the iteration
-
+<br>
 def iterate_until_convergence(A, v, tolerance=1e-6, max_iterations=10000):
-
-    for _ in range(max_iterations):
-    
-        v_next = A @ v
-	
-        if np.allclose(v, v_next, atol=tolerance):
-	
-            return v_next
-	    
-        v = v_next
-	
-    return v
-
-# Perform the iteration
-
+<br>
+    &emsp;for _ in range(max_iterations):
+    <br>
+        &emsp;&emsp;v_next = A @ v
+	<br>
+        &emsp;&emsp;if np.allclose(v, v_next, atol=tolerance):
+	<br>
+            &emsp;&emsp;&emsp;return v_next
+	    <br>
+        &emsp;&emspv; = v_next
+	<br>
+    &emsp;return v
+<br>
 final_distribution = iterate_until_convergence(A, v)
-
-# Normalize the final distribution to represent percentages
-
+<br>
 total_population = np.sum(final_distribution)
-
+<br>
 percentage_distribution = final_distribution / total_population * 100
-
+<br>
 print(final_distribution, percentage_distribution)
-```
 
    </details><br>
 
