@@ -1666,7 +1666,8 @@ c)What parameters in the perceptron directly affects how many border-line messag
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   $$a = 4$$
+   $$b = 1$$
 
    </details><br>
 
