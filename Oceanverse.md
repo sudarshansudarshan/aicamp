@@ -624,9 +624,8 @@ total_population = np.sum(final_distribution)
 percentage_distribution = final_distribution / total_population * 100
 
 print(final_distribution, percentage_distribution)
-```
-
    </details><br>
+```
 
 23.In the figure below:
 ![fig2](/codershigh/assets/markov3.png)
