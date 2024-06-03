@@ -597,6 +597,7 @@ Let's denote the state vector as \( \mathbf{v} = \begin{pmatrix} H \\ S \end{pma
 
 We will use Python to perform this iteration and observe the convergence. Here's the script:
 
+```
 import numpy as np
 
 # Transition matrix
@@ -636,6 +637,7 @@ total_population = np.sum(final_distribution)
 percentage_distribution = final_distribution / total_population * 100
 
 print(final_distribution, percentage_distribution)
+```
 
    </details><br>
 
