@@ -1328,7 +1328,7 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
    Put your solution here.
 
    </details><br>
-68.Imagine you have a number line that ranges from 0 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
+68.Imagine you have a number line that ranges from -1 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
 <details closed>
    <summary>Sol.</summary>
 
@@ -1417,7 +1417,7 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
 def f(n):  
     if n == 0:  
         return 1  
-   	return n * f(n-1)  
+    return n * f(n-1)  
     print(f(5))
 ```  
    <details closed>
