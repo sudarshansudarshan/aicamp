@@ -1274,32 +1274,35 @@ Of course, the specific frequencies may vary slightly depending on the particula
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To calculate the expected number of collisions in the letters of two meaningful English text strings arranged in front of each other, we follow these steps:
+<br><br>
+1. Frequency Distribution: Define the frequency distribution of characters in English text. Denote the probability of occurrence of each character as \( p_i \), where \( i \) ranges from 1 to \( N \), the total number of characters in the English alphabet.
+<br>
+2. Collision Probability for Each Character: Calculate the collision probability for each character, denoted as \( P_{\text{collision}, i} \). This can be calculated as the square of the probability of occurrence of that character: \( p_i^2 \).
+<br>
+3. Collision Frequency: The expected number of collisions in a position is the sum of the collision probabilities for all characters. Denote the collision frequency as \( \text{collision frequency} \), which can be calculated as the sum of \( P_{\text{collision}, i} \) over all characters: 
+   \[
+   \text{collision frequency} = \sum_{i=1}^{N} p_i^2
+   \]
 
    </details><br>
-61.Assume that in the previous question ,we apply the ceaser cypher(the one discussed inthe first few questions), on both the strings, and alphabet by 5 letters then will the collision frequency remain the same?What if we shift first string by 3 letters and second by 5? 
+61.Assume that in the previous question ,we apply the ceaser cypher(the one discussed in the first few questions), on both the strings, and alphabet by 5 letters then will the collision frequency remain the same?What if we shift first string by 3 letters and second by 5? 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Applying the Caesar cipher to both strings by shifting each letter by the same amount will not change the collision frequency. This is because the relative positions of the characters within each string remain the same, only their actual representations change.
+<br>
+However, if we shift the first string by a different amount than the second string, it will affect the collision frequency. This is because the relative positions of characters within each string will change, leading to a different distribution of characters and hence a different collision frequency.
 
    </details><br>
 62.Suggest any such method using which we can be confident that the encoded text can't be decoded by the enemy. (We may discuss it in further classes)
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
-
    </details><br>
 
 **Project 1-** [Read and Solve this](https://docs.google.com/document/d/1JFNRu3x5loBsF-PBPcdpfEhRz9-8Oex5uQ1iy1njp8E/edit)
    <details closed>
-   <summary>Sol.</summary>
-
-   Put your solution here.
-
-   </details><br>
-
 
 
 # Module G  
@@ -1462,8 +1465,6 @@ The final answer comes out to be 1/2 again.
 68.Imagine you have a number line that ranges from -1 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
 <details closed>
    <summary>Sol.</summary>
-
-   Put your solution here.
 
    </details><br>  
 **Project 5-** [Read and Solve this](https://docs.google.com/document/d/1hjT8teTRsQiW-NDj37Y6JmzCMTEE2xNHOv6iC9NKkDU/edit)
@@ -1914,29 +1915,31 @@ So, the weighted sum is 31.7.
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   No, it won't work as the points might start overlapping as they may be too big that the closer points come too much closer and start to overlap.
 
    </details><br>
 93.Can you think of a way to fit these numbers in some finite range? Think about some kind of functions? 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   One approach to fitting an infinite range of numbers into a finite range is to use a transformation function. Using sigmoid or similar functions can be effective in fitting a wide range of numbers into a finite range. The sigmoid function, for example, has a characteristic S-shaped curve that maps input values to an output range between 0 and 1. The sigmoid function can be represented by the formula:
+<br>
+\[ f(x) = \frac{1}{1 + e^{-x}} \]
+<br>
+Where:<br>
+- \( f(x) \) is the output of the sigmoid function for input \( x \).<br>
+- \( e \) is the base of the natural logarithm, approximately equal to 2.71828.<br>
+- \( x \) is the input value.<br>
+
+You can use this function to map input values to an output range between 0 and 1, which can be useful for various data transformation tasks.
 
    </details><br>
-94.Question $$a+b=5$$, $$a-b=3$$. What is the value of a and b?
-   <details closed>
-   <summary>Sol.</summary>
 
-   $$a = 4$$
-   $$b = 1$$
-
-   </details><br>
 
 # Module J
 ---
 
-95.Write the number 25 in its binary form.
+94.Write the number 25 in its binary form.
    <details closed>
    <summary>Sol.</summary>
 
@@ -1944,7 +1947,7 @@ So, the weighted sum is 31.7.
 
    </details><br>
 
-96.Given a text data, how will you convert it into binary form?
+95.Given a text data, how will you convert it into binary form?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1952,7 +1955,7 @@ So, the weighted sum is 31.7.
 
    </details><br>
 
-97.What if we use the binary code for each character according to the ASCII convention? How much space would each character take up?
+96.What if we use the binary code for each character according to the ASCII convention? How much space would each character take up?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1964,7 +1967,7 @@ So, the weighted sum is 31.7.
 
    </details><br>
 
-98.Suppose I take the following notation for the letters s, o, n, h and a: 
+97.Suppose I take the following notation for the letters s, o, n, h and a: 
 
 s: 00
 
@@ -1988,7 +1991,7 @@ This led us to 2 different answers.
 
    </details><br>
 
-99.Do you observe that the above string can have 2 different interpretations?
+98.Do you observe that the above string can have 2 different interpretations?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1999,7 +2002,7 @@ This led us to 2 different answers.
 
    </details><br>
 
-100.Can this issue occur if we take each code of the same length? Can you define one such coding for the above example, i.e., s, o, n, h and a? At least how many digits would you have to take for each character?
+99.Can this issue occur if we take each code of the same length? Can you define one such coding for the above example, i.e., s, o, n, h and a? At least how many digits would you have to take for each character?
    <details closed>
    <summary>Sol.</summary>
 
@@ -2018,7 +2021,7 @@ With this encoding scheme, each character is represented by 3 digits, ensuring t
 
    </details><br>
 
-101.Observe that for 5 unique letters, I cannot have unique binary representations if I take length of each notation *exactly 2*. Why? 
+100.Observe that for 5 unique letters, I cannot have unique binary representations if I take length of each notation *exactly 2*. Why? 
    <details closed>
    <summary>Sol.</summary>
 
@@ -2028,7 +2031,7 @@ Therefore, we need at least 5 unique binary codes to represent all 5 letters uni
 
    </details><br>
 
-102.Suppose you go to buy apples. There are three varieties of apples available. Your mom has given you a task that you have to buy 2 apples of any one type, 3 of the any other type, and 5 of the third. How will you minimise the total money spent?
+101.Suppose you go to buy apples. There are three varieties of apples available. Your mom has given you a task that you have to buy 2 apples of any one type, 3 of the any other type, and 5 of the third. How will you minimise the total money spent?
    <details closed>
    <summary>Sol.</summary>
 
@@ -2047,7 +2050,7 @@ Therefore, we need at least 5 unique binary codes to represent all 5 letters uni
 
    </details><br>
 
-103.Given the text 'this is a new experience'. Write the frequency distribution of these characters for this sentence.
+102.Given the text 'this is a new experience'. Write the frequency distribution of these characters for this sentence.
    <details closed>
    <summary>Sol.</summary>
 
@@ -2069,7 +2072,7 @@ c: 1
 
    </details><br>
 
-104.To which characters should I give a shorter notation as compared to the others?
+103.To which characters should I give a shorter notation as compared to the others?
    <details closed>
    <summary>Sol.</summary>
 
@@ -2077,7 +2080,7 @@ c: 1
 
    </details><br>
 
-105.Do you observe that the issue occurred in fifth question was because the code of 's' is a prefix of the code for 'o'?
+104.Do you observe that the issue occurred in fifth question was because the code of 's' is a prefix of the code for 'o'?
    <details closed>
    <summary>Sol.</summary>
 
@@ -2085,7 +2088,7 @@ c: 1
 
    </details><br>
 
-106.What all do you think should be the properties of a proper encoding rule?
+105.What all do you think should be the properties of a proper encoding rule?
    <details closed>
    <summary>Sol.</summary>
 
@@ -2096,7 +2099,7 @@ Also for sensitive data, the encoding should provide a level of security, ensuri
 
    </details><br>
 
-107.Get some quite basic knowledge about trees as data structures.
+106.Get some quite basic knowledge about trees as data structures.
    <details closed>
    <summary>Sol.</summary>
 
@@ -2110,7 +2113,7 @@ Binary Tree: A special type of tree where each node has at most two children, kn
 
    </details><br>
 
-108.Observe that the lower is a node in a tree, the more is the time you would take to reach till it from the top node.
+107.Observe that the lower is a node in a tree, the more is the time you would take to reach till it from the top node.
    <details closed>
    <summary>Sol.</summary>
 
@@ -2124,7 +2127,7 @@ As the ditsnce increases, the ti e taken will also correspondingly increase.
 # Module K
 ---
 
-109.In a huge network of webpages, how does the browser decides which webpage should be appeared on top?  
+108.In a huge network of webpages, how does the browser decides which webpage should be appeared on top?  
    <details closed>
    <summary>Sol.</summary>
 
@@ -2133,7 +2136,7 @@ PageRank is based on the idea that the importance of a webpage can be determined
 
    </details><br>
 
-110.Read about the Algorithms Random Walk and Equal points Distribution and try to figure out how they are able to find the importance of the webpages?  
+109.Read about the Algorithms Random Walk and Equal points Distribution and try to figure out how they are able to find the importance of the webpages?  
    <details closed>
    <summary>Sol.</summary>
 
@@ -2142,7 +2145,7 @@ PageRank is based on the idea that the importance of a webpage can be determined
 
    </details><br>
 
-111.Are you able to visualize that the Equal points distribution method is nothing but a repetitive matrix operation on a vector?  
+110.Are you able to visualize that the Equal points distribution method is nothing but a repetitive matrix operation on a vector?  
    <details closed>
    <summary>Sol.</summary>
 
@@ -2152,15 +2155,13 @@ Starting with an initial PageRank vector \( P \), where each element corresponds
 
    </details><br>
 
-112.Will the points of the webpages calculated the Equal points distribution method converge? If yes how can you be sure about it?  
+111.Will the points of the webpages calculated the Equal points distribution method converge? If yes how can you be sure about it?  
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
-
    </details><br>
 
-113.Is this convergence dependent on the initial vector?  
+112.Is this convergence dependent on the initial vector?  
    <details closed>
    <summary>Sol.</summary>
 
@@ -2170,7 +2171,7 @@ The convergence of the PageRank values is guaranteed by the structure and proper
 
    </details><br>
 
-114.If you have three websites, A, B, and C, and all are linked to each other, what happens to the importance of each website if:  
+113.If you have three websites, A, B, and C, and all are linked to each other, what happens to the importance of each website if:  
 	Website A is linked to by both B and C.  
  	B is linked to by A.  
   	C is linked to by A.  
@@ -2190,7 +2191,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
    </details><br>
 
-115.Given 4 buckets (A, B, C, and D):  
+114.Given 4 buckets (A, B, C, and D):  
 	A passes its coins to B and C  
  	B passes its coins to D  
   	C passes its coins to A  
@@ -2206,7 +2207,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
    </details><br>
     
-116.In both the algorithms (Random Walk and Equal Distributions) what problem would you face if we have some highly connected nodes? Would it affect the evaluation of other nodes?  
+115.In both the algorithms (Random Walk and Equal Distributions) what problem would you face if we have some highly connected nodes? Would it affect the evaluation of other nodes?  
    <details closed>
    <summary>Sol.</summary>
 
@@ -2215,7 +2216,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
    </details><br>
 
-117.What modifications in the algorithm can you think to solve this problem?
+116.What modifications in the algorithm can you think to solve this problem?
    <details closed>
    <summary>Sol.</summary>
 
