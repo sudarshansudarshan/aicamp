@@ -774,13 +774,13 @@ $$\begin{bmatrix}w_1 & w_2 & w_3\\
    <summary>Sol.</summary>
 
    To determine the points \((x, y, z)\) that satisfy the equation \([w_1 w_2 w_3] \left[\begin{array}{c} x \\ y \\ z \end{array}\right] = 0\), where \((w_1, w_2, w_3)\) belongs to the set \(W = \{\alpha(1, 2, 1) + \beta(2, 7, 3) \mid \alpha, \beta \in \mathbb{R}\}\), we start by expressing any vector \(\mathbf{w} \in W\) as a linear combination of the basis vectors \(\mathbf{u} = (1, 2, 1)\) and \(\mathbf{v} = (2, 7, 3)\). This gives us \(\mathbf{w} = \alpha \mathbf{u} + \beta \mathbf{v} = (\alpha + 2\beta, 2\alpha + 7\beta, \alpha + 3\beta)\). 
-
+<br>
   The condition \([w_1 w_2 w_3] \left[\begin{array}{c} x \\ y \\ z \end{array}\right] = 0\) translates to the dot product \((w_1 x + w_2 y + w_3 z) = 0\). Substituting \(w_1 = \alpha + 2\beta\), \(w_2 = 2\alpha + 7\beta\), and \(w_3 = \alpha + 3\beta\) into this equation, we obtain \((\alpha + 2\beta)x + (2\alpha + 7\beta)y + (\alpha + 3\beta)z = 0\). 
-  
+  <br>
   To satisfy this equation for all \(\alpha\) and \(\beta\), the coefficients of \(\alpha\) and \(\beta\) must individually sum to zero, yielding the system \(x + 2y + z = 0\) and \(2x + 7y + 3z = 0\). Solving these linear equations, we find \(z = -3y\) and \(x = y\). Thus, the points \((x, y, z)\) satisfying the original condition are those on the line parametrized by \((t, t, -3t)\) for any real number \(t\). 
-  
+  <br>
   Therefore, the points \((x, y, z)\) that satisfy the equation are of the form \((x, x, -3x)\), forming a line where each coordinate is scaled by a parameter \(t\), with \(z\) being three times the negative of \(x\) or \(y\).
-  
+  <br>
   This can be visualized in GeoGebra with the help of parametric form of a line through which we can plot the curve we got here.
 
    </details>  <br>
@@ -793,7 +793,7 @@ Observe carefully, what has this question got to do with previous five questions
 
    Given the matrix \( A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix} \), we need to find out all the possible \( (x, y, z) \) such that:
   \[ A \begin{bmatrix} x \\ y \\ z \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} \]
-
+<br>
   This represents a homogeneous system of linear equations. To find the solution, we need to determine the null space (kernel) of matrix \( A \). Let's write down the system of equations:
 
 \[
@@ -806,10 +806,10 @@ Observe carefully, what has this question got to do with previous five questions
 
 Therefore, the solution to the system is:
 \[ \begin{bmatrix} x \\ y \\ z \end{bmatrix} = \begin{bmatrix} t \\ -2t \\ t \end{bmatrix} = t \begin{bmatrix} 1 \\ -2 \\ 1 \end{bmatrix} \]
-
+<br>
 where \( t \) is any real number. The solution set is:
 \[ \{(t, -2t, t) \mid t \in \mathbb{R}\} \]
-
+<br>
 This means all points \((x, y, z)\) lie on the line parametrized by \((t, -2t, t)\).
 
    </details>  <br>
@@ -823,11 +823,11 @@ This means all points \((x, y, z)\) lie on the line parametrized by \((t, -2t, t
    <summary>Sol.</summary>
 
    \((A)\) Upon plotting these graphs on Geogebra, we observe that the set R, which shows the possible combinations of the rows of matrix A, leads to set of points which lie on a straight line, which can be plotted with the help of in built functions provided.
-
+<br>
   \((B)\) Similarly, the set C, that signifies the possible combinations of the columns of the matrix A, plots the points, lying on another straight line, on an angle to the previous one.
-
+<br>
   \((C)\) The set N represents the null space of matrix A, which consists of all vectors (x,y,z) such that the linear combination of the columns of A equals the zero vector.
-
+<br>
 All these sets can easily be plotted in GeoGebra with the help of in built functions provided.
 
    </details><br>
@@ -851,27 +851,27 @@ iii)$$2y+x=1800$$
    For \(x + 2y = 4\), \[
     B \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix} \begin{pmatrix} x \\ -\frac{1}{2}x + 2 \end{pmatrix} = \begin{pmatrix} x + 2\left(-\frac{1}{2}x + 2\right) \\ 2x + 4\left(-\frac{1}{2}x + 2\right) \end{pmatrix}
     \]
-
+<br>
     Simplifying, we get:
      
      \[
      \begin{pmatrix} x + 2(2 - \frac{1}{2}x) \\ 2x + 4(2 - \frac{1}{2}x) \end{pmatrix} = \begin{pmatrix} 4 \\ 8 \end{pmatrix}
      \]
-
+<br>
      So, every point lying on the line \(x + 2y = 4\) is transformed to the point \((4,8)\) by the matrix B.
-
+<br>
   Now, let's compute the transformations for each specific case:
 
   (i) For the line \(2y + x = 10\), we rewrite it as \(y = -\frac{1}{2}x + 5\).
-  
+  <br>
      Approaching with the similar method, we get that every point here is directed towards \((10,20)\)
-  
+  <br>
   (ii) For the line \(2y + x = 62\), we rewrite it as \(y = -\frac{1}{2}x + 31\).
-  
+  <br>
      Applying the transformation \(B\) to this line, we'll follow the same steps as above.
-  
+  <br>
   (iii) For the line \(2y + x = 1800\), we rewrite it as \(y = -\frac{1}{2}x + 900\).
-  
+  <br>
      Applying the transformation \(B\) to this line, we'll follow the same steps as above.
 
    </details><br>
@@ -892,23 +892,23 @@ iii)$$2y+x=1800$$
    <summary>Sol.</summary>
 
    To transform the vector \( v \) using the matrix \( A \), we perform matrix multiplication:
-
+<br>
   \[ Av = \begin{bmatrix} 1 & 4 \\ 2 & 3 \end{bmatrix} \begin{bmatrix} 1 \\ 1 \end{bmatrix} \]
   
   \[ Av = \begin{bmatrix} 1*1 + 4*1 \\ 2*1 + 3*1 \end{bmatrix} \]
   
   \[ Av = \begin{bmatrix} 1 + 4 \\ 2 + 3 \end{bmatrix} = \begin{bmatrix} 5 \\ 5 \end{bmatrix} \]
-  
+  <br>
   So, the vector \( v \) is transformed to \( Av = \begin{bmatrix} 5 \\ 5 \end{bmatrix} \).
-
+<br>
   \((A)\) No, it is not rotated. A rotation would imply a change in direction, but here, the direction of the vector remains the same after transformation.
-
+<br>
   \((B)\) No, the magnitude is not preserved. The original vector \( v \) had a magnitude of \( \sqrt{1^2 + 1^2} = \sqrt{2} \), while the transformed vector \( Av \) has a magnitude of \( \sqrt{5^2 + 5^2} = \sqrt{50} \), which is larger.
-
+<br>
   \((C)\) The magnitude of \( Av \) is \( \sqrt{50} \), and the magnitude of \( v \) is \( \sqrt{2} \). So, the ratio is:
-
+<br>
   \[ \frac{\|Av\|}{\|v\|} = \frac{\sqrt{50}}{\sqrt{2}} = \sqrt{\frac{25}{1}} = 5 \]
-  
+  <br>
   So, the ratio of the magnitude of \( Av \) to \( v \) is 5.
 
    </details><br>
@@ -928,7 +928,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
    <summary>Sol.</summary>
 
    Indeed, the matrix \( B = \begin{pmatrix} 1 & 2 \\ 2 & 4 \end{pmatrix} \) represents a transformation that collapses a dimension. This can be inferred from the fact that the range of the transformation is a straight line in \( \mathbb{R}^2 \). In other words, applying the transformation \( B \) to any input vector in \( \mathbb{R}^2 \) results in an output vector lying along a one-dimensional subspace of \( \mathbb{R}^2 \).
-
+<br>
   This collapse of dimensionality is evident in the transformation because the second row of the matrix \( B \) is a scalar multiple of the first row, indicating that the transformation essentially scales one dimension (the \( y \)-dimension) by a factor of 2 relative to the other dimension (the \( x \)-dimension), ultimately resulting in a line where the two dimensions are equal.
 
    </details><br>
