@@ -1567,14 +1567,14 @@ print(f(5))
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   \(F(5) = 5 * F(4) = ... = 5 * 4 * 3 * 2 * 1 * F(0) = 5 * 4 * 3 * 2 * 1 = 120\)
 
    </details><br>
 80.Does the closest pair algorithm assume that the $$x$$ coordinates (and $$y$$ coordinates) of the points are distinct? Is there a problem with the $$O( nlog(n))$$ performance if they are not distinct?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The closest pair algorithm does not require the coordinates to be distinct and maintains its \(O(nlogn)\) performance regardless of whether some coordinates are the same. It efficiently handles ties and ensures the correct closest pair is found.
 
    </details><br>
 81.Given a set of points where most points are far apart, but a few points are very close to each other, develop an algorithm to efficiently find the closest pair. For example, use the set: $$(100,200)$$, $$(300,400)$$, $$(5000,6000)$$, $$(1,2)$$, $$(1.001,2.001)$$.  
@@ -1704,7 +1704,53 @@ b) What are the chances that you didn’t hear the alarm if you have not written
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Let's denote:
+
+  - A: event that you hear the alarm clock.
+  - B: event that you write the exam.
+  
+  Given:
+  - P(A) = 0.7 (probability of hearing the alarm)
+  - P(B|A) = 0.95 (probability of writing the exam given you heard the alarm)
+  - P(B|¬A) = 0.5 (probability of writing the exam given you didn't hear the alarm)
+  
+  (a) To find the probability that you heard the alarm clock given that you wrote the exam, we can use Bayes' theorem:
+  
+  \[P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}\]
+  
+  First, we need to find \(P(B)\):
+  
+  \[P(B) = P(B|A) \cdot P(A) + P(B|¬A) \cdot P(¬A)\]
+  \[= 0.95 \times 0.7 + 0.5 \times (1-0.7)\]
+  \[= 0.665 + 0.15\]
+  \[= 0.815\]
+  
+  Now, we can calculate \(P(A|B)\):
+  
+  \[P(A|B) = \frac{0.95 \times 0.7}{0.815}\]
+  \[≈ \frac{0.665}{0.815}\]
+  \[≈ 0.816\]
+  
+  So, the probability that you heard the alarm clock given that you wrote the exam is approximately 81.6%.
+  
+  (b) To find the probability that you didn't hear the alarm if you didn't write the exam:
+  
+  \[P(¬A|¬B) = \frac{P(¬B|¬A) \cdot P(¬A)}{P(¬B)}\]
+  
+  We know:
+  
+  \[P(¬B|¬A) = 1 - P(B|¬A) = 1 - 0.5 = 0.5\]
+  \[P(¬A) = 1 - P(A) = 1 - 0.7 = 0.3\]
+  
+  \[P(¬B) = 1 - P(B) = 1 - 0.815 = 0.185\]
+  
+  Now we can calculate \(P(¬A|¬B)\):
+  
+  \[P(¬A|¬B) = \frac{0.5 \times 0.3}{0.185}\]
+  \[≈ \frac{0.15}{0.185}\]
+  \[≈ 0.811\]
+  
+  So, the probability that you didn't hear the alarm if you didn't write the exam is approximately 81.1%.
 
    </details><br>
 86.Lets say an investment company “Future Wealth“ analyses stocks and predicts whether their price will go up or down. So far, half of the stocks analysed by the company have gone up, 3/4 of the stocks that went up were correctly predicted to go up, and 2/5 of the stocks that went down were incorrectly predicted to go up. Suppose that the company tells you that it will go up. Compute the probability that the stock will indeed go up.
@@ -1753,11 +1799,39 @@ P(U \mid P) = \frac{0.75 \cdot 0.5}{0.575} = \frac{0.375}{0.575} \approx 0.6522
 So, the probability that the stock will indeed go up given that the company predicts it will go up is approximately \(0.6522\) or \(65.22\%\).
 
    </details><br> 
-87.Imagine you are a bettor. You are watching a race between two horses A and B. Let’s say five races are conducted. Construct any three hypotheses defining winning probabilities of A and B. What confidence do you have in each of your hypotheses to be true? Lets say , out of 5 races A wins 3 and B wins the remaining 2. Then after 5 races , in which of your hypotheses will you have maximum confidence. As per your new hypothesis which horse has more chances to win the 6th round .
+87.Imagine you are a bettor. You are watching a race between two horses A and B. Let’s say five races are conducted. Construct any three hypotheses defining winning probabilities of A and B. What confidence do you have in each of your hypotheses to be true? Lets say , out of 5 races A wins 3 and B wins the remaining 2 (AAABB). Then after 5 races , in which of your hypotheses will you have maximum confidence. As per your new hypothesis which horse has more chances to win the 6th round .
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Sure, let's create three hypotheses about the winning probabilities of horses A and B:
+
+  1. Hypothesis 1: A is the stronger horse.
+     - Confidence: Moderate
+     - In this hypothesis, I believe that horse A has a higher probability of winning each race compared to horse B.
+  
+  2. Hypothesis 2: B is the stronger horse.
+     - Confidence: Moderate
+     - Here, I assume that horse B has a higher probability of winning each race compared to horse A.
+  
+  3. Hypothesis 3: A and B have equal chances of winning.
+     - Confidence: Low
+     - This hypothesis suggests that both horses have an equal probability of winning each race.
+  
+  After observing the outcomes of the 5 races (A wins 3, B wins 2), my confidence level in each hypothesis shifts:
+  
+  1. Hypothesis 1: A is the stronger horse.
+     - Increased Confidence: High
+     - Since horse A won more races, I'm more confident in this hypothesis being true.
+  
+  2. Hypothesis 2: B is the stronger horse.
+     - Decreased Confidence: Very Low
+     - With B winning fewer races, my confidence in this hypothesis decreases.
+  
+  3. Hypothesis 3: A and B have equal chances of winning.
+     - Decreased Confidence: Low
+     - Given the unequal outcomes, this hypothesis seems less likely.
+  
+  Given that Hypothesis 1 now has the highest confidence, I'd predict that in the 6th round, horse A would have a higher chance of winning.
 
    </details><br>
 88.You're training a spam filter . You have data on the frequency of certain words in both spam and non-spam emails. How would you update your beliefs about an email being spam or not spam based on the presence of specific words?Let’s say initially chances of an email being spam is 40%.
@@ -1789,7 +1863,7 @@ c)What parameters in the perceptron directly affects how many border-line messag
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Plotting a set of numbers ranging from negative to positive infinity can be challenging due to the vast range of values involved. Even if you narrow down the range to a finite interval, such as from -1000 to 1000, the sheer number of data points may make it difficult to visualize and compare them effectively on a limited screen size.
 
    </details><br>
 92.Will simply dividing them by some large number work?  
@@ -1822,7 +1896,7 @@ c)What parameters in the perceptron directly affects how many border-line messag
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   \(11001\)
 
    </details><br>
 
@@ -1830,7 +1904,7 @@ c)What parameters in the perceptron directly affects how many border-line messag
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   We have to use some algorithm to efficiently find a transformation from text to binary for each character. Can you think of any such algorithm?
 
    </details><br>
 
@@ -1838,7 +1912,11 @@ c)What parameters in the perceptron directly affects how many border-line messag
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Let us discuss how ASCII algorithm works.
+  First, convert each character in the text into its corresponding ASCII value. ASCII (American Standard Code for Information Interchange) is a character encoding standard that represents text in computers.
+  Then, convert each ASCII value into its binary representation. This is typically done by converting the decimal value to binary.
+
+  But here, each character in ASCII convention takes up 8 bits of space. This is a fixed-width encoding scheme, where each character is represented using the same amount of space.
 
    </details><br>
 
@@ -1858,7 +1936,11 @@ Decode the following string: '00011010110011'
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The given string can be broken w.r.t. the codes given as:
+\((A)\) 00, 011, 010, 1, 1, 001, 1
+\((B)\) 00, 011, 010, 1, 1, 00, 1, 1
+
+This led us to 2 different answers.
 
    </details><br>
 
@@ -1866,7 +1948,10 @@ Decode the following string: '00011010110011'
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Continuing from the previous solution, we get two different interpretations:
+
+\(A\) shannon
+\(B\) shannsnn
 
    </details><br>
 
@@ -1890,7 +1975,18 @@ Decode the following string: '00011010110011'
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To minimize the total money spent, we should choose the cheapest option for the largest quantity required:
+
+  1. Buy 5 apples of one type:
+     - Choose the cheapest type. Let's say it's type A.
+  
+  2. Buy 3 apples of another type:
+     - Choose the cheapest type again. Let's say it's type B.
+  
+  3. Buy 2 apples of the third type:
+     - This is the last remaining type, type C.
+  
+  So, you would buy 5 apples of type A, 3 apples of type B, and 2 apples of type C to minimize the total money spent.
 
    </details><br>
 
@@ -1898,7 +1994,21 @@ Decode the following string: '00011010110011'
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Following is the frequency distribution of the characters in the text 'this is a new experience':
+
+t: 1
+h: 1
+i: 3
+s: 2
+ : 4 (space)
+a: 1
+n: 2
+e: 4
+w: 1
+x: 1
+p: 1
+r: 1
+c: 1
 
    </details><br>
 
