@@ -1839,7 +1839,30 @@ Data: Word "free" appears in 80% of spam emails and 5% of non-spam emails
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To update my beliefs about an email being spam or not spam based on the presence of specific words, such as "free," I would use Bayesian inference.<br>
+
+Given the initial probability of an email being spam (\( P(\text{Spam}) = 0.4 \)), I can calculate the updated probability using Bayes' theorem:<br>
+
+\[ P(\text{Spam}|\text{word "free"}) = \frac{P(\text{word "free"}|\text{Spam}) \times P(\text{Spam})}{P(\text{word "free"})} \]<br>
+
+Where:<br>
+- \( P(\text{Spam}|\text{word "free"}) \) is the probability that an email is spam given the word "free" is present.<br>
+- \( P(\text{word "free"}|\text{Spam}) = 0.8 \) is the probability of the word "free" appearing in spam emails.<br>
+- \( P(\text{Spam}) = 0.4 \) is the initial probability of an email being spam.<br>
+
+The overall probability of the word "free" appearing in all emails can be calculated as:<br>
+
+\[ P(\text{word "free"}) = P(\text{word "free"}|\text{Spam}) \times P(\text{Spam}) + P(\text{word "free"}|\text{Non-Spam}) \times P(\text{Non-Spam}) \]<br>
+
+Given that the word "free" appears in 80% of spam emails and 5% of non-spam emails, let's calculate \( P(\text{word "free"}) \):<br>
+
+\[ P(\text{word "free"}) = (0.8 \times 0.4) + (0.05 \times 0.6) = 0.32 + 0.03 = 0.35 \]<br>
+
+Now, we can use Bayes' theorem to update the probability of an email being spam given the word "free" is present:<br>
+
+\[ P(\text{Spam}|\text{word "free"}) = \frac{0.8 \times 0.4}{0.35} \approx 0.914 \]<br>
+
+So, if the word "free" is present in an email, the updated probability of that email being spam is approximately 91.4%.
 
    </details><br>
 89.Suppose that we use a perceptron to detect spam messages. Let's say that each email message is represented by the frequency of occurrence of keywords, and the output is +1 if the message is considered spam.  
@@ -1849,16 +1872,37 @@ c)What parameters in the perceptron directly affects how many border-line messag
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   (a) Keywords that are frequently associated with spam messages are likely to end up with large positive weights in the perceptron. Some examples of such keywords could be: "free", "discount", "limited offer", "click here", "urgent", "guaranteed", "cash", "prize", "win", "money", "call now", "buy now", "order now", etc. These words often appear in promotional or phishing emails, which are typically classified as spam.
+<br>
+(b) Conversely, keywords that are commonly found in non-spam messages and are indicative of legitimate communication are likely to get negative weights in the perceptron. Examples of such keywords could include: "important", "meeting", "schedule", "invoice", "receipt", "conference", "report", "agenda", "project", "proposal", "contact", "thank you", "best regards", etc.
+<br>
+(c) The parameter in the perceptron that directly affects how many borderline messages end up being classified as spam is the bias term. The bias term determines the threshold for the perceptron's decision boundary. If the bias term is set too low, more messages will be classified as spam, including some borderline ones. Conversely, if the bias term is set too high, fewer messages will be classified as spam, potentially missing some actual spam messages. Adjusting the bias term allows for fine-tuning the trade-off between false positives and false negatives in the classification task.
 
    </details><br>  
+   
 90.Lets have some parameters 3.1, 4.2 and 4 and the corresponding weights 5,1,and 3 respt. Calculate the weighted sum. 
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To calculate the weighted sum given the parameters and corresponding weights, we multiply each parameter by its corresponding weight and then sum the results.
+
+Given:
+- Parameter 1: 3.1, Weight: 5
+- Parameter 2: 4.2, Weight: 1
+- Parameter 3: 4, Weight: 3
+
+The weighted sum is calculated as follows:
+
+Weighted sum = (Parameter 1 * Weight 1) + (Parameter 2 * Weight 2) + (Parameter 3 * Weight 3)
+             = (3.1 * 5) + (4.2 * 1) + (4 * 3)
+             = 15.5 + 4.2 + 12
+             = 31.7
+
+So, the weighted sum is 31.7.
+
 
    </details><br>
+   
 91.Suppose you have set of numbers ranging from -infinity to infinity. Will it be easy to plot them in a limited screen size and compare them?  
    <details closed>
    <summary>Sol.</summary>
