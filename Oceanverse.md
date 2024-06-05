@@ -2157,7 +2157,7 @@ The number of links pointing to a website does affect its perceived importance. 
    <summary>Sol.</summary>
 
    To address the problem of highly connected nodes potentially biasing the evaluation of other nodes in algorithms like Random Walk and Equal Distribution, several modifications can be considered:
-
+<br><br>
 1. DAMPING FACTOR IN RANDOM WALK:<br>
    - Introduce a damping factor to control the probability of continuing the random walk at each step. This factor reduces the bias towards highly connected nodes by dampening the influence of repeated visits to such nodes.<br>
    - By adjusting the damping factor, you can regulate the exploration of the network and prevent the random walker from getting stuck in highly connected regions.
