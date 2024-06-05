@@ -166,7 +166,7 @@ For such functions, it is always possible to find such a value.
    <details closed>
    <summary>Sol.</summary>
 
-   f(5) signifies the value of the function at x = 5, which is given by x*x - 10, i.e., 25 - 10 = 15.
+   f(5) signifies the value of the function at \(x = 5\), which is given by \(x*x - 10\), i.e., \(25 - 10 = 15\).
 
    </details><br>
 
@@ -174,7 +174,7 @@ For such functions, it is always possible to find such a value.
    <details closed>
    <summary>Sol.</summary>
 
-   Here, we have to find x and we know the value of the function. So, 54 = x*x - 10, i.e., x = 8 or -8.
+   Here, we have to find x and we know the value of the function. So, \(54 = x*x - 10\), i.e., \(x = 8 or -8\).
    
    </details><br>
 
@@ -182,7 +182,9 @@ For such functions, it is always possible to find such a value.
    <details closed>
    <summary>Sol.</summary>
 
-   We can find this by plotting the curve of g(x) + 22 = 0 on GeoGebra and then checking the roots of the equation. On plotting the curve, we observe that it has only one real root and two roots are imaginary as the degree of the equation is 3.
+   We can find this by plotting the curve of \(g(x) + 22 = 0\) on GeoGebra and then checking the roots of the equation.
+<br>
+On plotting the curve, we observe that it has only one real root and two roots are imaginary as the degree of the equation is 3.
 
    </details><br>
 
@@ -613,7 +615,7 @@ def iterate_until_convergence(A, v, tolerance=1e-6, max_iterations=10000):
 	<br>
             &emsp;&emsp;&emsp;return v_next
 	    <br>
-        &emsp;&emspv; = v_next
+        &emsp;&emsp; = v_next
 	<br>
     &emsp;return v
 <br>
@@ -774,16 +776,16 @@ $$\begin{bmatrix}w_1 & w_2 & w_3\\
    <summary>Sol.</summary>
 
    To determine the points \((x, y, z)\) that satisfy the equation \([w_1 w_2 w_3] \left[\begin{array}{c} x \\ y \\ z \end{array}\right] = 0\), where \((w_1, w_2, w_3)\) belongs to the set \(W = \{\alpha(1, 2, 1) + \beta(2, 7, 3) \mid \alpha, \beta \in \mathbb{R}\}\), we start by expressing any vector \(\mathbf{w} \in W\) as a linear combination of the basis vectors \(\mathbf{u} = (1, 2, 1)\) and \(\mathbf{v} = (2, 7, 3)\). This gives us \(\mathbf{w} = \alpha \mathbf{u} + \beta \mathbf{v} = (\alpha + 2\beta, 2\alpha + 7\beta, \alpha + 3\beta)\). 
-<br>
+<br><br>
   The condition \([w_1 w_2 w_3] \left[\begin{array}{c} x \\ y \\ z \end{array}\right] = 0\) translates to the dot product \((w_1 x + w_2 y + w_3 z) = 0\). Substituting \(w_1 = \alpha + 2\beta\), \(w_2 = 2\alpha + 7\beta\), and \(w_3 = \alpha + 3\beta\) into this equation, we obtain \((\alpha + 2\beta)x + (2\alpha + 7\beta)y + (\alpha + 3\beta)z = 0\). 
-  <br>
+  <br><br>
   To satisfy this equation for all \(\alpha\) and \(\beta\), the coefficients of \(\alpha\) and \(\beta\) must individually sum to zero, yielding the system \(x + 2y + z = 0\) and \(2x + 7y + 3z = 0\). Solving these linear equations, we find \(z = -3y\) and \(x = y\). Thus, the points \((x, y, z)\) satisfying the original condition are those on the line parametrized by \((t, t, -3t)\) for any real number \(t\). 
-  <br>
+  <br><br>
   Therefore, the points \((x, y, z)\) that satisfy the equation are of the form \((x, x, -3x)\), forming a line where each coordinate is scaled by a parameter \(t\), with \(z\) being three times the negative of \(x\) or \(y\).
-  <br>
+  <br><br>
   This can be visualized in GeoGebra with the help of parametric form of a line through which we can plot the curve we got here.
 
-   </details>  <br>
+   </details><br>
 
 32.Given the matrix $$A=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix}$$, find out all the possible $$(x,y,z)$$ such that:
 $$ \begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix} \begin{bmatrix} x\\ y\\ z\\ \end{bmatrix}=0$$
@@ -1051,15 +1053,14 @@ Give an example each for all the above 5 cases.<br>
    <summary>Sol.</summary>
 
    (a) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix} \)
-
+<br>
 (b) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix} \)
-
+<br>
 (c) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
-
+<br>
 (d) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
-
+<br>
 (e) \( A=\begin{bmatrix} 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
-
 
 Note that any other example which satisfies the given condition is also a correct answer for the question.
 
@@ -1269,7 +1270,7 @@ This is because the frequency distribution of letters in English text is relativ
 Of course, the specific frequencies may vary slightly depending on the particular text and context, but the overall pattern of letter frequency should remain consistent. This consistency is what allows frequency analysis to be an effective technique for decrypting substitution ciphers, even when working with subsets of text.
 
    </details><br>
-60.Assume you arrange two meaningful english text strings in front of each other.what is the expected number of collisions in the letters? Call it "collision frequency".
+60.Assume you arrange two meaningful english text strings in front of each other. What is the expected number of collisions in the letters? Call it "collision frequency".
    <details closed>
    <summary>Sol.</summary>
 
