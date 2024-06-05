@@ -1348,7 +1348,53 @@ Thus, the probability of a dart hitting the shaded region is \( \frac{3}{4} \) o
 <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To find the mean or expectation of the random variable X, which represents the sum of the numbers on two dice, you can use the formula:
+
+  \[ \text{Mean} (\mu) = \sum_{i=2}^{12} i \times P(X=i) \]
+  
+  Where \( P(X=i) \) is the probability that the sum of the two dice equals \( i \).
+  
+  The sum can range from 2 (if both dice show 1) to 12 (if both dice show 6). The probability of getting each sum can be calculated by considering all possible combinations of the dice.
+  
+  Here's a table of the sums and their probabilities:
+  
+  \[
+  \begin{array}{|c|c|}
+  \hline
+  \text{Sum} & \text{Probability} \\
+  \hline
+  2 & \frac{1}{36} \\
+  3 & \frac{2}{36} \\
+  4 & \frac{3}{36} \\
+  5 & \frac{4}{36} \\
+  6 & \frac{5}{36} \\
+  7 & \frac{6}{36} \\
+  8 & \frac{5}{36} \\
+  9 & \frac{4}{36} \\
+  10 & \frac{3}{36} \\
+  11 & \frac{2}{36} \\
+  12 & \frac{1}{36} \\
+  \hline
+  \end{array}
+  \]
+  
+  Now, calculate the mean:
+  
+  \[ \mu = (2 \times \frac{1}{36}) + (3 \times \frac{2}{36}) + (4 \times \frac{3}{36}) + \ldots + (12 \times \frac{1}{36}) \]
+  
+  \[ \mu = \frac{2}{36} + \frac{6}{36} + \frac{12}{36} + \ldots + \frac{12}{36} \]
+  
+  \[ \mu = \frac{1}{36} \left(2 + 6 + 12 + \ldots + 12 \right) \]
+  
+  \[ \mu = \frac{1}{36} \times (252) \]
+  
+  \[ \mu = \frac{1}{36} \times 252 \]
+  
+  \[ \mu = \frac{252}{36} \]
+  
+  \[ \mu = 7 \]
+  
+  So, the mean or expectation of \( X \) is approximately \( 7 \).
 
    </details><br>
 65.A factory produces items, and each item is independently defective with probability
