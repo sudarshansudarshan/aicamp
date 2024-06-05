@@ -1873,9 +1873,9 @@ c)What parameters in the perceptron directly affects how many border-line messag
    <summary>Sol.</summary>
 
    (a) Keywords that are frequently associated with spam messages are likely to end up with large positive weights in the perceptron. Some examples of such keywords could be: "free", "discount", "limited offer", "click here", "urgent", "guaranteed", "cash", "prize", "win", "money", "call now", "buy now", "order now", etc. These words often appear in promotional or phishing emails, which are typically classified as spam.
-<br>
+<br><br>
 (b) Conversely, keywords that are commonly found in non-spam messages and are indicative of legitimate communication are likely to get negative weights in the perceptron. Examples of such keywords could include: "important", "meeting", "schedule", "invoice", "receipt", "conference", "report", "agenda", "project", "proposal", "contact", "thank you", "best regards", etc.
-<br>
+<br><br>
 (c) The parameter in the perceptron that directly affects how many borderline messages end up being classified as spam is the bias term. The bias term determines the threshold for the perceptron's decision boundary. If the bias term is set too low, more messages will be classified as spam, including some borderline ones. Conversely, if the bias term is set too high, fewer messages will be classified as spam, potentially missing some actual spam messages. Adjusting the bias term allows for fine-tuning the trade-off between false positives and false negatives in the classification task.
 
    </details><br>  
