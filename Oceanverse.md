@@ -1302,7 +1302,6 @@ However, if we shift the first string by a different amount than the second stri
    </details><br>
 
 **Project 1-** [Read and Solve this](https://docs.google.com/document/d/1JFNRu3x5loBsF-PBPcdpfEhRz9-8Oex5uQ1iy1njp8E/edit)
-   <details closed>
 
 
 # Module G  
