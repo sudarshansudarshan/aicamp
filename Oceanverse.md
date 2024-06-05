@@ -1959,7 +1959,18 @@ This led us to 2 different answers.
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   No, if we take each code of the sae length, there is no possiblity of two different interpretations of the string.<br>
+For the given example with the codes "s", "o", "n", "h", and "a", let's consider a simple substitution cipher where each letter is replaced by a numeric code. Since there are 5 distinct codes (s, o, n, h, a), we would need to represent each character using at least 3 digits to ensure that each code is uniquely identifiable. 
+<br>
+Here's one possible encoding scheme:
+<br>
+- "s" is represented by "001"<br>
+- "o" is represented by "010"<br>
+- "n" is represented by "011"<br>
+- "h" is represented by "100"<br>
+- "a" is represented by "101"<br><br>
+
+With this encoding scheme, each character is represented by 3 digits, ensuring that there are no ambiguities in decoding.
 
    </details><br>
 
@@ -1967,7 +1978,9 @@ This led us to 2 different answers.
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   If we use 2 bits for each letter, we have a total of 5 unique letters: “a,” “b,” “c,” “d,” and “e.”<br>
+With 2 bits, we can represent up to 4 different values (since \(2^2=4\)).<br>
+Therefore, we need at least 5 unique binary codes to represent all 5 letters uniquely.
 
    </details><br>
 
@@ -2043,7 +2056,13 @@ Also for sensitive data, the encoding should provide a level of security, ensuri
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Trees are hierarchical data structures composed of nodes connected by edges.<br>
+Trees consist of a root node, which is the topmost node in the hierarchy, and zero or more child nodes connected to it.<br>
+Parent: A node that has child nodes connected to it. Every node in a tree, except the root, has exactly one parent.<br>
+Leaf: A node with no children.<br>
+Depth: The level of a node in the tree. The depth of the root node is 0, and the depth increases as you move away from the root.<br>
+Height: The maximum depth of any node in the tree. It represents the longest path from the root node to a leaf node.<br>
+Binary Tree: A special type of tree where each node has at most two children, known as the left child and the right child.
 
    </details><br>
 
