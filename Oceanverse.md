@@ -615,7 +615,7 @@ def iterate_until_convergence(A, v, tolerance=1e-6, max_iterations=10000):
 	<br>
             &emsp;&emsp;&emsp;return v_next
 	    <br>
-        &emsp;&emsp; = v_next
+        &emsp;&emsp; v = v_next
 	<br>
     &emsp;return v
 <br>
@@ -1061,7 +1061,7 @@ Give an example each for all the above 5 cases.<br>
 (d) \( A=\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
 <br>
 (e) \( A=\begin{bmatrix} 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix} \)
-
+<br>
 Note that any other example which satisfies the given condition is also a correct answer for the question.
 
    </details><br>
