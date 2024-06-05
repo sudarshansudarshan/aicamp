@@ -2128,8 +2128,8 @@ How does the number of links pointing to a website affect its perceived importan
    <summary>Sol.</summary>
 
    After First Round:<br>
-   A = 1; B = 1.5; C = 0.5; D = 1<br><b>
-   After Second Round:
+   A = 1; B = 1.5; C = 0.5; D = 1<br><br>
+   After Second Round:<br>
    A = 0.5; B = 1.5; C = 0.5; D = 1.5
 
    </details><br>
