@@ -2074,7 +2074,8 @@ PageRank is based on the idea that the importance of a webpage can be determined
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   RANDOM WALK: Imagine a scenario where a person starts on a random web page and begins clicking on links randomly. Eventually, this random process will converge towards certain pages more frequently than others. Pages that are frequently visited during this random walk are considered more important because they are more likely to be stumbled upon by users.<br>
+   EQUAL POINTS DISTRIBUTION: In this approach, each web page starts with an equal amount of importance points. As the algorithm iterates through the network of pages, it distributes points based on various factors like incoming links, outgoing links, and possibly other criteria like the relevance of content. Pages that are linked to by many other pages will accumulate more points, indicating their importance.
 
    </details><br>
 
@@ -2114,7 +2115,15 @@ How does the number of links pointing to a website affect its perceived importan
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The importance or perceived authority of a website is often measured by search engines through a metric called "PageRank," which considers the number and quality of links pointing to that website. In this scenario:<br><br>
+
+1. Website A: Since it is linked to by both B and C, it gains importance from both of them. Having multiple incoming links suggests that it might be more authoritative or relevant. Therefore, Website A would likely have higher perceived importance compared to the others.
+<br>
+2. Website B: It is linked to by A, which adds to its importance. However, it doesn't have any other external links in this scenario, so its perceived importance might be lower than Website A.
+<br>
+3. Website C: Similarly, it is linked to by A, which adds to its importance. However, like Website B, it doesn't have any other external links in this scenario, so its perceived importance might be lower than Website A.
+
+The number of links pointing to a website does affect its perceived importance. Generally, more incoming links from reputable sources indicate higher authority and relevance in the eyes of search engines. However, the quality of those links also matters. A few high-quality links from authoritative websites can outweigh many low-quality links.
 
    </details><br>
 
@@ -2147,7 +2156,15 @@ How does the number of links pointing to a website affect its perceived importan
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   To address the problem of highly connected nodes potentially biasing the evaluation of other nodes in algorithms like Random Walk and Equal Distribution, several modifications can be considered:
+
+1. DAMPING FACTOR IN RANDOM WALK:<br>
+   - Introduce a damping factor to control the probability of continuing the random walk at each step. This factor reduces the bias towards highly connected nodes by dampening the influence of repeated visits to such nodes.<br>
+   - By adjusting the damping factor, you can regulate the exploration of the network and prevent the random walker from getting stuck in highly connected regions.
+<br><br>
+2. WEIGHTED RANDOM WALK:<br>
+   - Assign weights to edges based on factors such as edge quality or node relevance. This allows the random walker to traverse the network with more consideration for the importance of individual connections rather than simply following the number of connections.<br>
+   - Weighted random walk algorithms can help balance the exploration of highly connected nodes with the exploration of less connected but potentially more relevant nodes.
 
    </details><br>
 
