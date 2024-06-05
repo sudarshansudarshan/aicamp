@@ -1276,14 +1276,16 @@ Of course, the specific frequencies may vary slightly depending on the particula
 
    To calculate the expected number of collisions in the letters of two meaningful English text strings arranged in front of each other, we follow these steps:
 <br><br>
-1. Frequency Distribution: Define the frequency distribution of characters in English text. Denote the probability of occurrence of each character as \( p_i \), where \( i \) ranges from 1 to \( N \), the total number of characters in the English alphabet.
-<br>
+1. Frequency Distribution: Define the frequency distribution of characters in English text. Denote the probability of occurrence of each character as \( p \), where \( i \) ranges from 1 to \( N \), the total number of characters in the English alphabet.
+<br><br>
 2. Collision Probability for Each Character: Calculate the collision probability for each character, denoted as \( P_{\text{collision}, i} \). This can be calculated as the square of the probability of occurrence of that character: \( p_i^2 \).
-<br>
+<br><br>
 3. Collision Frequency: The expected number of collisions in a position is the sum of the collision probabilities for all characters. Denote the collision frequency as \( \text{collision frequency} \), which can be calculated as the sum of \( P_{\text{collision}, i} \) over all characters: 
    \[
    \text{collision frequency} = \sum_{i=1}^{N} p_i^2
    \]
+
+Total Number of Collisions = N * Collision frequency.
 
    </details><br>
 61.Assume that in the previous question ,we apply the ceaser cypher(the one discussed in the first few questions), on both the strings, and alphabet by 5 letters then will the collision frequency remain the same?What if we shift first string by 3 letters and second by 5? 
