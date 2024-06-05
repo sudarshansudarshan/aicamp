@@ -688,7 +688,7 @@ $$\begin{bmatrix}1 & 1 \\
    <details closed>
    <summary>Sol.</summary>
 
-   The givem set of matrices lead to the equation which we get while doing the dot of these vectors as 0, i.e.,
+   The given set of matrices lead to the equation which we get while doing the dot of these vectors as 0, i.e.,
    $$x + y = 0$$
    So, This equation represents all the vectors perpendicular to the given one. These vectors lie along the line with slope -1 passing through the origin in the Cartesian coordinate system.
 
@@ -1798,38 +1798,38 @@ P(U \mid P) = \frac{0.75 \cdot 0.5}{0.575} = \frac{0.375}{0.575} \approx 0.6522
 
 So, the probability that the stock will indeed go up given that the company predicts it will go up is approximately \(0.6522\) or \(65.22\%\).
 
-   </details><br> 
+   </details><br>
 87.Imagine you are a bettor. You are watching a race between two horses A and B. Let’s say five races are conducted. Construct any three hypotheses defining winning probabilities of A and B. What confidence do you have in each of your hypotheses to be true? Lets say , out of 5 races A wins 3 and B wins the remaining 2 (AAABB). Then after 5 races , in which of your hypotheses will you have maximum confidence. As per your new hypothesis which horse has more chances to win the 6th round .
    <details closed>
    <summary>Sol.</summary>
 
-   Sure, let's create three hypotheses about the winning probabilities of horses A and B:
+   Sure, let's create three hypotheses about the winning probabilities of horses A and B:<br><br>
 
-  1. Hypothesis 1: A is the stronger horse.
-     - Confidence: Moderate
-     - In this hypothesis, I believe that horse A has a higher probability of winning each race compared to horse B.
+  1. Hypothesis 1: A is the stronger horse.<br>
+     - Confidence: Moderate<br>
+     - In this hypothesis, I believe that horse A has a higher probability of winning each race compared to horse B.<br><br>
   
-  2. Hypothesis 2: B is the stronger horse.
-     - Confidence: Moderate
-     - Here, I assume that horse B has a higher probability of winning each race compared to horse A.
+  2. Hypothesis 2: B is the stronger horse.<br>
+     - Confidence: Moderate<br>
+     - Here, I assume that horse B has a higher probability of winning each race compared to horse A.<br><br>
   
-  3. Hypothesis 3: A and B have equal chances of winning.
-     - Confidence: Low
-     - This hypothesis suggests that both horses have an equal probability of winning each race.
+  3. Hypothesis 3: A and B have equal chances of winning.<br>
+     - Confidence: Low<br>
+     - This hypothesis suggests that both horses have an equal probability of winning each race.<br><br>
   
-  After observing the outcomes of the 5 races (A wins 3, B wins 2), my confidence level in each hypothesis shifts:
+  After observing the outcomes of the 5 races (A wins 3, B wins 2), my confidence level in each hypothesis shifts:<br><br>
   
-  1. Hypothesis 1: A is the stronger horse.
-     - Increased Confidence: High
-     - Since horse A won more races, I'm more confident in this hypothesis being true.
+  1. Hypothesis 1: A is the stronger horse.<br>
+     - Increased Confidence: High<br>
+     - Since horse A won more races, I'm more confident in this hypothesis being true.<br><br>
   
-  2. Hypothesis 2: B is the stronger horse.
-     - Decreased Confidence: Very Low
-     - With B winning fewer races, my confidence in this hypothesis decreases.
+  2. Hypothesis 2: B is the stronger horse.<br>
+     - Decreased Confidence: Very Low<br>
+     - With B winning fewer races, my confidence in this hypothesis decreases.<br><br>
   
-  3. Hypothesis 3: A and B have equal chances of winning.
-     - Decreased Confidence: Low
-     - Given the unequal outcomes, this hypothesis seems less likely.
+  3. Hypothesis 3: A and B have equal chances of winning.<br>
+     - Decreased Confidence: Low<br>
+     - Given the unequal outcomes, this hypothesis seems less likely.<br><br>
   
   Given that Hypothesis 1 now has the highest confidence, I'd predict that in the 6th round, horse A would have a higher chance of winning.
 
@@ -1936,9 +1936,9 @@ Decode the following string: '00011010110011'
    <details closed>
    <summary>Sol.</summary>
 
-   The given string can be broken w.r.t. the codes given as:
-\((A)\) 00, 011, 010, 1, 1, 001, 1
-\((B)\) 00, 011, 010, 1, 1, 00, 1, 1
+   The given string can be broken w.r.t. the codes given as:<br>
+\((A)\) 00, 011, 010, 1, 1, 001, 1<br>
+\((B)\) 00, 011, 010, 1, 1, 00, 1, 1<br>
 
 This led us to 2 different answers.
 
@@ -1948,10 +1948,10 @@ This led us to 2 different answers.
    <details closed>
    <summary>Sol.</summary>
 
-   Continuing from the previous solution, we get two different interpretations:
+   Continuing from the previous solution, we get two different interpretations:<br><br>
 
-\(A\) shannon
-\(B\) shannsnn
+\((A)\) shannon<br>
+\((B)\) shannsnn
 
    </details><br>
 
@@ -1975,16 +1975,16 @@ This led us to 2 different answers.
    <details closed>
    <summary>Sol.</summary>
 
-   To minimize the total money spent, we should choose the cheapest option for the largest quantity required:
+   To minimize the total money spent, we should choose the cheapest option for the largest quantity required:<br><br>
 
-  1. Buy 5 apples of one type:
-     - Choose the cheapest type. Let's say it's type A.
+  1. Buy 5 apples of one type:<br>
+     - Choose the cheapest type. Let's say it's type A.<br><br>
   
-  2. Buy 3 apples of another type:
-     - Choose the cheapest type again. Let's say it's type B.
+  2. Buy 3 apples of another type:<br>
+     - Choose the cheapest type again. Let's say it's type B.<br><br>
   
-  3. Buy 2 apples of the third type:
-     - This is the last remaining type, type C.
+  3. Buy 2 apples of the third type:<br>
+     - This is the last remaining type, type C.<br><br>
   
   So, you would buy 5 apples of type A, 3 apples of type B, and 2 apples of type C to minimize the total money spent.
 
@@ -1994,20 +1994,20 @@ This led us to 2 different answers.
    <details closed>
    <summary>Sol.</summary>
 
-   Following is the frequency distribution of the characters in the text 'this is a new experience':
+   Following is the frequency distribution of the characters in the text 'this is a new experience':<br><br>
 
-t: 1
-h: 1
-i: 3
-s: 2
- : 4 (space)
-a: 1
-n: 2
-e: 4
-w: 1
-x: 1
-p: 1
-r: 1
+t: 1<br>
+h: 1<br>
+i: 3<br>
+s: 2<br>
+ : 4 (space)<br>
+a: 1<br>
+n: 2<br>
+e: 4<br>
+w: 1<br>
+x: 1<br>
+p: 1<br>
+r: 1<br>
 c: 1
 
    </details><br>
@@ -2016,7 +2016,7 @@ c: 1
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The characters with the maximum frequency must be given shorter notations in order to minimize the space they take together.
 
    </details><br>
 
@@ -2024,7 +2024,7 @@ c: 1
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Certainly, due to the code of 's' being prefix of the code of 'o', there were two possiblilities, which did arise as the code of 's' was itself a part of the code of 'o' and 'o' can also be broken down into 's' and the rest of it.
 
    </details><br>
 
@@ -2032,7 +2032,10 @@ c: 1
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   In a proper encoding rule, there should not be any repitition of codes so that there is no confusion at all for the codes of various characters.<br>
+The encoding rule should be consistent, meaning the same input should always produce the same output.<br>
+The encoded data should be as compact as possible, reducing storage and transmission requirements. This is particularly important for large datasets or in bandwidth-constrained environments.<br>
+Also for sensitive data, the encoding should provide a level of security, ensuring that the encoded data is not easily interpretable by unauthorized parties. This may involve incorporating encryption techniques.
 
    </details><br>
 
@@ -2048,7 +2051,8 @@ c: 1
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   This observation can be justified with the fact that the distance increases between the parent node and the root node as the root node keeps on going down further.<br>
+As the ditsnce increases, the ti e taken will also correspondingly increase.
 
    </details><br>
 
@@ -2061,7 +2065,8 @@ c: 1
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The pages inside of a huge network of webpages are ranked on the basis of core concept of PageRank. <br>
+PageRank is based on the idea that the importance of a webpage can be determined by the number and quality of links to it. In essence, it treats links from other webpages as "votes" for the target page's importance. However, these votes are weighted by the importance of the pages they come from.
 
    </details><br>
 
@@ -2077,7 +2082,9 @@ c: 1
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The iterative calculation of PageRank, can be visualized as a repetitive matrix operation on a vector. The web's link structure is represented by a transition matrix \( M \), where each element \( M_{ij} \) indicates the probability of moving from one page to the other.
+<br>
+Starting with an initial PageRank vector \( P \), where each element corresponds to the PageRank of a page, the algorithm updates this vector through matrix multiplication. The PageRank vector \( P \) is recalculated iteratively using the formula \( P_{new} = M \cdot P_{old} \). In each iteration, the new PageRank vector is obtained by multiplying the transition matrix \( M \) with the current PageRank vector \( P \). This process continues until \( P \) converges to a stable distribution. This repetitive multiplication demonstrates how the Equal Points Distribution method leverages matrix operations to determine the final PageRank values.
 
    </details><br>
 
@@ -2093,7 +2100,9 @@ c: 1
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The initial vector \( P \) can be any probability distribution, often starting with equal values or completely unbalanced values.<br>
+Because of the properties of the transition matrix \( M \), the process \( P_{new} = M \cdot P_{old} \) will converge to the same stationary distribution for any initial vector \( P \).<br>
+The convergence of the PageRank values is guaranteed by the structure and properties of the transition matrix \( M \) and is not dependent on the initial vector. Any starting vector will eventually lead to the same steady-state distribution
 
    </details><br>
 
@@ -2113,12 +2122,15 @@ How does the number of links pointing to a website affect its perceived importan
 	A passes its coins to B and C  
  	B passes its coins to D  
   	C passes its coins to A  
-   	D passes its coins to B and C  
+   	D passes its coins to B  
     If each bucket starts with 1 coin, calculate the number of coins in each bucket after first round and second round.  
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   After First Round:<br>
+   A = 1; B = 1.5; C = 0.5; D = 1<br><b>
+   After Second Round:
+   A = 0.5; B = 1.5; C = 0.5; D = 1.5
 
    </details><br>
     
@@ -2126,7 +2138,8 @@ How does the number of links pointing to a website affect its perceived importan
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   In both the Random Walk and Equal Distributions algorithms used for calculating PageRank, highly connected nodes can pose challenges and potentially affect the evaluation of other nodes. This issue primarily arises due to the potential for bias introduced by the presence of highly connected nodes, because of which random walkers may frequently get trapped in these nodes, leading to an uneven distribution of visits across the network.<br>
+    Highly connected nodes tend to accumulate more random walkers, leading to inflated PageRank values for these nodes. Consequently, the importance of other nodes may be underestimated, as random walkers are less likely to visit them.
 
    </details><br>
 
