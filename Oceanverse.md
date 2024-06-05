@@ -1449,7 +1449,14 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
 <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   As the point is chosen at random and the cube is very symmetrical in all of the octants, we can reduce the problem to 1st octant only.
+<br>
+Then first method with which we can solve this problem is by symmetry. As we check along the diagonal of the cube, due to its symmetrical figure, the probability will be same for both the cases, i.e., whether the random point is nearer to the center or the vertex. So, the answer comes out to be 1/2.
+<br>
+Mathematically, when we consider the first octant, we can find the locus of point which divides the smaller cube in first octant in such a way that the all points lying on the curve have distance equal from bothe Origin and \((a/2, a/2, a/2)\). It will come out to be a plane with the equation:
+$$x + y + z = 3a/4$$
+On finding the volume between the plane, the cube and the coordinate axes, we get the probability of a point being nearer to the center as the ratio of the volume found and total volume of cube in first octant.
+The final answer comes out to be 1/2 again.
 
    </details><br>
 68.Imagine you have a number line that ranges from -1 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
@@ -1468,7 +1475,7 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Create points on the graph and find the distances between them using the distance tool from the toolbar.
 
    </details><br>
 
@@ -1476,7 +1483,8 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The ones with the minimum distance between them will be the closest ones.
+Find them and check the distance.
 
    </details><br>
 
@@ -1484,56 +1492,68 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Follow the similar approach for finding the closest pairs.
+Total number of computations is equal to \(7 * 6 / 2 = 21\).
 
    </details><br>
 72.Suppose we have 10 points. How many pairs of points do you have to consider for finding the closest pair?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Similar to the previous question, the total combinations possible will be \(10 * 9 / 2 = 45\).
 
    </details><br>
 73.What is the Y sorted order (by default assume ascending) of points $$A$$, $$B$$, $$C$$, $$D$$, $$E$$?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   For finding the Y - sorted order, we will consider only ordinate values of the coordinates mentioned.<br>
+\(A = 2\), \(B = 3\), \(C = 9\), \(D = -1\), \(E = 11\)
+<br>
+The ascending order of these values will be:<br>
+$$D < A < B < C < E$$
 
    </details><br>
 74.Plot a line $$L$$ parallel to the Y-axis passing through the middle point in the X sorted order of the above points. Divide the set of points into left and right regions around the line.
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   X - Sorted Order = \(G < D < A < B < E < C < F\)<br>
+Middle Member = \(B\)
+$$L : x = 2$$
+Left Region = \(D, A, G\)<br>
+Right Region = \(E, C, F\)
 
    </details><br>
 75.Find the closest pair of points in the left region and right region. What’s the minimum distance (say $$d$$) out of the two distances?
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   Closest Pair in Left Region = \(A & D\)<br>
+Closest Pair in Right Region = \(C & E\)<br>
+Minimum Distance = \(1.414 units\)
 
    </details><br>
 76.Consider a band of width $$2d$$ around the Line $$L$$. Find the closest pair in this band. Compare this distance with $$d$$, the minimum value of the corresponding closest pair of our graph. Is the answer the same as the brute-force method you applied in question 71? (This divide and conquer method is known as the closest pair algorithm).  
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   This band limits the number of points but still the approach remains the same.<br>
+The closest pair is also the same as achieved in the question mentioned.
 
    </details><br>
 77.Astronomers have recorded the positions of stars in a 3D coordinate system where each star is represented as a point. Given the coordinates of stars $$(1,2,3)$$, $$(4,5,6)$$, $$(6,7,8)$$, $$(10,11,12)$$, find the closest pair of stars. (Use Geogebra)
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   The method for 3 - Dimensional points is similar to that of 2 - Dimensional points.
 
    </details><br>
 78.If $$F(0) = 0$$, $$F(1) = 1$$, $$F(n) = F(n-1) + F(n-2)$$ for $$n \geq 2$$, find the value of $$F(5)$$.
    <details closed>
    <summary>Sol.</summary>
 
-   Put your solution here.
+   \(F(5) = F(4) + F(3) = F(3) + F(2) + F(2) + F(1) = ... = 5(F(1)) = 5\)
 
    </details><br>
 79.Dry run and find the output of the following python code:  
