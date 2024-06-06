@@ -1533,7 +1533,7 @@ Right Region = \(E, C, F\)
 
    Closest Pair in Left Region = \(A & D\)<br>
 Closest Pair in Right Region = \(C & E\)<br>
-Minimum Distance = \(1.414 units\)
+Minimum Distance = \(2.24 units\), corresponding to the points \(C & E\)
 
    </details><br>
 76.Consider a band of width $$2d$$ around the Line $$L$$. Find the closest pair in this band. Compare this distance with $$d$$, the minimum value of the corresponding closest pair of our graph. Is the answer the same as the brute-force method you applied in question 71? (This divide and conquer method is known as the closest pair algorithm).  
