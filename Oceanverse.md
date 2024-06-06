@@ -1490,12 +1490,11 @@ Find them and check the distance.
 
    </details><br>
 
-71.Add four more points: $$D(0,-1)$$, $$E(4,11)$$, $$F(8,12)$$, $$G(-3,6)$$ to your graph. What’s the closest pair now? How many computations do you have to do?
+71.Add four more points: $$D(0,-1)$$, $$E(4,11)$$, $$F(8,12)$$, $$G(-3,6)$$ to your graph. What’s the closest pair now? 
    <details closed>
    <summary>Sol.</summary>
 
    Follow the similar approach for finding the closest pairs.
-Total number of computations is equal to \(7 * 6 / 2 = 21\).
 
    </details><br>
 72.Suppose we have 10 points. How many pairs of points do you have to consider for finding the closest pair?
@@ -1544,7 +1543,7 @@ Minimum Distance = \(2.24 units\), corresponding to the points \(C & E\)
 The closest pair is also the same as achieved in the question mentioned.
 
    </details><br>
-77.Astronomers have recorded the positions of stars in a 3D coordinate system where each star is represented as a point. Given the coordinates of stars $$(1,2,3)$$, $$(4,5,6)$$, $$(6,7,8)$$, $$(10,11,12)$$, find the closest pair of stars. (Use Geogebra)
+77.Astronomers have recorded the positions of stars in a 3D coordinate system where each star is represented as a point. Given the coordinates of stars $$(1,2,3)$$, $$(4,5,6)$$, $$(6,7,8)$$, $$(10,11,12)$$, find the closest pair of stars.(Use Geogebra).Is the closest pair algorithm valid here?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1572,14 +1571,14 @@ print(f(5))
    \(F(5) = 5 * F(4) = ... = 5 * 4 * 3 * 2 * 1 * F(0) = 5 * 4 * 3 * 2 * 1 = 120\)
 
    </details><br>
-80.Does the closest pair algorithm assume that the $$x$$ coordinates (and $$y$$ coordinates) of the points are distinct? Is there a problem with the $$O( nlog(n))$$ performance if they are not distinct?
+80.Does the closest pair algorithm assume that the $$x$$ coordinates (and $$y$$ coordinates) of the points are distinct? Is there a problem with the $$O( nlog(n))$$ performance if they are not distinct(do we have to handle this special case seprately in our algorithm)?
    <details closed>
    <summary>Sol.</summary>
 
    The closest pair algorithm does not require the coordinates to be distinct and maintains its \(O(nlogn)\) performance regardless of whether some coordinates are the same. It efficiently handles ties and ensures the correct closest pair is found.
 
    </details><br>
-81.Given a set of points where most points are far apart, but a few points are very close to each other, develop an algorithm to efficiently find the closest pair. For example, use the set: $$(100,200)$$, $$(300,400)$$, $$(5000,6000)$$, $$(1,2)$$, $$(1.001,2.001)$$.  
+81.Given a set of points where most points are far apart, but a few points are very close to each other,can you develop an algorithm more efficient from our original algorithm to find the closest pair in this special case.
    <details closed>
    <summary>Sol.</summary>
 
