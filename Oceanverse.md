@@ -1111,7 +1111,7 @@ $$S_2 = \{(x,0,z) : x,z \text{ belong to } R\}$$
 $$S_3 = \{x : x \text{ lies along the z - axis}\}$$
 
 Similarly,
-$$S_4 = \{x : x \text{ lies along the z - axis}\}$$
+$$S_4 = \{x : x \text{ lies along the y - axis}\}$$
 
    </details><br>
 
