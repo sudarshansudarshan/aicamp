@@ -2234,7 +2234,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
 **Project 2-** [PageRank](https://docs.google.com/document/d/1OoQoTu-PMqWEjOp7qpF6Le62zyoN-aO_kGOYDw5yRow/edit?usp=sharing)
 
-**Project 3-** [Recommendor System](https://docs.google.com/document/d/1mRlW9wG99tRpn5GUr7iNxNB8J--hNRg0Wr1pkpzh_YU/edit?usp=sharing)
+**Project 3-** [Recommender System](https://docs.google.com/document/d/1mRlW9wG99tRpn5GUr7iNxNB8J--hNRg0Wr1pkpzh_YU/edit?usp=sharing)
 
 **Project 6-** On Geogebra, take a vector in the 3-D axis system starting from the origin and going to some random point. Plot the plane passing through that point and perpendicular to the vector. Suppose you drop a water droplet randomly somewhere on this plane. Plot the direction (as a vector) in which the droplet moves on the plane. This vector should accordingly vary as you vary the coordinates of the random point you took in the beginning, i.e., do everything in the parametric format.
 *Do not use Mathematics anywhere...*
