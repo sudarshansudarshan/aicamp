@@ -775,16 +775,6 @@ $$\begin{bmatrix}w_1 & w_2 & w_3\\
    <details closed>
    <summary>Sol.</summary>
 
-   To determine the points \((x, y, z)\) that satisfy the equation \([w_1 w_2 w_3] \left[\begin{array}{c} x \\ y \\ z \end{array}\right] = 0\), where \((w_1, w_2, w_3)\) belongs to the set \(W = \{\alpha(1, 2, 1) + \beta(2, 7, 3) \mid \alpha, \beta \in \mathbb{R}\}\), we start by expressing any vector \(\mathbf{w} \in W\) as a linear combination of the basis vectors \(\mathbf{u} = (1, 2, 1)\) and \(\mathbf{v} = (2, 7, 3)\). This gives us \(\mathbf{w} = \alpha \mathbf{u} + \beta \mathbf{v} = (\alpha + 2\beta, 2\alpha + 7\beta, \alpha + 3\beta)\). 
-<br><br>
-  The condition \([w_1 w_2 w_3] \left[\begin{array}{c} x \\ y \\ z \end{array}\right] = 0\) translates to the dot product \((w_1 x + w_2 y + w_3 z) = 0\). Substituting \(w_1 = \alpha + 2\beta\), \(w_2 = 2\alpha + 7\beta\), and \(w_3 = \alpha + 3\beta\) into this equation, we obtain \((\alpha + 2\beta)x + (2\alpha + 7\beta)y + (\alpha + 3\beta)z = 0\). 
-  <br><br>
-  To satisfy this equation for all \(\alpha\) and \(\beta\), the coefficients of \(\alpha\) and \(\beta\) must individually sum to zero, yielding the system \(x + 2y + z = 0\) and \(2x + 7y + 3z = 0\). Solving these linear equations, we find \(z = -3y\) and \(x = y\). Thus, the points \((x, y, z)\) satisfying the original condition are those on the line parametrized by \((t, t, -3t)\) for any real number \(t\). 
-  <br><br>
-  Therefore, the points \((x, y, z)\) that satisfy the equation are of the form \((x, x, -3x)\), forming a line where each coordinate is scaled by a parameter \(t\), with \(z\) being three times the negative of \(x\) or \(y\).
-  <br><br>
-  This can be visualized in GeoGebra with the help of parametric form of a line through which we can plot the curve we got here.
-
    </details><br>
 
 32.Given the matrix $$A=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix}$$, find out all the possible $$(x,y,z)$$ such that:
