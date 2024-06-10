@@ -2254,3 +2254,50 @@ The number of links pointing to a website does affect its perceived importance. 
 
 **Project 6-** On Geogebra, take a vector in the 3-D axis system starting from the origin and going to some random point. Plot the plane passing through that point and perpendicular to the vector. Suppose you drop a water droplet randomly somewhere on this plane. Plot the direction (as a vector) in which the droplet moves on the plane. This vector should accordingly vary as you vary the coordinates of the random point you took in the beginning, i.e., do everything in the parametric format.
 *Do not use Mathematics anywhere...*
+
+# Module L
+---
+117.How do a computer represents an image? (Hint: pixels)
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+118.Are you able to relate this with matrices? If yes, then is this matrix invertible?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+119.Given a 2*2 matrix, what is the probability that the matrix is non-invertible?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+120.What would happen if I randomly remove one pixel form it, would it make any change? What about removing two, three, four... pixels?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+121.How many pixels you can remove in this way? When would you stop?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+122.Can we retrieve the removed pixels?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+123.How much difference do you expect in two adjacent pixels in an image?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+124.Can you think of a systematic way of removing pixels from the image?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
+
+125.Can you retrieve the removed pixels back in this way?
+	<details closed>
+   		<summary>Sol.</summary>
+	</details><br>
