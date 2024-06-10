@@ -536,8 +536,7 @@ Now try to solve the previous problem.
    <details closed>
    <summary>Sol.</summary>
 
-   Indeed, the system of equations provided can be represented in matrix form as:
-\[
+   \[
 \begin{pmatrix}
 3 & 1 \\
 1 & 2 \\
@@ -555,9 +554,10 @@ C \\
 \end{pmatrix}
 \]
 
-Here, the coefficient matrix on the left represents the coefficients of the unknowns A and C in each equation, while the vector on the right represents the constants on the right-hand side of each equation.
+Here, the coefficient matrix on the left represents the coefficients of the unknowns \(A\) and \(C\) in each equation, while the vector on the right represents the constants on the right-hand side of each equation.
 
-Observe that the LHS of the above equation can be written as \[
+Observe that the LHS of the above equation can be written as 
+\[
 \begin{pmatrix}
 3 \\
 1 \\
@@ -565,7 +565,6 @@ Observe that the LHS of the above equation can be written as \[
 \end{pmatrix}
 A
 +
-\[
 \begin{pmatrix}
 1 \\
 2 \\
@@ -573,12 +572,12 @@ A
 \end{pmatrix}
 C
 =
-\[
 \begin{pmatrix}
 1200 \\
 1000 \\
 900 \\
 \end{pmatrix}
+\]
 
 Therefore, LHS can only be a linear combination of the vectors \((3,1,1)\) and \((1,2,1).\) But we need a vector which lies closest to our desired output, i.e., (1200,1000,900). So, we will see all the vectors which csn be formed by taking a linear combination of the 2 vectors. These all vectors lie on the plane formed by these vectors (Observe how?). Now we find the vector on this plane which is closest to the point in RHS. This will be obtained by taking the foot of perpendicular from the point (1200,100,900) on the plane. Now we have found the closest fit, which can be represented as a linear combination of the two vectors in LHS. Therefore, now we can find the values of A and C by solving any of the two equations, keeping the new point (closest one) in the RHS.
 
