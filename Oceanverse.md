@@ -2301,3 +2301,6 @@ The number of links pointing to a website does affect its perceived importance. 
 	<details closed>
    		<summary>Sol.</summary>
 	</details><br>
+
+**Project 7-** [Data Compression 1](https://docs.google.com/document/d/1ohvOA586DLM_bZPKpFJv_EXBtdcI9rMAEcQ_sivrnxM/edit?usp=sharing)
+ 
