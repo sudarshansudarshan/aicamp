@@ -501,8 +501,7 @@ To solve this system of equations, we can employ various methods such as substit
    <details closed>
    <summary>Sol.</summary>
 
-   When faced with a system of equations where the number of equations exceeds the number of unknowns, we encounter what is known as an overdetermined system. In this scenario, there may not exist a single solution that satisfies all equations simultaneously. For instance, considering the equations provided.
-   We have three equations but only two unknowns, A and C. Consequently, the system is overdetermined. In such cases, it is unlikely that a unique solution exists that satisfies all equations simultaneously. However, we can still attempt to find a solution that best fits the given equations. We aim to minimize the error between the observed values (the left-hand sides of the equations) and the predicted values (the right-hand sides) by adjusting the unknowns. Therefore, while the system may not have a single exact solution, we can seek an approximation that minimizes the discrepancy between the observed and predicted values.
+   Plot the three lines on 2-D plane. Observe that these do not have any unique solution. So, we cannot have any set of values of A and C which exactly fit in the 3 equations. Therefore, we will have to find the best fit, i.e., we have to find the values of A and C which make the outputs of all the three equations closest to their respective RHS. Think how can we approach this problem.
 
    </details><br>
 
@@ -531,6 +530,9 @@ $$
 	\end{matrix}
    \right)
 $$
+
+Now try to solve the previous problem.
+
    <details closed>
    <summary>Sol.</summary>
 
@@ -554,6 +556,31 @@ C \\
 \]
 
 Here, the coefficient matrix on the left represents the coefficients of the unknowns A and C in each equation, while the vector on the right represents the constants on the right-hand side of each equation.
+
+Observe that the LHS of the above equation can be written as \[
+\begin{pmatrix}
+3 \\
+1 \\
+1 \\
+\end{pmatrix}
+A
++
+\[
+\begin{pmatrix}
+1 \\
+2 \\
+1 \\
+\end{pmatrix}
+C
+=
+\[
+\begin{pmatrix}
+1200 \\
+1000 \\
+900 \\
+\end{pmatrix}
+
+Therefore, LHS can only be a linear combination of the vectors \((3,1,1)\) and \((1,2,1).\) But we need a vector which lies closest to our desired output, i.e., (1200,1000,900). So, we will see all the vectors which csn be formed by taking a linear combination of the 2 vectors. These all vectors lie on the plane formed by these vectors (Observe how?). Now we find the vector on this plane which is closest to the point in RHS. This will be obtained by taking the foot of perpendicular from the point (1200,100,900) on the plane. Now we have found the closest fit, which can be represented as a linear combination of the two vectors in LHS. Therefore, now we can find the values of A and C by solving any of the two equations, keeping the new point (closest one) in the RHS.
 
    </details><br>
 
