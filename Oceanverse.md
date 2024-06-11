@@ -142,12 +142,6 @@ We will get the values of \(\alpha\) and \(\beta\) upon solving the inequalities
    <details closed>
    <summary>Sol.</summary>
 
-   Yes, I see a 2x2 matrix here. Recognizing the system of equations in matrix form is crucial because it allows us to use matrix operations to solve the system more efficiently, especially when dealing with larger systems. By representing the coefficients of the variables and the constants in matrix form, we can apply many useful techniques to find the solutions. Studying matrices in general is important because they offer a powerful way to represent and manipulate data in various fields. Matrices provide a concise and structured way to represent complex systems and relationships, making it easier to analyze and solve problems.
-
-When we rewrite the system of equations in matrix form, it looks like the matrix equation mentioned in the question.
-
-This representation allows us to apply matrix operations to find the solution to the system of equations.
-
    </details><br>
 
 8.Consider a simple function $$f(x) = 3x+2$$. This function is invertible right? Can you tell us what is $$\alpha$$ such that $$f(\alpha)=17$$? Is such an $$\alpha$$ unique? How did you find such an $$\alpha?$$. Is this always possible?
@@ -587,8 +581,6 @@ Therefore, LHS can only be a linear combination of the vectors \((3,1,1)\) and \
    <details closed>
    <summary>Sol.</summary>
 
-   In situations where a system of equations is overdetermined, as in the case provided, where there are more equations than unknowns, there may not exist a solution that satisfies all equations simultaneously. Consequently, attempting to solve the system by guessing values is unlikely to yield an exact solution. However, we can employ guesswork to minimize the error between the observed and predicted values, effectively reducing the discrepancy between the equations. By iteratively adjusting the guessed values and evaluating their impact on the overall error, we can approximate a solution that minimizes the discrepancy as much as possible. This process, though not guaranteed to yield a precise solution, allows us to iteratively refine the estimates and improve the fit between the observed and predicted values.
-
    </details><br>
 
 22.In the figure below:
@@ -839,14 +831,6 @@ This means all points \((x, y, z)\) lie on the line parametrized by \((t, -2t, t
  Use only Geogebra :)
    <details closed>
    <summary>Sol.</summary>
-
-   \((A)\) Upon plotting these graphs on Geogebra, we observe that the set R, which shows the possible combinations of the rows of matrix A, leads to set of points which lie on a straight line, which can be plotted with the help of in built functions provided.
-<br>
-  \((B)\) Similarly, the set C, that signifies the possible combinations of the columns of the matrix A, plots the points, lying on another straight line, on an angle to the previous one.
-<br>
-  \((C)\) The set N represents the null space of matrix A, which consists of all vectors (x,y,z) such that the linear combination of the columns of A equals the zero vector.
-<br>
-All these sets can easily be plotted in GeoGebra with the help of in built functions provided.
 
    </details><br>
 
@@ -1591,14 +1575,10 @@ print(f(5))
    <details closed>
    <summary>Sol.</summary>
 
-   The closest pair algorithm does not require the coordinates to be distinct and maintains its \(O(nlogn)\) performance regardless of whether some coordinates are the same. It efficiently handles ties and ensures the correct closest pair is found.
-
    </details><br>
 81.Given a set of points where most points are far apart, but a few points are very close to each other,can you develop an algorithm more efficient from our original algorithm to find the closest pair in this special case.
    <details closed>
    <summary>Sol.</summary>
-
-   Put your solution here.
 
    </details><br>
 # Module I
@@ -2257,7 +2237,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
 # Module L
 ---
-117.How do a computer represents an image? (Hint: pixels)
+117.How does a computer represent an image? (Hint: pixels)
 	<details closed>
    		<summary>Sol.</summary>
 	</details><br>
