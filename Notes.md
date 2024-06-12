@@ -14,3 +14,4 @@ permalink: /notes/
 8. [Vigenere Cipher](https://drive.google.com/file/d/1LotnDJgpC9tk0Yd4lNBqpmhwOax-EUpm/view?usp=drive_link)
 9. [Matrix Magic](https://drive.google.com/file/d/1Tau9KQykmzdKs0B9SxLKUTsYS8BZVUoL/view?usp=drive_link)
 10. [CV-Intro](https://drive.google.com/file/d/16-SxwYHF3LFVgs4n7JGteUXxwvpbbhNm/view?usp=drive_link)
+11. [Perceptron](https://drive.google.com/file/d/1imu3piquX7Qozd3klO6J8zkGo5kW9-70/view?usp=drive_link)
