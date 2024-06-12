@@ -11,3 +11,4 @@ permalink: /notes/
 5. [The Dart Problem](https://drive.google.com/file/d/1HgxhAbuvqwuFsxkMtFkpiM2ZF_18kYeY/view?usp=drive_link)
 6. [Recommendor System](https://drive.google.com/file/d/13jdRtPsoswcqTpW2pFz9kOP1HiisPCI8/view?usp=drive_link)
 7. [Probability](https://drive.google.com/file/d/1WM1-vzfgYOq4Ahlcw6Yk1ieKj_BVGgzH/view?usp=drive_link)
+8. [Vigenere Cipher](https://drive.google.com/file/d/1LotnDJgpC9tk0Yd4lNBqpmhwOax-EUpm/view?usp=drive_link)
