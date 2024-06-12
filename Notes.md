@@ -12,3 +12,5 @@ permalink: /notes/
 6. [Recommendor System](https://drive.google.com/file/d/13jdRtPsoswcqTpW2pFz9kOP1HiisPCI8/view?usp=drive_link)
 7. [Probability](https://drive.google.com/file/d/1WM1-vzfgYOq4Ahlcw6Yk1ieKj_BVGgzH/view?usp=drive_link)
 8. [Vigenere Cipher](https://drive.google.com/file/d/1LotnDJgpC9tk0Yd4lNBqpmhwOax-EUpm/view?usp=drive_link)
+9. [Matrix Magic](https://drive.google.com/file/d/1Tau9KQykmzdKs0B9SxLKUTsYS8BZVUoL/view?usp=drive_link)
+10. [CV-Intro](https://drive.google.com/file/d/16-SxwYHF3LFVgs4n7JGteUXxwvpbbhNm/view?usp=drive_link)
