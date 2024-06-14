@@ -2287,5 +2287,7 @@ The number of links pointing to a website does affect its perceived importance. 
 133.What do you get when you multiply A and A^T?  
 134.Find the eigen vectors of AA^T for different matrices A, and find the common feature in these eigen vectors. 
 135.Observe what does a matrix A =[[1,0],[0,1],[0,0]] do when applied to a vector in R^2.  
-136.Observe what does a matrix A =[[1,0,0],[0,1,0]] do when applied to a vector in R^3.
+136.Observe what does a matrix A =[[1,0,0],[0,1,0]] do when applied to a vector in R^3.  
+
+**Project 8-** [Knapsack](https://docs.google.com/document/d/1ekC18qOB47I6cCkq2Wca9NA5S0SBXEw83fn0NGvFFVc/edit?usp=drive_link)
 
