@@ -1453,15 +1453,6 @@ Thus, the probability that a randomly chosen point inside the sphere is closer t
 <details closed>
    <summary>Sol.</summary>
 
-   As the point is chosen at random and the cube is very symmetrical in all of the octants, we can reduce the problem to 1st octant only.
-<br>
-Then first method with which we can solve this problem is by symmetry. As we check along the diagonal of the cube, due to its symmetrical figure, the probability will be same for both the cases, i.e., whether the random point is nearer to the center or the vertex. So, the answer comes out to be 1/2.
-<br>
-Mathematically, when we consider the first octant, we can find the locus of point which divides the smaller cube in first octant in such a way that the all points lying on the curve have distance equal from bothe Origin and \((a/2, a/2, a/2)\). It will come out to be a plane with the equation:
-$$x + y + z = 3a/4$$
-On finding the volume between the plane, the cube and the coordinate axes, we get the probability of a point being nearer to the center as the ratio of the volume found and total volume of cube in first octant.
-The final answer comes out to be 1/2 again.
-
    </details><br>
 68.Imagine you have a number line that ranges from -1 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
 <details closed>
