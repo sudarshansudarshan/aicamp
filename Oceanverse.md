@@ -1403,24 +1403,24 @@ Thus, the probability of a dart hitting the shaded region is \( \frac{3}{4} \) o
 
    </details><br>
 65.A factory produces items, and each item is independently defective with probability
-0.02. If 100 items are produced in a day, what is the expected number of defective items?  
+0.2. If 100 items are produced in a day, what is the expected number of defective items?  
 <details closed>
    <summary>Sol.</summary>
 
    To find the expected number of defective items produced in a day by the factory, we use the concept of expectation in probability theory.
 
 Given:
-- Each item is defective with probability \( p = 0.02 \).
+- Each item is defective with probability \( p = 0.2 \).
 - The number of items produced in a day \( n = 100 \).
 
 The expected number of defective items \( E(X) \) can be calculated using the formula for the expectation of a binomial distribution:
 \[ E(X) = n \cdot p \]
 
 Substituting the given values:
-\[ E(X) = 100 \cdot 0.02 \]
-\[ E(X) = 2 \]
+\[ E(X) = 100 \cdot 0.2 \]
+\[ E(X) = 20 \]
 
-Thus, the expected number of defective items produced in a day is 2.
+Thus, the expected number of defective items produced in a day is 20.
 
    </details><br>
 66.A point is chosen at random inside a sphere of radius R. What is the probability that this point is closer to the center of the sphere than to its surface?  
