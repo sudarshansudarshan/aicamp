@@ -2273,5 +2273,19 @@ The number of links pointing to a website does affect its perceived importance. 
    		<summary>Sol.</summary>
 	</details><br>
 
-**Project 7-** [Data Compression 1](https://docs.google.com/document/d/1ohvOA586DLM_bZPKpFJv_EXBtdcI9rMAEcQ_sivrnxM/edit?usp=sharing)
- 
+**Project 7-** [Data Compression 1](https://docs.google.com/document/d/1ohvOA586DLM_bZPKpFJv_EXBtdcI9rMAEcQ_sivrnxM/edit?usp=sharing)  
+
+# Module M  
+---  
+126.Recall linear transformation that you studied in previous modules. What do they do?  
+127.Let a vector v=[3,4] and matrix be A= [[1/root2,-1/root2],[1/root2,1/root2]],find A, what do you observe?  
+128.Let a vector v=[3,4] and matrix be B= [[root3/2,-1/2],[1/2,root3/2]] find Bv, what do you observe?  
+129 What similarity can you observe in matrix A and B?  
+130.Let a vector b=[3,4]  and a matrix D=[[2,0],[0,3]] find Db. Can you observe that the matrix D simply scaled the respective axis of the vector?  
+131.Are you aware or orthogonal matrices? What properties to orthogonal matrices show?  
+132.What is the relation between transpose and inverse of an invertible matrix?  
+133.What do you get when you multiply A and A^T?  
+134.Find the eigen vectors of AA^T for different matrices A, and find the common feature in these eigen vectors. 
+135.Observe what does a matrix A =[[1,0],[0,1],[0,0]] do when applied to a vector in R^2.  
+136.Observe what does a matrix A =[[1,0,0],[0,1,0]] do when applied to a vector in R^3.
+
