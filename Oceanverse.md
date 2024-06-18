@@ -2207,16 +2207,6 @@ The number of links pointing to a website does affect its perceived importance. 
    <details closed>
    <summary>Sol.</summary>
 
-   To address the problem of highly connected nodes potentially biasing the evaluation of other nodes in algorithms like Random Walk and Equal Distribution, several modifications can be considered:
-<br><br>
-1. DAMPING FACTOR IN RANDOM WALK:<br>
-   - Introduce a damping factor to control the probability of continuing the random walk at each step. This factor reduces the bias towards highly connected nodes by dampening the influence of repeated visits to such nodes.<br>
-   - By adjusting the damping factor, you can regulate the exploration of the network and prevent the random walker from getting stuck in highly connected regions.
-<br><br>
-2. WEIGHTED RANDOM WALK:<br>
-   - Assign weights to edges based on factors such as edge quality or node relevance. This allows the random walker to traverse the network with more consideration for the importance of individual connections rather than simply following the number of connections.<br>
-   - Weighted random walk algorithms can help balance the exploration of highly connected nodes with the exploration of less connected but potentially more relevant nodes.
-
    </details><br>
 
 **Project 2-** [PageRank](https://docs.google.com/document/d/1OoQoTu-PMqWEjOp7qpF6Le62zyoN-aO_kGOYDw5yRow/edit?usp=sharing)
@@ -2229,65 +2219,129 @@ The number of links pointing to a website does affect its perceived importance. 
 # Module L
 ---
 117.How does a computer represent an image? (Hint: pixels)
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 118.Are you able to relate this with matrices? If yes, then is this matrix invertible?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 119.Given a 2*2 matrix, what is the probability that the matrix is non-invertible?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 120.What would happen if I randomly remove one pixel form it, would it make any change? What about removing two, three, four... pixels?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 121.How many pixels you can remove in this way? When would you stop?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 122.Can we retrieve the removed pixels?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 123.How much difference do you expect in two adjacent pixels in an image?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 124.Can you think of a systematic way of removing pixels from the image?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 125.Can you retrieve the removed pixels back in this way?
-	<details closed>
-   		<summary>Sol.</summary>
-	</details><br>
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
 
 **Project 7-** [Data Compression 1](https://docs.google.com/document/d/1ohvOA586DLM_bZPKpFJv_EXBtdcI9rMAEcQ_sivrnxM/edit?usp=sharing)  
 
 # Module M  
 ---  
-126.Recall linear transformation that you studied in previous modules. What do they do?  
-127.Let a vector v=[3,4] and matrix be A= [[1/root2,-1/root2],[1/root2,1/root2]],find A, what do you observe?  
-128.Let a vector v=[3,4] and matrix be B= [[root3/2,-1/2],[1/2,root3/2]] find Bv, what do you observe?  
+126.Recall linear transformation that you studied in previous modules. What do they do?
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+127.Let a vector $$v=[3,4]$$ and matrix be $$A= [[1/root2,-1/root2],[1/root2,1/root2]]$$, find A, what do you observe? 	
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+128.Let a vector $$v=[3,4]$$ and matrix be $$B= [[root3/2,-1/2],[1/2,root3/2]]$$ find Bv, what do you observe?  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
 129 What similarity can you observe in matrix A and B?  
-130.Let a vector b=[3,4]  and a matrix D=[[2,0],[0,3]] find Db. Can you observe that the matrix D simply scaled the respective axis of the vector?  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+130.Let a vector $$b=[3,4]$$  and a matrix $$D=[[2,0],[0,3]]$$ find Db. Can you observe that the matrix D simply scaled the respective axis of the vector?  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
 131.Are you aware or orthogonal matrices? What properties to orthogonal matrices show?  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
 132.What is the relation between transpose and inverse of an invertible matrix?  
-133.What do you get when you multiply A and A^T?  
-134.Find the eigen vectors of AA^T for different matrices A, and find the common feature in these eigen vectors. 
-135.Observe what does a matrix A =[[1,0],[0,1],[0,0]] do when applied to a vector in R^2.  
-136.Observe what does a matrix A =[[1,0,0],[0,1,0]] do when applied to a vector in R^3.  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+133.What do you get when you multiply $$A$$ and $$A^T$$?  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+134.Find the eigen vectors of $$AA^$$T for different matrices A, and find the common feature in these eigen vectors. 
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+135.Observe what does a matrix $$A =[[1,0],[0,1],[0,0]]$$ do when applied to a vector in $$R^2$$.  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+136.Observe what does a matrix $$A =[[1,0,0],[0,1,0]]$$ do when applied to a vector in R^3.  
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
 
 **Project 8-** [Knapsack](https://docs.google.com/document/d/1ekC18qOB47I6cCkq2Wca9NA5S0SBXEw83fn0NGvFFVc/edit?usp=drive_link)
 
