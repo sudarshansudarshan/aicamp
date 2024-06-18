@@ -2324,7 +2324,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
    </details><br>
 
-134.Find the eigen vectors of $$AA^$$T for different matrices A, and find the common feature in these eigen vectors. 
+134.Find the eigen vectors of $$AA^T$$ for different matrices A, and find the common feature in these eigen vectors. 
    <details closed>
    <summary>Sol.</summary>
 
