@@ -2336,7 +2336,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
    </details><br>
 
-136.Observe what does a matrix $$A =[[1,0,0],[0,1,0]]$$ do when applied to a vector in R^3.  
+136.Observe what does a matrix $$A =[[1,0,0],[0,1,0]]$$ do when applied to a vector in $$R^3$$.  
    <details closed>
    <summary>Sol.</summary>
 
