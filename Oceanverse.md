@@ -2282,13 +2282,13 @@ The number of links pointing to a website does affect its perceived importance. 
 
    </details><br>
 
-127.Let a vector $$v=[3,4]$$ and matrix be $$A= [[1/root2,-1/root2],[1/root2,1/root2]]$$, find A, what do you observe? 	
+127.Let a vector $$v=[3,4]$$ and matrix be $$A= [[1/ \sqrt{2},-1/ \sqrt{2}],[1/ \sqrt{2},1/ \sqrt{2}]]$$, find A, what do you observe? 	
    <details closed>
    <summary>Sol.</summary>
 
    </details><br>
 
-128.Let a vector $$v=[3,4]$$ and matrix be $$B= [[root3/2,-1/2],[1/2,root3/2]]$$ find Bv, what do you observe?  
+128.Let a vector $$v=[3,4]$$ and matrix be $$B= [[ \sqrt{3}/2,-1/2],[1/2,\sqrt{3}/2]]$$ find Bv, what do you observe?  
    <details closed>
    <summary>Sol.</summary>
 
