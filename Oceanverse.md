@@ -2218,13 +2218,13 @@ The number of links pointing to a website does affect its perceived importance. 
 
 # Module L
 ---
-117.How does a computer represent an image? (Hint: pixels)
+117.How does a computer represent an image?
    <details closed>
    <summary>Sol.</summary>
 
    </details><br>
 
-118.Are you able to relate this with matrices? If yes, then is this matrix invertible?
+Are you able to relate this with matrices? If yes, then is this matrix invertible?
    <details closed>
    <summary>Sol.</summary>
 
@@ -2312,7 +2312,7 @@ The number of links pointing to a website does affect its perceived importance. 
 
    </details><br>
 
-132.What is the relation between transpose and inverse of an invertible matrix?  
+132.What is the relation between transpose and inverse of an orthogonal matrix?  
    <details closed>
    <summary>Sol.</summary>
 
