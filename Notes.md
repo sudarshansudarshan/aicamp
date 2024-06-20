@@ -16,5 +16,6 @@ permalink: /notes/
 10. [CV-Intro](https://drive.google.com/file/d/16-SxwYHF3LFVgs4n7JGteUXxwvpbbhNm/view?usp=drive_link)
 11. [Perceptron](https://drive.google.com/file/d/1imu3piquX7Qozd3klO6J8zkGo5kW9-70/view?usp=drive_link)
 12. [Revisiting Eigen-vectors](https://drive.google.com/file/d/106o9hWGSFLYYIUucy5KUOVdIesYDlXxc/view?usp=sharing)
-13. [CNN Overview](https://poloclub.github.io/cnn-explainer/)
-14. [CNN Implementation](https://www.pycodemates.com/2023/07/build-a-cnn-from-scratch-using-python.html)
+13. [Intro to ML](https://drive.google.com/file/d/1UpIYPBwC9_ilFh97WEZL6fhnYiIqIz8N/view?usp=sharing)
+14. [CNN Overview](https://poloclub.github.io/cnn-explainer/)
+15. [CNN Implementation](https://www.pycodemates.com/2023/07/build-a-cnn-from-scratch-using-python.html)
