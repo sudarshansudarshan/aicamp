@@ -2217,8 +2217,7 @@ The number of links pointing to a website does affect its perceived importance. 
 *Do not use Mathematics anywhere...*
 
 # Module L
----  
-
+---
 117.How does a computer represent an image?
    <details closed>
    <summary>Sol.</summary>
@@ -2277,7 +2276,6 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 
 # Module M  
 ---  
-
 126.Recall linear transformation that you studied in previous modules. What do they do?
    <details closed>
    <summary>Sol.</summary>
@@ -2349,10 +2347,10 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 
 # Module N
 ---  
-
-137.What do you understand by convolution? Suppose we have two sets A and B:  
-A={1,2,3,4} B={5.6.7.8}  
-What is A*B? And what about B*A? Are they same?  
+137.What do you understand by convolution? Suppose we have two sets A and B:
+A={1,2,3,4}
+B={5.6.7.8}
+ What is $$ A \ast B $$? And what about B*A? Are they same?
 
 138.How do you convolve two matrices? Let two matrices be A and B. A=$$ \left( \begin{matrix} 3 & 1 &-1 \\1 & 2 &0 \\1 & 1 & 8 \\\end{matrix}\right) $$ and B = $$ \left( \begin{matrix} 1 & 0 & -1\\4 & -2 & 0 \\6 & 5 & 1 \\\end{matrix}\right) $$ then what is A*B?  
 
@@ -2381,9 +2379,9 @@ d)Why don't we use Min pooling?
 
 147.For a weight W with a gradient ∂L/∂W=0.01, a learning rate α=0.1, and an initial weight W0=0.5, compute the updated weight using gradient descent.  
 
-148.a)Differentiate $$ \frac{1}{{1 + e^{-x}}} $$ wrt to x.
-b)Differentiate $$ -\log(2x^2) $$ wrt to x
-c)Differentiate $$  \frac{e^i}{{\sum e^k}} $$ wrt to i and wrt j  
+148.a) Differentiate $$ \frac{1}{{1 + e^{-x}}} $$ with respect to \(x\). \\
+b) Differentiate $$ -\log(2x^2) $$ with respect to \(x\). \\
+c) Differentiate $$  \frac{e^i}{{\sum e^k}} $$ with respect to \(i\) and \(j\). \\
 
 149.Given is a single neuron, let the loss L be (z_cap - z)^2, find ∂L/∂w_11 and ∂L/∂p2.
 ![fig4](/aicamp/images/n0.jpg) 
@@ -2391,5 +2389,5 @@ c)Differentiate $$  \frac{e^i}{{\sum e^k}} $$ wrt to i and wrt j
 150.Given is another simple neural network. What is the relation of each layer of the above neural network with the previous layer . explicitly write relation of each layer’s neurons with previous layers .    
 ![fig5](/aicamp/images/n1.jpg) 
 
-151.How will you deal with the backpropagation through the max pool layer in CNN?
+151 How will you deal with the backpropagation through the max pool layer in CNN?
 
