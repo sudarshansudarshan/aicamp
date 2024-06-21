@@ -2366,8 +2366,8 @@ c) What kind of values you need in a filter used for blurring an image?
 
 143.What is purpose of applying a pooling layer on an image. How is it different from convolution layer?  
 
-144.a)Apply 2*2 Max pooling on the following image.    
-b) Apply 2*2 avg pooling on the following image.  
+144.a)Apply $$ 2 \* 2 $$ Max pooling on the following image.    
+b) Apply $$ 2 \* 2 $$ avg pooling on the following image.  
 c) What are the dimensions of the image after pooling? Does pooling change the depth of the image?  
 d)Why don't we use Min pooling?  
 
@@ -2379,9 +2379,9 @@ d)Why don't we use Min pooling?
 
 147.For a weight W with a gradient ∂L/∂W=0.01, a learning rate α=0.1, and an initial weight W0=0.5, compute the updated weight using gradient descent.  
 
-148.a) Differentiate $$ \frac{1}{{1 + e^{-x}}} $$ with respect to \(x\). \\
-b) Differentiate $$ -\log(2x^2) $$ with respect to \(x\). \\
-c) Differentiate $$  \frac{e^i}{{\sum e^k}} $$ with respect to \(i\) and \(j\). 
+148.a) Differentiate \( \frac{1}{{1 + e^{-x}}} \) with respect to \(x\).
+b) Differentiate \( -\log(2x^2) \) with respect to \(x\).  
+c) Differentiate \( \frac{e^i}{{\sum e^k}} \) with respect to \(i\) and \(j\).
 
 149.Given is a single neuron, let the loss L be (z_cap - z)^2, find ∂L/∂w_11 and ∂L/∂p2.
 ![fig4](/aicamp/images/n0.jpg) 
