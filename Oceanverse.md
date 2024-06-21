@@ -2345,35 +2345,52 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 
 **Project 8-** [Knapsack](https://docs.google.com/document/d/1ekC18qOB47I6cCkq2Wca9NA5S0SBXEw83fn0NGvFFVc/edit?usp=drive_link)  
 
-- What do you understand by convolution? Suppose we have two sets A and B:
+# Module N
+---  
+
+137. What do you understand by convolution? Suppose we have two sets A and B:
 A={1,2,3,4}
 B={5.6.7.8}
 What is A*B? And what about B*A? Are they same?
 
-- How do you convolve two matrices? Let two matrices be A and B. then what is A*B?
-- What is the purpose of using filters on images?
-- How will you create a filter for horizontal edge detection?
-- How will you create a filter for diagonal edge detection?
-- What kind of values you need in a filter used for blurring an image?
-- Apply the following filter F on an image M and observe the dimensions of the output. Are the same as previous?
-- Given a 32*32*3-RGB image, calculate the output dimensions after applying a convolutional layer with 16 filters, each of size 3x3, with a stride of 1 and with no padding. Also find the general formula.
-- What is purpose of applying a pooling layer on an image. How is it different from convolution layer?
-- Apply 2*2 Max pooling on the following image.
-- Apply 2*2 avg pooling on the following image.
-- What are the dimensions of the image after pooling? Does pooling change the depth of the image?
-- Why don't we use Min pooling?
-- Given the following predicted probabilities and true labels, calculate the binary cross-entropy loss:
+138.How do you convolve two matrices? Let two matrices be A and B. A=$$ \left( \begin{matrix} 3 & 1 &-1 \\1 & 2 &0 \\1 & 1 & 8 \\\end{matrix}\right) $$ and B = $$ \left( \begin{matrix} 1 & 0 & -1\\4 & -2 $ 0 \\6 & 5 & 1 \\\end{matrix}\right) $$ then what is A*B?  
+
+139.What is the purpose of using filters on images?  
+
+140.a)How will you create a filter for horizontal edge detection?
+b)How will you create a filter for diagonal edge detection?
+c) What kind of values you need in a filter used for blurring an image?
+
+141.Apply the following filter F on an image M and observe the dimensions of the output. Are the same as previous?  
+
+142. Given a 32*32*3-RGB image, calculate the output dimensions after applying a convolutional layer with 16 filters, each of size 3x3, with a stride of 1 and with no padding. Also find the general formula.  
+
+143.What is purpose of applying a pooling layer on an image. How is it different from convolution layer?  
+
+144.a)Apply 2*2 Max pooling on the following image.
+b) Apply 2*2 avg pooling on the following image.
+c) What are the dimensions of the image after pooling? Does pooling change the depth of the image?
+d)Why don't we use Min pooling?  
+
+145 Given the following predicted probabilities and true labels, calculate the binary cross-entropy loss:
    Predicted probabilities=[0.7,0.2,0.1]
    True labels=[1,0,0]
-- When will this cross entropy loss be minimum?
-- For a weight W with a gradient ∂L/∂W=0.01, a learning rate α=0.1, and an initial weight W0=0.5, compute the updated weight using gradient descent.
-- Differentiate 1/(1 + e^-x) wrt to x.
-- Differentiate -log(2x^2) wrt to x
-- Differentiate e^i/ sum(e^k) wrt to i and wrt j
-- Given is a single neuron, let the loss L be (z_cap - z)^2, find ∂L/∂w_11 and ∂L/∂p2.
-- Given is another simple neural network. What is the relation of each layer of the above neural network with the previous layer . explicitly write relation of each layer’s neurons with previous layers .
-- How will you deal with the backpropagation through the max pool layer in CNN?
-- 
+   
+146 When will this cross entropy loss be minimum?  
+
+147.For a weight W with a gradient ∂L/∂W=0.01, a learning rate α=0.1, and an initial weight W0=0.5, compute the updated weight using gradient descent.  
+
+148.a)Differentiate 1/(1 + e^-x) wrt to x.
+b)Differentiate -log(2x^2) wrt to x
+c)Differentiate e^i/ sum(e^k) wrt to i and wrt j  
+
+149.Given is a single neuron, let the loss L be (z_cap - z)^2, find ∂L/∂w_11 and ∂L/∂p2.
+
+150.Given is another simple neural network. What is the relation of each layer of the above neural network with the previous layer . explicitly write relation of each layer’s neurons with previous layers .   
+
+151 How will you deal with the backpropagation through the max pool layer in CNN?
+
+-
 
 
 - 
