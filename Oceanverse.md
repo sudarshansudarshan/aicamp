@@ -2350,14 +2350,14 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 137.What do you understand by convolution? Suppose we have two sets A and B:
 A={1,2,3,4}
 B={5.6.7.8}
- What is $$ A \ast B $$? And what about B*A? Are they same?
+ What is $$ A \ast B $$? And what about $$ B \ast A $$? Are they same?
 
-138.How do you convolve two matrices? Let two matrices be A and B. A=$$ \left( \begin{matrix} 3 & 1 &-1 \\1 & 2 &0 \\1 & 1 & 8 \\\end{matrix}\right) $$ and B = $$ \left( \begin{matrix} 1 & 0 & -1\\4 & -2 & 0 \\6 & 5 & 1 \\\end{matrix}\right) $$ then what is A*B?  
+138.How do you convolve two matrices? Let two matrices be A and B. A=$$ \left( \begin{matrix} 3 & 1 &-1 \\1 & 2 &0 \\1 & 1 & 8 \\\end{matrix}\right) $$ and B = $$ \left( \begin{matrix} 1 & 0 & -1\\4 & -2 & 0 \\6 & 5 & 1 \\\end{matrix}\right) $$ then what is $$ A \ast B $$?  
 
 139.What is the purpose of using filters on images?  
 
-140.a)How will you create a filter for horizontal edge detection?
-b)How will you create a filter for diagonal edge detection?
+140.a)How will you create a filter for horizontal edge detection?  
+b)How will you create a filter for diagonal edge detection?  
 c) What kind of values you need in a filter used for blurring an image?
 
 141.Apply the following filter F on an image M and observe the dimensions of the output. Are the same as previous?  
@@ -2366,9 +2366,9 @@ c) What kind of values you need in a filter used for blurring an image?
 
 143.What is purpose of applying a pooling layer on an image. How is it different from convolution layer?  
 
-144.a)Apply 2*2 Max pooling on the following image.
-b) Apply 2*2 avg pooling on the following image.
-c) What are the dimensions of the image after pooling? Does pooling change the depth of the image?
+144.a)Apply 2*2 Max pooling on the following image.    
+b) Apply 2*2 avg pooling on the following image.  
+c) What are the dimensions of the image after pooling? Does pooling change the depth of the image?  
 d)Why don't we use Min pooling?  
 
 145.Given the following predicted probabilities and true labels, calculate the binary cross-entropy loss:
@@ -2381,7 +2381,7 @@ d)Why don't we use Min pooling?
 
 148.a) Differentiate $$ \frac{1}{{1 + e^{-x}}} $$ with respect to \(x\). \\
 b) Differentiate $$ -\log(2x^2) $$ with respect to \(x\). \\
-c) Differentiate $$  \frac{e^i}{{\sum e^k}} $$ with respect to \(i\) and \(j\). \\
+c) Differentiate $$  \frac{e^i}{{\sum e^k}} $$ with respect to \(i\) and \(j\). 
 
 149.Given is a single neuron, let the loss L be (z_cap - z)^2, find ∂L/∂w_11 and ∂L/∂p2.
 ![fig4](/aicamp/images/n0.jpg) 
