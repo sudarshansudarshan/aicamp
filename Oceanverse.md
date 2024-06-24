@@ -2306,7 +2306,7 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 
    </details><br>
 
-131.Are you aware or orthogonal matrices? What properties to orthogonal matrices show?  
+131.Are you aware of orthogonal matrices? What properties do orthogonal matrices show?  
    <details closed>
    <summary>Sol.</summary>
 
@@ -2362,7 +2362,7 @@ c) What kind of values you need in a filter used for blurring an image?
 
 141.Apply the following filter F on an image M and observe the dimensions of the output. Are the same as previous?  
 
-142.Given a $$ 32 \ast 32 \ast 32 $$RGB image, calculate the output dimensions after applying a convolutional layer with 16 filters, each of size 3x3, with a stride of 1 and with no padding. Also find the general formula.  
+142.Given a $$ 32 \times 32 \times 32 $$RGB image, calculate the output dimensions after applying a convolutional layer with 16 filters, each of size 3x3, with a stride of 1 and with no padding. Also find the general formula.  
 
 143.What is purpose of applying a pooling layer on an image. How is it different from convolution layer?  
 
