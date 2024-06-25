@@ -2348,8 +2348,8 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 # Module N
 ---  
 137.What do you understand by convolution? Suppose we have two sets A and B:
-A={1,2,3,4}
-B={5.6.7.8}
+$$ A= \{\ 1,2,3,4 \}\$$
+$$ B=\{\ 5.6.7.8\}\ $$
  What is $$ A \ast B $$? And what about $$ B \ast A $$? Are they same?
 
 138.How do you convolve two matrices? Let two matrices be A and B. A=$$ \left( \begin{matrix} 3 & 1 &-1 \\1 & 2 &0 \\1 & 1 & 8 \\\end{matrix}\right) $$ and B = $$ \left( \begin{matrix} 1 & 0 & -1\\4 & -2 & 0 \\6 & 5 & 1 \\\end{matrix}\right) $$ then what is $$ A \ast B $$?  
@@ -2362,7 +2362,7 @@ c) What kind of values you need in a filter used for blurring an image?
 
 141.Apply the following filter F on an image M and observe the dimensions of the output. Are the same as previous?  
 
-142.Given a $$ 32 \times 32 \times 32 $$RGB image, calculate the output dimensions after applying a convolutional layer with 16 filters, each of size 3x3, with a stride of 1 and with no padding. Also find the general formula.  
+142.Given a $$ 32 \times 32 \times 32 $$ RGB image, calculate the output dimensions after applying a convolutional layer with 16 filters, each of size $$ 3 \times 3 $$, with a stride of 1 and with no padding. Also find the general formula.  
 
 143.What is purpose of applying a pooling layer on an image. How is it different from convolution layer?  
 
@@ -2377,13 +2377,14 @@ d)Why don't we use Min pooling?
    
 146.When will this cross entropy loss be minimum?  
 
-147.For a weight W with a gradient ∂L/∂W=0.01, a learning rate α=0.1, and an initial weight W0=0.5, compute the updated weight using gradient descent.  
+147.For a weight W with a gradient$$ \frac{\partial L}{\partial W}}=0.01 $$, a learning rate α=0.1, and an initial weight W_{\text{o}}=0.5, compute the updated weight using gradient descent.  
 
 148.a) Differentiate $$ \frac{1}{ 1 + e^{-x} } $$ with respect to \(x\).  
 b) Differentiate $$ -\log(2x^2) $$ with respect to \(x\).    
 c) Differentiate $$ \frac{e^i}{ \sum e^k } $$ with respect to \(i\) and \(j\).
 
-149.Given is a single neuron, let the loss L be (z_cap - z)^2, find ∂L/∂w_11 and ∂L/∂p2.
+149.Given is a single neuron, let the loss L be $$ \(\ \hat{z} - z \)\^{2} $$, find $$ \frac{\partial L}{\partial w_{11}} $$ and $$ \frac{\partial L}{\partial p_{2}} $$
+.
 ![fig4](/aicamp/images/n0.jpg) 
 
 150.Given is another simple neural network. What is the relation of each layer of the above neural network with the previous layer . explicitly write relation of each layer’s neurons with previous layers .    
