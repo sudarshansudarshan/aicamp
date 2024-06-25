@@ -2347,10 +2347,8 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 
 # Module N
 ---  
-137.What do you understand by convolution? Suppose we have two sets A and B:
-$$ A= \{\ 1,2,3,4 \}\ $$
-$$ B=\{\ 5.6.7.8\}\ $$
- What is $$ A \ast B $$? And what about $$ B \ast A $$? Are they same?
+137..What do you understand by convolution?Suppose we have two sets \(A\) and \(B\): \[ A = \{1, 2, 3, 4\} \] \[ B = \{5, 6, 7, 8\} \] What is \(A \ast B\)? And what about \(B \ast A\)? Are they the same?
+
 
 138.How do you convolve two matrices? Let two matrices be A and B. A=$$ \left( \begin{matrix} 3 & 1 &-1 \\1 & 2 &0 \\1 & 1 & 8 \\\end{matrix}\right) $$ and B = $$ \left( \begin{matrix} 1 & 0 & -1\\4 & -2 & 0 \\6 & 5 & 1 \\\end{matrix}\right) $$ then what is $$ A \ast B $$?  
 
