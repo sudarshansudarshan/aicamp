@@ -2348,7 +2348,7 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 # Module N
 ---  
 137.What do you understand by convolution? Suppose we have two sets A and B:
-$$ A= \{\ 1,2,3,4 \}\$$
+$$ A= \{\ 1,2,3,4 \}\ $$
 $$ B=\{\ 5.6.7.8\}\ $$
  What is $$ A \ast B $$? And what about $$ B \ast A $$? Are they same?
 
@@ -2377,13 +2377,13 @@ d)Why don't we use Min pooling?
    
 146.When will this cross entropy loss be minimum?  
 
-147.For a weight W with a gradient$$ \frac{\partial L}{\partial W}}=0.01 $$, a learning rate α=0.1, and an initial weight W_{\text{o}}=0.5, compute the updated weight using gradient descent.  
+147.For a weight W with a gradient$$ \frac{\partial L}{\partial W} =0.01 $$, a learning rate α=0.1, and an initial weight $$ W_{\text{o}} = 0.5 $$, compute the updated weight using gradient descent.  
 
 148.a) Differentiate $$ \frac{1}{ 1 + e^{-x} } $$ with respect to \(x\).  
 b) Differentiate $$ -\log(2x^2) $$ with respect to \(x\).    
 c) Differentiate $$ \frac{e^i}{ \sum e^k } $$ with respect to \(i\) and \(j\).
 
-149.Given is a single neuron, let the loss L be $$ \(\ \hat{z} - z \)\^{2} $$, find $$ \frac{\partial L}{\partial w_{11}} $$ and $$ \frac{\partial L}{\partial p_{2}} $$
+149.Given is a single neuron, let the loss L be $$ (\hat{z} - z)^2  $$, find $$ \frac{\partial L}{\partial w_{11}} $$ and $$ \frac{\partial L}{\partial p_{2}} $$
 .
 ![fig4](/aicamp/images/n0.jpg) 
 
