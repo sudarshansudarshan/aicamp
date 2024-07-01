@@ -19,3 +19,7 @@ permalink: /notes/
 13. [Intro to ML](https://drive.google.com/file/d/1UpIYPBwC9_ilFh97WEZL6fhnYiIqIz8N/view?usp=sharing)
 14. [CNN Overview](https://poloclub.github.io/cnn-explainer/)
 15. [CNN Implementation](https://www.pycodemates.com/2023/07/build-a-cnn-from-scratch-using-python.html)
+16. [NLP](https://colab.research.google.com/drive/1ksxMmWU7Ka8aL7qj4XN9mKDYJ0jYEEeY?usp=sharing)
+17. [GAN](https://drive.google.com/file/d/1a8bW5IZgXMK3CHsbpqJTv7Uh1IXtv38R/view?usp=sharing)
+18. [Self Supervised Learning](https://drive.google.com/file/d/1aeQ-WuVGsDgjqoEzK9iw2Srfe0BW5Mm6/view?usp=sharing)
+19. [Stable Diffsion](https://drive.google.com/file/d/1wwe7V-MzhaPjxAnwh0VsYIn1qAWnSJ1t/view?usp=sharing)
