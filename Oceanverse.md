@@ -2414,3 +2414,6 @@ c) Differentiate $$ \frac{e^i}{ \sum e^k } $$ with respect to \(i\) and \(j\).
 
 162.In the following figure, arrange the points 1, 2, 3, 4 in increasing order of their error (loss).
 
+![fig5](/aicamp/images/WhatsApp Image 2024-07-02 at 14.53.49_f428704d.jpg) 
+
+
