@@ -2398,7 +2398,7 @@ c) Differentiate $$ \frac{e^i}{ \sum e^k } $$ with respect to \(i\) and \(j\).
 
 154.Consider the equation of line $$mx+ny+p=0$$. If the equation of one of the lines at distance d is given as $$mx+ny+p=1$$, then find the equation of the other line.
 
-155.The equation of a line can also be written as **w. **x* + b = 0 if we define *w* = [m, n] and *x* = [x, y]. Find the distance between *w. **x* + b = 0 and *w. **x* + b = 1.*
+155.The equation of a line can also be written as **w**.**x** + **b** = 0 if we define **w** = [m, n] and **x** = [x, y]. Find the distance between **w**.**x** + **b** = 0 and **w**.**x** + **b** = 1.
 
 156.If the equations of the left and right margins are **w**.**x** + **b** = -1 and **w**.**x** + **b** = 1 respectively, show that the condition for a data point to be correctly classified is \[ y_i (\mathbf{w} \cdot \mathbf{x}_i + b) \geq 1 \] where \(y_i\) is the class label of the data point \(\mathbf{x}_i\).
 
@@ -2413,3 +2413,4 @@ c) Differentiate $$ \frac{e^i}{ \sum e^k } $$ with respect to \(i\) and \(j\).
 161.Why is Support Vector Machines (SVM) better than other ML Classification Algorithms (like logistic regression)?
 
 162.In the following figure, arrange the points 1, 2, 3, 4 in increasing order of their error (loss).
+
