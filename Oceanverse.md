@@ -2282,7 +2282,7 @@ Are you able to relate this with matrices? If yes, then is this matrix invertibl
 
    </details><br>
 
-127.Let a vector $$v=[3,4]$$ and matrix be $$A= [[1/ \sqrt{2},-1/ \sqrt{2}],[1/ \sqrt{2},1/ \sqrt{2}]]$$, find A, what do you observe? 	
+127.Let a vector $$v=[3,4]$$ and matrix be $$A= [[1/ \sqrt{2},-1/ \sqrt{2}],[1/ \sqrt{2},1/ \sqrt{2}]]$$, find Av, what do you observe? 	
    <details closed>
    <summary>Sol.</summary>
 
