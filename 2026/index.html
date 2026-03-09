@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Vicharana Shala 2026 — IIT Ropar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0e1a;
+      --surface: #111827;
+      --card: #1a2236;
+      --border: #2a3550;
+      --accent: #f59e0b;
+      --accent2: #6366f1;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --bright: #ffffff;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2rem;
+      background: rgba(10, 14, 26, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo { font-weight: 800; font-size: 1.1rem; color: var(--accent); letter-spacing: -0.5px; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--bright); }
+    .nav-cta { background: var(--accent); color: #000; padding: 0.5rem 1.2rem; border-radius: 6px; font-weight: 700; font-size: 0.85rem; text-decoration: none; transition: opacity 0.2s; }
+    .nav-cta:hover { opacity: 0.85; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 8rem 2rem 4rem;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(99,102,241,0.15) 0%, transparent 70%),
+                  radial-gradient(ellipse 60% 40% at 80% 100%, rgba(245,158,11,0.1) 0%, transparent 60%),
+                  var(--bg);
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236366f1' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(99,102,241,0.15); border: 1px solid rgba(99,102,241,0.4);
+      color: #a5b4fc; padding: 0.4rem 1rem; border-radius: 100px;
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.5px;
+      text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero-badge::before { content: '✦'; }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3rem, 8vw, 6.5rem);
+      font-weight: 900; line-height: 1.05;
+      color: var(--bright); margin-bottom: 0.3rem;
+      letter-spacing: -2px;
+    }
+    h1 span { color: var(--accent); }
+    .hero-sub {
+      font-size: clamp(1rem, 2.5vw, 1.35rem); color: var(--muted);
+      max-width: 640px; margin: 1.2rem auto 0;
+      font-weight: 400;
+    }
+    .hero-meta {
+      display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;
+      margin: 2.5rem 0;
+    }
+    .meta-item {
+      display: flex; flex-direction: column; align-items: center; gap: 0.2rem;
+    }
+    .meta-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 600; }
+    .meta-value { font-size: 1.1rem; font-weight: 700; color: var(--bright); }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 0.5rem; }
+    .btn-primary {
+      background: var(--accent); color: #000;
+      padding: 0.85rem 2rem; border-radius: 8px;
+      font-weight: 800; font-size: 1rem; text-decoration: none;
+      transition: transform 0.15s, opacity 0.15s;
+      display: inline-flex; align-items: center; gap: 0.5rem;
+    }
+    .btn-primary:hover { transform: translateY(-2px); opacity: 0.9; }
+    .btn-secondary {
+      background: transparent; color: var(--text);
+      padding: 0.85rem 2rem; border-radius: 8px;
+      font-weight: 600; font-size: 1rem; text-decoration: none;
+      border: 1px solid var(--border); transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+    .scroll-hint {
+      position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 0.4rem;
+      color: var(--muted); font-size: 0.75rem; animation: bounce 2s infinite;
+    }
+    @keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(6px)} }
+
+    /* SECTIONS */
+    section { padding: 5rem 2rem; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 3rem); font-weight: 700;
+      color: var(--bright); line-height: 1.15; margin-bottom: 1rem;
+    }
+    .section-desc { color: var(--muted); max-width: 560px; font-size: 1.05rem; }
+
+    /* ABOUT */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-top: 3rem; }
+    .about-pills { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.5rem; }
+    .pill {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); padding: 0.4rem 0.9rem; border-radius: 100px;
+      font-size: 0.85rem; font-weight: 500;
+    }
+    .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .stat-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.5rem; text-align: center;
+    }
+    .stat-num { font-size: 2.5rem; font-weight: 900; color: var(--accent); line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; font-weight: 500; }
+
+    /* CURRICULUM */
+    .curriculum { background: var(--surface); }
+    .weeks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
+    .week-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.75rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .week-card:hover { border-color: var(--accent2); transform: translateY(-3px); }
+    .week-num {
+      font-size: 0.7rem; font-weight: 800; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--accent2); margin-bottom: 0.5rem;
+    }
+    .week-title { font-size: 1.1rem; font-weight: 700; color: var(--bright); margin-bottom: 0.3rem; }
+    .week-tagline { font-size: 0.82rem; color: var(--accent); font-style: italic; margin-bottom: 1rem; }
+    .week-topics { list-style: none; }
+    .week-topics li {
+      font-size: 0.875rem; color: var(--muted); padding: 0.35rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      display: flex; align-items: flex-start; gap: 0.5rem;
+    }
+    .week-topics li::before { content: '→'; color: var(--accent); flex-shrink: 0; font-size: 0.8rem; margin-top: 0.05rem; }
+    .week-topics li:last-child { border-bottom: none; }
+
+    /* STACK */
+    .stack-section { background: var(--bg); }
+    .stack-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.2rem; margin-top: 3rem; }
+    .stack-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.5rem;
+      display: flex; gap: 1rem; align-items: flex-start;
+    }
+    .stack-icon { font-size: 1.8rem; flex-shrink: 0; }
+    .stack-name { font-weight: 700; color: var(--bright); margin-bottom: 0.3rem; }
+    .stack-desc { font-size: 0.83rem; color: var(--muted); }
+
+    /* SCHEDULE */
+    .schedule-section { background: var(--surface); }
+    .schedule-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 3rem; }
+    .schedule-table { width: 100%; border-collapse: collapse; }
+    .schedule-table th {
+      text-align: left; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; color: var(--muted); padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .schedule-table td { padding: 0.75rem 1rem; font-size: 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .schedule-table td:first-child { color: var(--accent); font-weight: 600; font-size: 0.82rem; white-space: nowrap; }
+    .schedule-note {
+      background: rgba(99,102,241,0.1); border: 1px solid rgba(99,102,241,0.25);
+      border-radius: 10px; padding: 1.25rem; margin-top: 1rem;
+      font-size: 0.875rem; color: #a5b4fc;
+    }
+    .schedule-note strong { color: var(--bright); }
+
+    /* FAQ */
+    .faq-list { margin-top: 3rem; display: flex; flex-direction: column; gap: 1rem; max-width: 800px; }
+    details {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; overflow: hidden;
+    }
+    details[open] { border-color: var(--accent2); }
+    summary {
+      padding: 1.25rem 1.5rem; font-weight: 600; color: var(--bright);
+      cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.95rem;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; color: var(--accent); font-size: 1.3rem; font-weight: 300; transition: transform 0.2s; }
+    details[open] summary::after { transform: rotate(45deg); }
+    .faq-body { padding: 0 1.5rem 1.25rem; color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
+
+    /* FEES */
+    .fees-section { background: var(--bg); }
+    .fees-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem; }
+    .fee-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 2rem; position: relative; overflow: hidden;
+    }
+    .fee-card.featured { border-color: var(--accent); }
+    .fee-card.featured::before {
+      content: 'Most Common';
+      position: absolute; top: 1rem; right: 1rem;
+      background: var(--accent); color: #000;
+      font-size: 0.7rem; font-weight: 800; letter-spacing: 0.5px;
+      padding: 0.3rem 0.7rem; border-radius: 100px;
+    }
+    .fee-type { font-size: 0.75rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+    .fee-amount { font-size: 2.5rem; font-weight: 900; color: var(--bright); line-height: 1; }
+    .fee-amount span { font-size: 1.2rem; font-weight: 500; color: var(--muted); }
+    .fee-note { font-size: 0.85rem; color: var(--muted); margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+    .fee-includes { list-style: none; margin-top: 1rem; }
+    .fee-includes li { font-size: 0.875rem; color: var(--muted); padding: 0.3rem 0; display: flex; gap: 0.5rem; }
+    .fee-includes li::before { content: '✓'; color: #34d399; font-weight: 700; }
+    .fee-excl::before { content: '×' !important; color: #f87171 !important; }
+
+    /* TIMELINE */
+    .timeline { margin-top: 3rem; position: relative; }
+    .timeline::before {
+      content: ''; position: absolute; left: 110px; top: 0; bottom: 0;
+      width: 1px; background: var(--border);
+    }
+    .timeline-item { display: flex; gap: 2rem; margin-bottom: 2rem; position: relative; }
+    .timeline-date {
+      width: 100px; flex-shrink: 0; text-align: right;
+      font-size: 0.8rem; font-weight: 700; color: var(--accent);
+      padding-top: 0.2rem;
+    }
+    .timeline-dot {
+      width: 12px; height: 12px; border-radius: 50%; background: var(--accent2);
+      flex-shrink: 0; margin-top: 0.35rem; position: relative; z-index: 1;
+      box-shadow: 0 0 0 4px var(--bg);
+    }
+    .timeline-content { flex: 1; }
+    .timeline-title { font-weight: 700; color: var(--bright); margin-bottom: 0.2rem; }
+    .timeline-desc { font-size: 0.875rem; color: var(--muted); }
+
+    /* CTA */
+    .cta-section {
+      text-align: center; padding: 6rem 2rem;
+      background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(99,102,241,0.12) 0%, transparent 70%), var(--bg);
+    }
+    .cta-section h2 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.5rem); color: var(--bright); margin-bottom: 1rem; }
+    .cta-section p { color: var(--muted); font-size: 1.1rem; max-width: 500px; margin: 0 auto 2.5rem; }
+
+    /* FOOTER */
+    footer {
+      background: var(--surface); border-top: 1px solid var(--border);
+      padding: 2.5rem 2rem; text-align: center;
+    }
+    .footer-links { display: flex; justify-content: center; gap: 2rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.875rem; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-copy { color: var(--muted); font-size: 0.8rem; }
+    .footer-copy a { color: var(--accent); text-decoration: none; }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .about-grid, .schedule-grid, .fees-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .timeline::before { left: 0; }
+      .timeline-date { display: none; }
+      .timeline-dot { margin-left: -6px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">AI Vicharana Shala '26</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#fees">Fees</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#register" class="nav-cta">Apply Now →</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-badge">IIT Ropar · Summer 2026</div>
+    <h1>AI <span>Vicharaṇā</span><br/>Shālā</h1>
+    <p class="hero-sub">A six-week residential AI camp at IIT Ropar — where curiosity is the only prerequisite and thinking slow is the fastest path forward.</p>
+    <div class="hero-meta">
+      <div class="meta-item">
+        <span class="meta-label">Starts</span>
+        <span class="meta-value">June 1, 2026</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Duration</span>
+        <span class="meta-value">6 Weeks</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Seats</span>
+        <span class="meta-value">120 Students</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Credit</span>
+        <span class="meta-value">1 NHEQF Credit</span>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="http://bit.ly/AIVS_2026" class="btn-primary">Apply for 2026 →</a>
+      <a href="#curriculum" class="btn-secondary">See Curriculum</a>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll to explore</span>
+      <span>↓</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <p class="section-label">About the Camp</p>
+          <h2 class="section-title">Where AI is taught the Vicharanashala way</h2>
+          <p class="section-desc">We don't lecture. We discuss. We don't test. We explore. We don't just teach AI — we use AI to teach AI. This is the third edition of our residential camp that has sent students back transformed.</p>
+          <div class="about-pills">
+            <span class="pill">No prerequisites</span>
+            <span class="pill">Residential stay</span>
+            <span class="pill">Hands-on projects</span>
+            <span class="pill">Holistic evaluation</span>
+            <span class="pill">1 NHEQF Credit</span>
+            <span class="pill">IIT Ropar Certificate</span>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">120</div>
+            <div class="stat-label">Seats available</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">6</div>
+            <div class="stat-label">Weeks of deep learning</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">0</div>
+            <div class="stat-label">Prerequisites needed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">50</div>
+            <div class="stat-label">Virtual seats (online)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRICULUM -->
+  <section id="curriculum" class="curriculum">
+    <div class="container">
+      <p class="section-label">What You'll Learn</p>
+      <h2 class="section-title">Six weeks. Six transformations.</h2>
+      <p class="section-desc">Each week builds on the last — from mathematical intuition to building real AI systems using the Vicharanashala stack.</p>
+      <div class="weeks-grid">
+        <div class="week-card">
+          <div class="week-num">Week 01</div>
+          <div class="week-title">Reset & Foundation</div>
+          <div class="week-tagline">"Unlearn what you think you know."</div>
+          <ul class="week-topics">
+            <li>Mathematical thinking — slow and deep</li>
+            <li>Probability without formulas</li>
+            <li>German Tank, Birthday Paradox, Monty Hall</li>
+            <li>Linear Algebra through GeoGebra</li>
+            <li>Daily ritual: 1 unsolvable problem, 2 hours</li>
+          </ul>
+        </div>
+        <div class="week-card">
+          <div class="week-num">Week 02</div>
+          <div class="week-title">Classical AI Reimagined</div>
+          <div class="week-tagline">"Before the hype, there was genius."</div>
+          <ul class="week-topics">
+            <li>PageRank — how a dorm idea became Google</li>
+            <li>Perceptron — the first neuron</li>
+            <li>Huffman Encoding — compression as art</li>
+            <li>Closest Pairs, Min-Cut, Vigenere Cipher</li>
+            <li>Project seed: Tell the story of one algorithm</li>
+          </ul>
+        </div>
+        <div class="week-card">
+          <div class="week-num">Week 03</div>
+          <div class="week-title">Machine Learning by Instinct</div>
+          <div class="week-tagline">"Feel the data before you fit it."</div>
+          <ul class="week-topics">
+            <li>Bayesian thinking through market games</li>
+            <li>Decision Trees and why they break</li>
+            <li>SVMs — the best margin you'll ever see</li>
+            <li>Dimensionality reduction, Recommender Systems</li>
+            <li>Build a classifier on real data you bring</li>
+          </ul>
+        </div>
+        <div class="week-card">
+          <div class="week-num">Week 04</div>
+          <div class="week-title">The Deep Learning Layer</div>
+          <div class="week-tagline">"Networks that see, hear, and feel."</div>
+          <ul class="week-topics">
+            <li>Neural networks — forward pass as intuition</li>
+            <li>CNNs through image puzzles</li>
+            <li>RNNs and the memory problem</li>
+            <li>LSTMs in the wild</li>
+            <li>Guest: practitioner on what breaks in production</li>
+          </ul>
+        </div>
+        <div class="week-card">
+          <div class="week-num">Week 05</div>
+          <div class="week-title">The LLM Revolution</div>
+          <div class="week-tagline">"You're living through the biggest shift in computing."</div>
+          <ul class="week-topics">
+            <li>Transformers — attention as democracy of context</li>
+            <li>Prompt engineering as a craft</li>
+            <li>Building with APIs — Ajrasakha live demo</li>
+            <li>AI Agents and tool use</li>
+            <li>Workshop: Build an agent on the AIVS stack</li>
+          </ul>
+        </div>
+        <div class="week-card">
+          <div class="week-num">Week 06</div>
+          <div class="week-title">Build, Ship, Present</div>
+          <div class="week-tagline">"Don't just learn. Make something."</div>
+          <ul class="week-topics">
+            <li>Teams of 2, one real-world project each</li>
+            <li>Domains: agriculture, education, health, governance</li>
+            <li>Mentoring by DLED faculty + AWaDH founders</li>
+            <li>Public Demo Day — open to campus</li>
+            <li>Top performers: fast-track Vinternship invite</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="stack-section">
+    <div class="container">
+      <p class="section-label">The AIVS 2026 Stack</p>
+      <h2 class="section-title">We use AI to teach AI.</h2>
+      <p class="section-desc">This camp runs on tools built at IIT Ropar. You'll learn them by using them every day.</p>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <div class="stack-icon">🎬</div>
+          <div>
+            <div class="stack-name">ViBe</div>
+            <div class="stack-desc">Every lecture gets sliced into short modules. Watch, answer embedded questions, self-assess — on demand, any time.</div>
+          </div>
+        </div>
+        <div class="stack-card">
+          <div class="stack-icon">🤖</div>
+          <div>
+            <div class="stack-name">Ajrasakha</div>
+            <div class="stack-desc">Your 24/7 AI teaching assistant. Ask questions at midnight; it answers. Every escalated question improves the model.</div>
+          </div>
+        </div>
+        <div class="stack-card">
+          <div class="stack-icon">📋</div>
+          <div>
+            <div class="stack-name">Gurusetu</div>
+            <div class="stack-desc">Course management, attendance, sprint tracking — the team uses this camp as a live sprint.</div>
+          </div>
+        </div>
+        <div class="stack-card">
+          <div class="stack-icon">🌾</div>
+          <div>
+            <div class="stack-name">Annam AI</div>
+            <div class="stack-desc">Projects with an agricultural AI angle get mentored by the Annam team — India's agricultural intelligence engine.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section id="schedule" class="schedule-section">
+    <div class="container">
+      <p class="section-label">Daily Life</p>
+      <h2 class="section-title">How a day looks.</h2>
+      <div class="schedule-grid">
+        <div>
+          <h3 style="color:var(--bright);margin-bottom:1rem;font-size:1.1rem;">Monday – Friday</h3>
+          <table class="schedule-table">
+            <thead><tr><th>Time</th><th>Activity</th></tr></thead>
+            <tbody>
+              <tr><td>7:30–8:30 AM</td><td>Breakfast</td></tr>
+              <tr><td>8:30–10:40 AM</td><td>Class (illustrative, not enumerative)</td></tr>
+              <tr><td>10:40 AM–12:40 PM</td><td>Codershigh Roundtable — peers only, no instructor</td></tr>
+              <tr><td>1:00–4:30 PM</td><td>Lab / Project / Self-study</td></tr>
+              <tr><td>4:30–6:30 PM</td><td>Evening session: Guest talks, V-talks, demos</td></tr>
+              <tr><td>7:30–9:15 PM</td><td>Dinner</td></tr>
+            </tbody>
+          </table>
+          <div class="schedule-note">
+            <strong>The Roundtable rule:</strong> No instructor in the room. Students discuss the morning's problem until they either crack it or discover a better question.
+          </div>
+        </div>
+        <div>
+          <h3 style="color:var(--bright);margin-bottom:1rem;font-size:1.1rem;">Weekends</h3>
+          <table class="schedule-table">
+            <thead><tr><th>Activity</th></tr></thead>
+            <tbody>
+              <tr><td>⚽ Sports, outdoor activities, campus tour</td></tr>
+              <tr><td>🎬 Movie session — muted, subtitles on (trust us)</td></tr>
+              <tr><td>🎵 Music & cultural nights</td></tr>
+              <tr><td>🚌 Small trips around Ropar / Chandigarh</td></tr>
+              <tr><td>💬 Open sessions with AWaDH startup founders</td></tr>
+            </tbody>
+          </table>
+          <div class="schedule-note" style="margin-top:1rem;">
+            <strong>Accommodation:</strong> Boys → Chenab Hostel · Girls → T6 Hostel · Meals → Shivalik Mess
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEES -->
+  <section id="fees" class="fees-section">
+    <div class="container">
+      <p class="section-label">Fees & Selection</p>
+      <h2 class="section-title">Fair by design.</h2>
+      <p class="section-desc">AIVS is a non-profit initiative. Fees are structured so that no deserving student is priced out.</p>
+      <div class="fees-grid" style="margin-top:2.5rem;">
+        <div class="fee-card featured">
+          <div class="fee-type">Programme Fee</div>
+          <div class="fee-amount">₹25,000 <span>or less</span></div>
+          <ul class="fee-includes">
+            <li>6-week residential programme</li>
+            <li>IIT Ropar certificate</li>
+            <li>1 NHEQF Credit</li>
+            <li>Access to ViBe, Ajrasakha & AIVS stack</li>
+            <li class="fee-excl">Hostel charges (separate)</li>
+            <li class="fee-excl">Mess charges (separate)</li>
+          </ul>
+          <div class="fee-note">Pay ₹25,000 <em>or</em> half your semester fees — whichever is lower. Payment on campus is accepted.</div>
+        </div>
+        <div class="fee-card">
+          <div class="fee-type">Online Track</div>
+          <div class="fee-amount">₹5,000</div>
+          <ul class="fee-includes">
+            <li>Live-streamed lectures via Zoom</li>
+            <li>Full access to ViBe modules</li>
+            <li>Online certificate</li>
+            <li>Roundtable participation (virtual)</li>
+            <li class="fee-excl">No hostel / campus stay</li>
+            <li class="fee-excl">No Demo Day (unless top 5)</li>
+          </ul>
+          <div class="fee-note">Top 5 online participants get invited to campus for Demo Day — travel supported.</div>
+        </div>
+      </div>
+      <div style="margin-top:3rem;">
+        <h3 style="color:var(--bright);font-size:1.2rem;margin-bottom:1.5rem;">Scholarships</h3>
+        <p style="color:var(--muted);max-width:600px;">Up to <strong style="color:var(--accent)">10 full scholarships</strong> are available for exceptional candidates who cannot afford fees. Selection is based on quality of SOP and interview performance — not prior academic record.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section style="background:var(--surface);padding:5rem 2rem;">
+    <div class="container">
+      <p class="section-label">Important Dates</p>
+      <h2 class="section-title">Mark your calendar.</h2>
+      <div class="timeline" style="margin-top:3rem;">
+        <div class="timeline-item">
+          <div class="timeline-date">Apr 1</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Registrations Open</div>
+            <div class="timeline-desc">Website goes live. Application form opens. Spread the word.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">Apr 30</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Registrations Close</div>
+            <div class="timeline-desc">Last day to submit your SOP, CV, and NOC.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">May 10</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Selections Announced</div>
+            <div class="timeline-desc">Interviews complete, all selected students notified.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">May 29</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Arrive at IIT Ropar</div>
+            <div class="timeline-desc">Settle in. High tea welcome event on the evening of May 30th.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">Jun 1</div>
+          <div class="timeline-dot" style="background:var(--accent);"></div>
+          <div class="timeline-content">
+            <div class="timeline-title" style="color:var(--accent);">Camp Begins 🎉</div>
+            <div class="timeline-desc">Day 1. Week 1. The reset starts here.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">Jul 11</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Demo Day — Public</div>
+            <div class="timeline-desc">Open to campus. Teams present their projects. Startup founders attend.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">Jul 15</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-title">Certificates & Farewell</div>
+            <div class="timeline-desc">IIT Ropar certificate + NHEQF credit letter. Top students: Vinternship fast-track invite.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="background:var(--bg);padding:5rem 2rem;">
+    <div class="container">
+      <p class="section-label">FAQ</p>
+      <h2 class="section-title">Questions answered.</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Do I need prior AI or programming knowledge?</summary>
+          <div class="faq-body">None whatsoever. All you need is the intention to learn and the willingness to think slowly. We've had students from arts, commerce, and humanities backgrounds who thrived here.</div>
+        </details>
+        <details>
+          <summary>How is this different from an online course?</summary>
+          <div class="faq-body">You live here. You discuss at midnight. You argue in the lab. You fail in front of people who are also failing. The IIT Ropar residential experience is the course — the curriculum is just the structure around it.</div>
+        </details>
+        <details>
+          <summary>What is the selection process?</summary>
+          <div class="faq-body">Register via the form. You'll be shortlisted based on your SOP — we look for curiosity and honesty, not grades. Shortlisted students do a 15-minute online conversation (not a test). Final selections by May 10th. Max 2 students per college, no cap for IIT Madras BS students.</div>
+        </details>
+        <details>
+          <summary>Can I attend online instead of in-person?</summary>
+          <div class="faq-body">Yes — we have 50 online seats at ₹5,000. You get live-streamed lectures, full ViBe access, and virtual roundtable participation. Top 5 online performers are invited to Demo Day on campus with travel support.</div>
+        </details>
+        <details>
+          <summary>What is the NHEQF credit and how does it work?</summary>
+          <div class="faq-body">AIVS 2026 is designed as a 1-credit course under the National Higher Education Qualification Framework. Upon completion, you receive a credit letter from IIT Ropar that can be recognised by NHEQF-aligned institutions. Details will be shared with selected students.</div>
+        </details>
+        <details>
+          <summary>How do I reach IIT Ropar?</summary>
+          <div class="faq-body">By air: Chandigarh International Airport (56 km). By rail: Ropar Railway Station (7.5 km) or Chandigarh (59 km). From Chandigarh, hire a cab or take a bus to Ropar Bus Stand, then an auto to campus. For late arrivals, contact us — we'll help.</div>
+        </details>
+        <details>
+          <summary>What happens after the camp?</summary>
+          <div class="faq-body">Top 20% of students receive a fast-track invitation to the next Vicharanashala Vinternship cohort. You also join the growing AIVS alumni network. AWaDH will facilitate startup connections for those interested.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="register" class="cta-section">
+    <div class="container">
+      <h2>Ready to think differently?</h2>
+      <p>Applications open April 1st, 2026. 120 seats. The only prerequisite is curiosity.</p>
+      <div class="hero-actions" style="justify-content:center;">
+        <a href="http://bit.ly/AIVS_2026" class="btn-primary">Apply Now →</a>
+        <a href="mailto:aivs@iitrpr.ac.in" class="btn-secondary">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <a href="https://sudarshansudarshan.github.io/aicamp/">AIVS 2024 Archive</a>
+      <a href="https://vicharanashala.ai">Vicharanashala.ai</a>
+      <a href="mailto:aivs@iitrpr.ac.in">aivs@iitrpr.ac.in</a>
+      <a href="https://www.instagram.com/aivs.iitrpr">@aivs.iitrpr</a>
+    </div>
+    <p class="footer-copy">
+      AI Vicharana Shala 2026 · <a href="https://www.iitrpr.ac.in">IIT Ropar</a> · Organized by <a href="https://vicharanashala.ai">DLED – Dhananjaya Lab for Education Design</a>
+    </p>
+  </footer>
+
+</body>
+</html>
